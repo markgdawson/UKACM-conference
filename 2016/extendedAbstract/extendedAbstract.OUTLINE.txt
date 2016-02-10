@@ -1,0 +1,128 @@
+Intro (0.5)
+previous abstract
+
+Methodology (0.75 page)
+Maxwell
+DG weak formulation (+numerical fluxes)
+ODE resulting form...
+block diag matrix
+
+Signal Processing (0.5 page)
+-> source
+-> freq domain
+-> figure signal -> spectrum
+-> dt & T + expressions (no figure)
+-> FDM for final time reduce
+
+Results (1.5)
+- parallisation
+Free space cavity
+  - dt & T conv (has analytical - test conv)
+Dispersive materials (with conv)
+
+Conclusion
+
+
+
+PREVIOUS OUTLINES
+
+My Research:
+
+* Parallelisation (examples, pml etc)
+* Using time domain rather than frequency domain
+  - results of fitting a spectrum
+  - results of 
+* Recovering frequencies/modes from time domain simulations
+* initial conditions
+* study of FDTD stuff
+* Dispersive materials and validation
+* error evolution with timestep
+* error evolution with period
+* dispersive validation
+* FDM vs FFT comaprison
+other things:
+* blackman filter
+* period conv with gaussian vs period conv with point source
+*
+
+
+Extended Abstract structure
+
+Background
+  - why is this interesting
+  - what has been achieved so far (who else has done research in this area)
+  - a little history (whats been done, how does your work fit in)  
+Aim
+  -## my story (what am i saying that they don't already know)
+  - TD classical maxwell equations
+  - Dispersive material for metallic devices
+
+Method (Maxwell)
+  - why should they believe results aren't made-up or flawed
+  
+  - show maxwells equations
+  - aren't quantum effects important
+  - what else should I know?
+  - dispersive materials
+  
+Results
+  - evidence which confirms my story
+  
+  ** Convergence of results to analytical solution
+    - what in the royal fuck is this?????
+  
+  ** Dispersive Material
+    - is this just for metallic devices? am I certain about that?
+    -
+
+Conclusion
+  - recap story and IMPLICATIONS
+
+Limitations
+  - how have I eliminated as much doubt as possible
+
+Left out:
+Such devices allow manipulation of light in novel ways.
+
+There are many applications for such devices but of particular interest in this study are nanoscale resonators and their applications as nanolasers for optical circuitry. Such devices typically have desirable laser cavity properties such as well defined resonances and high quality factors. The optical properties of such resonators are highly sensitive to changes in their environment and as such are also of interest in biological and chemical sensing applications.
+
+Simulating nanoscale devices at optical frequencies requires solving Maxwells' equations for classical electromagnetism. 
+
+In addition the metallic devices of interest generally exhibit significant dispersive effects which we account for using the Drude model of solids.
+
+
+
+Things I cut out:
+
+biological stuff....
+discuss more paralisation
+discuss more the associated problems
+discuss more detail on what I'm going to present exactly.
+
+more detail:
+  strategy for parallelisation
+  what methods (and challenges) for getting frequencies? What are the solutions?
+  Long duration - parallelisation
+  Why are QF etc of interest?
+  
+
+
+Introduction (background)
+- what has made this possible
+- what are the applications
+- what are the problems
+  - scale
+  - geometrical complexity
+
+- what are the traditional methods used
+
+What is the problem
+- how do I describe behaviour of resonators
+- what about frequency dependence? whats that all about?
+- what other work is there in this area
+- whats the problem with frequency domain solvers?
+
+Our Proposal
+
+- used DG method with explicit time marching
+- why explicit??

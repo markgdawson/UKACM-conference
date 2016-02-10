@@ -1,0 +1,41 @@
+!!! Galerkin Weighted Residuals with numerical flux
+\int_{\Omega_e} \mathbf{W} \cdot \frac{\partial \mathbf{U}_{e} }{\partial t} d\Omega - \int_{\Omega_e}  \frac{\partial \mathbf{W} }{\partial x_k} \cdot \mathbf{F}_k(\,\mathbf{U}_e) d\Omega + \int_{\partial \Omega_e} \mathbf{W} \cdot \color{blue}{\tilde{\mathbf{F}}(\mathbf{U}_e,\mathbf{U}^{out})} \color{black}{ \,  d\Gamma_e = \int_{\Omega_e} \mathbf{W} \cdot \mathbf{S}(\,\mathbf{U}_e) \, d\Omega }
+
+!! Numerical Flux
+\color{blue}{\tilde{\mathbf{F}}(\mathbf{U}_e,\mathbf{U}^{out}) = \mathbf{A_n^-}  [ \mathbf{U}_e  ] d \Gamma_e}
+
+!! Numerical Flux Splitting
+\color{blue}{\tilde{\mathbf{F}}(\mathbf{U}_e,\mathbf{U}^{out}) = \mathbf{F}^{+}_n(\mathbf{U}_e) + \mathbf{F}^{-}_n(\mathbf{U}^{out}) }
+
+!!!! ODE eqtn
+\color{red}{\mathbf{M} \frac{d \boldsymbol{U}}{dt} + \mathbf{R}(\boldsymbol{U}) = \mathbf{0}}
+
+!!!! Flux Definitions
+\mathbf{A_n^-} &= \textrm{Negative eigenvalues of the Jacobian} \\
+[ \mathbf{U}_e  ] &= \textrm{Solution jump on boundary}
+
+!!!! weak with blue flux integral
+\int_{\Omega_e} \mathbf{W} \cdot \frac{\partial \mathbf{U}_{e} }{\partial t} d\Omega - \int_{\Omega_e}  \frac{\partial \mathbf{W} }{\partial x_k} \cdot \mathbf{F}_k(\,\mathbf{U}_e) d\Omega + \int_{\partial \Omega_e} \mathbf{W} \cdot \color{blue}{\tilde{\mathbf{F}}(\mathbf{U}_e,\mathbf{U}^{out})} \color{black}{ \,  d\Gamma_e = \int_{\Omega_e} \mathbf{W} \cdot \mathbf{S}(\,\mathbf{U}_e) \, d\Omega }
+
+!!! parameters
+\mathbf{E} = \textrm{Electric field intensity. }
+\mathbf{H} = \textrm{Magnetic field intensity. }
+\mathbf{J} = \textrm{polarisation current. } \\
+\epsilon, \mu, \omega_d, \gamma_d = \textrm{material parameters. }
+
+
+!! Amethyist
+\definecolor{amethyst}{rgb}{0.6, 0.4, 0.8}
+\textcolor{amethyst}{\tilde{\mathbf{F}}(\mathbf{U}_e,\mathbf{U}^{out})} \;=\;\textcolor{blue}{\mathbf{F}^{+}_n(\mathbf{U}_e)} \;+\; \textcolor{red}{\mathbf{F}^{-}_n(\mathbf{U}^{out})}
+
+
+\definecolor{amethyst}{rgb}{0.6, 0.4, 0.8}
+\int_{\Omega_e} \mathbf{W} \cdot \frac{\partial \mathbf{U}_{e} }{\partial t} d\Omega - \int_{\Omega_e}  \frac{\partial \mathbf{W} }{\partial x_k} \cdot \mathbf{F}_k(\,\mathbf{U}_e) d\Omega \,+ \int_{\partial \Omega_e} \mathbf{W} \, \cdot \,  \textcolor{amethyst}{\tilde{\mathbf{F}}(\mathbf{U}_e,\mathbf{U}^{out})} \,  d\Gamma_e = \int_{\Omega_e} \mathbf{W} \cdot \, \mathbf{S}(\,\mathbf{U}_e) \, d\Omega
+
+!! Green
+\definecolor{amethyst}{rgb}{0.4, 0.7, 0.18}
+\textcolor{amethyst}{\tilde{\mathbf{F}}(\mathbf{U}_e,\mathbf{U}^{out})} \;=\;\textcolor{red}{\mathbf{F}^{+}_n(\mathbf{U}_e)} \;+\; \textcolor{red}{\mathbf{F}^{-}_n(\mathbf{U}^{out})}
+
+
+\definecolor{amethyst}{rgb}{0.4, 0.7, 0.18}
+\int_{\Omega_e} \mathbf{W} \cdot \frac{\partial \mathbf{U}_{e} }{\partial t} d\Omega - \int_{\Omega_e}  \frac{\partial \mathbf{W} }{\partial x_k} \cdot \mathbf{F}_k(\,\mathbf{U}_e) d\Omega \,+ \int_{\partial \Omega_e} \mathbf{W} \, \cdot \,  \textcolor{amethyst}{\tilde{\mathbf{F}}(\mathbf{U}_e,\mathbf{U}^{out})} \,  d\Gamma_e = \int_{\Omega_e} \mathbf{W} \cdot \, \mathbf{S}(\,\mathbf{U}_e) \, d\Omega

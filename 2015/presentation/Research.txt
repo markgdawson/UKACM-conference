@@ -1,0 +1,44 @@
+******** Slide 5 ********
+reasons for DG
+  - local elemental matrices connected by a boundary term (numerical flux) -> easy to parallelise
+  - unstructured mesh
+  - high order approximation of the boundary
+  - can use explicit time marching (maybe)
+  - block diagonal matrices...
+  
+QUOTES:
+  Explicit schemes need less computational effort per time step, but have to satisfy a severe time step restriction for stability. The time step has to be proportional to the square of the diameter of the smallest grid cell. This restrictive time step limitation may strongly reduce the efficiency of the explicit approach, especially in the case of strongly varying grid cell sizes. 
+  
+  The application to time dependent hyperbolic conservation laws was starting with the work of Cockburn and Shu 
+  
+  For hyperbolic problems it turned out within the last decade that DG schemes are one of the most interesting candidates to construct high order schemes for complex geometries. This is due to the fact that in the DG approach the approximate solutions are allowed to be discontinuous at the grid cell interfaces. The numerical flux takes into account the discontinuity and uses information of the break up of these discontinuities into different waves. How to do this in a proper way has been shown within the development of the finite volume schemes. Even in the case of the approximation of strong local gradients on a coarse grid, this construction still leads to a consistent approximation, e.g., in terms of approximate values for the averages of the grid cells. By this, it is possible to establish a consistent and stable approximation of strong gradients and even the shock-capturing property. For a review of the development of DG methods see [7].
+    
+The time discretization can be carried out also by a discontinuous approximation (e.g., [27, 20])
+but the most usual approach is an application of the method of lines. In this case, Runge-Kutta
+methods are very popular for their simplicity and high order of accuracy, see [2, 4, 6, 10]. Their
+drawback is a strong restriction of the size of the time step. To avoid this disadvantage, it is
+suitable to use an implicit time discretization, e.g., [3, 23]. However, a fully implicit scheme leads
+to the necessity to solve a nonlinear system of algebraic equations at each time level, which is
+rather expensive. Therefore, in [11, 13], we developed the semi-implicit method which is based on
+a suitable linearization of the inviscid and viscous fluxes. The linear terms are treated implicitly
+(by a multistep BDF formula), whereas the nonlinear ones by an explicit extrapolation, which leads
+to a linear algebraic system at each time level. We called this approach the backward difference
+formula – discontinuous Galerkin finite element (BDF-DGFE) method.
+  
+Boundary term:
+  implementation
+  - connects the two elements
+  - involves integration along the element face
+  - gauss points (not reall relevan)
+  choice
+  - why choose term?
+  - why flux splitting choice?
+  - what constraints have we got?
+  
+
+Then you talk about the boundary term (which is done in the next slide) This results in an ODE system… that we solve with high-order RK method explicit You need to mention the advantages of DG, this is key!! Why we are doing DG 
+
+
+*********** Slide 6 *************
+
+Many things here are not relevant (nodal shape functions, high-order, polynomial of boundary….) Classify the relevant comments in what we do, and advantages The mapping is the other way around!!!!!! No mention on numerical fluxes!!! 

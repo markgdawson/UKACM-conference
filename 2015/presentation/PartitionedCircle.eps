@@ -1,0 +1,5340 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Creator: MATLAB, The MathWorks, Inc. Version 8.1.0.604 (R2013a). Operating System: Darwin 14.0.0 Darwin Kernel Version 14.0.0: Fri Sep 19 00:26:44 PDT 2014; root:xnu-2782.1.97~2/RELEASE_X86_64 x86_64.
+%%Title: /Volumes/HardDrive/Users/mark/Desktop/PhD/ACME-presentation/PartitionedCircle.eps
+%%CreationDate: 03/12/2015  19:14:30
+%%DocumentNeededFonts: Helvetica
+%%DocumentProcessColors: Cyan Magenta Yellow Black
+%%LanguageLevel: 2
+%%Pages: 1
+%%BoundingBox:  -333    45   946   747
+%%EndComments
+
+%%BeginProlog
+% MathWorks dictionary
+/MathWorks 160 dict begin
+% definition operators
+/bdef {bind def} bind def
+/ldef {load def} bind def
+/xdef {exch def} bdef
+/xstore {exch store} bdef
+% operator abbreviations
+/c  /clip ldef
+/cc /concat ldef
+/cp /closepath ldef
+/gr /grestore ldef
+/gs /gsave ldef
+/mt /moveto ldef
+/np /newpath ldef
+/cm /currentmatrix ldef
+/sm /setmatrix ldef
+/rm /rmoveto ldef
+/rl /rlineto ldef
+/s {show newpath} bdef
+/sc {setcmykcolor} bdef
+/sr /setrgbcolor ldef
+/sg /setgray ldef
+/w /setlinewidth ldef
+/j /setlinejoin ldef
+/cap /setlinecap ldef
+/rc {rectclip} bdef
+/rf {rectfill} bdef
+% page state control
+/pgsv () def
+/bpage {/pgsv save def} bdef
+/epage {pgsv restore} bdef
+/bplot /gsave ldef
+/eplot {stroke grestore} bdef
+% orientation switch
+/portraitMode 0 def /landscapeMode 1 def /rotateMode 2 def
+% coordinate system mappings
+/dpi2point 0 def
+% font control
+/FontSize 0 def
+/FMS {/FontSize xstore findfont [FontSize 0 0 FontSize neg 0 0]
+  makefont setfont} bdef
+/reencode {exch dup where {pop load} {pop StandardEncoding} ifelse
+  exch dup 3 1 roll findfont dup length dict begin
+  { 1 index /FID ne {def}{pop pop} ifelse } forall
+  /Encoding exch def currentdict end definefont pop} bdef
+/isroman {findfont /CharStrings get /Agrave known} bdef
+/FMSR {3 1 roll 1 index dup isroman {reencode} {pop pop} ifelse
+  exch FMS} bdef
+/csm {1 dpi2point div -1 dpi2point div scale neg translate
+ dup landscapeMode eq {pop -90 rotate}
+  {rotateMode eq {90 rotate} if} ifelse} bdef
+% line types: solid, dotted, dashed, dotdash
+/SO { [] 0 setdash } bdef
+/DO { [.5 dpi2point mul 4 dpi2point mul] 0 setdash } bdef
+/DA { [6 dpi2point mul] 0 setdash } bdef
+/DD { [.5 dpi2point mul 4 dpi2point mul 6 dpi2point mul 4
+  dpi2point mul] 0 setdash } bdef
+% macros for lines and objects
+/L {lineto stroke} bdef
+/MP {3 1 roll moveto 1 sub {rlineto} repeat} bdef
+/AP {{rlineto} repeat} bdef
+/PDlw -1 def
+/W {/PDlw currentlinewidth def setlinewidth} def
+/PP {closepath eofill} bdef
+/DP {closepath stroke} bdef
+/MR {4 -2 roll moveto dup  0 exch rlineto exch 0 rlineto
+  neg 0 exch rlineto closepath} bdef
+/FR {MR stroke} bdef
+/PR {MR fill} bdef
+/L1i {{currentfile picstr readhexstring pop} image} bdef
+/tMatrix matrix def
+/MakeOval {newpath tMatrix currentmatrix pop translate scale
+0 0 1 0 360 arc tMatrix setmatrix} bdef
+/FO {MakeOval stroke} bdef
+/PO {MakeOval fill} bdef
+/PD {currentlinewidth 2 div 0 360 arc fill
+   PDlw -1 eq not {PDlw w /PDlw -1 def} if} def
+/FA {newpath tMatrix currentmatrix pop translate scale
+  0 0 1 5 -2 roll arc tMatrix setmatrix stroke} bdef
+/PA {newpath tMatrix currentmatrix pop	translate 0 0 moveto scale
+  0 0 1 5 -2 roll arc closepath tMatrix setmatrix fill} bdef
+/FAn {newpath tMatrix currentmatrix pop translate scale
+  0 0 1 5 -2 roll arcn tMatrix setmatrix stroke} bdef
+/PAn {newpath tMatrix currentmatrix pop translate 0 0 moveto scale
+  0 0 1 5 -2 roll arcn closepath tMatrix setmatrix fill} bdef
+/vradius 0 def /hradius 0 def /lry 0 def
+/lrx 0 def /uly 0 def /ulx 0 def /rad 0 def
+/MRR {/vradius xdef /hradius xdef /lry xdef /lrx xdef /uly xdef
+  /ulx xdef newpath tMatrix currentmatrix pop ulx hradius add uly
+  vradius add translate hradius vradius scale 0 0 1 180 270 arc 
+  tMatrix setmatrix lrx hradius sub uly vradius add translate
+  hradius vradius scale 0 0 1 270 360 arc tMatrix setmatrix
+  lrx hradius sub lry vradius sub translate hradius vradius scale
+  0 0 1 0 90 arc tMatrix setmatrix ulx hradius add lry vradius sub
+  translate hradius vradius scale 0 0 1 90 180 arc tMatrix setmatrix
+  closepath} bdef
+/FRR {MRR stroke } bdef
+/PRR {MRR fill } bdef
+/MlrRR {/lry xdef /lrx xdef /uly xdef /ulx xdef /rad lry uly sub 2 div def
+  newpath tMatrix currentmatrix pop ulx rad add uly rad add translate
+  rad rad scale 0 0 1 90 270 arc tMatrix setmatrix lrx rad sub lry rad
+  sub translate rad rad scale 0 0 1 270 90 arc tMatrix setmatrix
+  closepath} bdef
+/FlrRR {MlrRR stroke } bdef
+/PlrRR {MlrRR fill } bdef
+/MtbRR {/lry xdef /lrx xdef /uly xdef /ulx xdef /rad lrx ulx sub 2 div def
+  newpath tMatrix currentmatrix pop ulx rad add uly rad add translate
+  rad rad scale 0 0 1 180 360 arc tMatrix setmatrix lrx rad sub lry rad
+  sub translate rad rad scale 0 0 1 0 180 arc tMatrix setmatrix
+  closepath} bdef
+/FtbRR {MtbRR stroke } bdef
+/PtbRR {MtbRR fill } bdef
+/stri 6 array def /dtri 6 array def
+/smat 6 array def /dmat 6 array def
+/tmat1 6 array def /tmat2 6 array def /dif 3 array def
+/asub {/ind2 exch def /ind1 exch def dup dup
+  ind1 get exch ind2 get sub exch } bdef
+/tri_to_matrix {
+  2 0 asub 3 1 asub 4 0 asub 5 1 asub
+  dup 0 get exch 1 get 7 -1 roll astore } bdef
+/compute_transform {
+  dmat dtri tri_to_matrix tmat1 invertmatrix 
+  smat stri tri_to_matrix tmat2 concatmatrix } bdef
+/ds {stri astore pop} bdef
+/dt {dtri astore pop} bdef
+/db {2 copy /cols xdef /rows xdef mul dup 3 mul string
+  currentfile 
+  3 index 0 eq {/ASCIIHexDecode filter}
+  {/ASCII85Decode filter 3 index 2 eq {/RunLengthDecode filter} if }
+  ifelse exch readstring pop
+  dup 0 3 index getinterval /rbmap xdef
+  dup 2 index dup getinterval /gbmap xdef
+  1 index dup 2 mul exch getinterval /bbmap xdef pop pop}bdef
+/it {gs np dtri aload pop moveto lineto lineto cp c
+  cols rows 8 compute_transform 
+  rbmap gbmap bbmap true 3 colorimage gr}bdef
+/il {newpath moveto lineto stroke}bdef
+currentdict end def
+%%EndProlog
+
+%%BeginSetup
+MathWorks begin
+
+0 cap
+
+end
+%%EndSetup
+
+%%Page: 1 1
+%%BeginPageSetup
+%%PageBoundingBox:  -333    45   946   747
+MathWorks begin
+bpage
+%%EndPageSetup
+
+%%BeginObject: obj1
+bplot
+
+/dpi2point 12 def
+portraitMode -3996 8964 csm
+
+    0     0 15359  8413 rc
+85 dict begin %Colortable dictionary
+/c0 { 0.000000 0.000000 0.000000 sr} bdef
+/c1 { 1.000000 1.000000 1.000000 sr} bdef
+/c2 { 0.900000 0.000000 0.000000 sr} bdef
+/c3 { 0.000000 0.820000 0.000000 sr} bdef
+/c4 { 0.000000 0.000000 0.800000 sr} bdef
+/c5 { 0.910000 0.820000 0.320000 sr} bdef
+/c6 { 1.000000 0.260000 0.820000 sr} bdef
+/c7 { 0.000000 0.820000 0.820000 sr} bdef
+c0
+1 j
+1 sg
+   0    0 15360 8414 rf
+6 w
+gs 3601 631 8695 6858 rc
+/c8 { 0.000000 0.000000 0.562500 sr} bdef
+c8
+96 -296 204 275 5093 5970 3 MP
+PP
+360 -73 -100 333 4713 2909 3 MP
+PP
+289 -228 61 343 4540 4483 3 MP
+PP
+334 -156 -20 348 4534 3686 3 MP
+PP
+229 -288 138 320 4730 5257 3 MP
+PP
+280 -133 -60 337 4599 3294 3 MP
+PP
+196 -228 98 327 4612 4880 3 MP
+PP
+314 -192 20 348 4514 4084 3 MP
+PP
+367 -32 -138 320 4868 2541 3 MP
+PP
+194 -313 174 301 4891 5623 3 MP
+PP
+260 258 -365 32 5102 2859 3 MP
+PP
+355 -35 -106 289 5135 2872 3 MP
+PP
+211 307 -359 34 5392 3157 3 MP
+PP
+106 -356 253 257 5157 2850 3 MP
+PP
+366 -11 -227 287 5122 5305 3 MP
+PP
+262 -213 139 276 5155 5293 3 MP
+PP
+339 138 -263 214 5581 5377 3 MP
+PP
+-233 -398 409 64 5153 5264 3 MP
+PP
+221 204 -355 73 4977 3198 3 MP
+PP
+343 24 -135 279 5009 3209 3 MP
+PP
+28 330 -347 -25 5214 3544 3 MP
+PP
+-282 134 -28 -325 4862 3852 3 MP
+PP
+332 154 -332 154 4863 3905 3 MP
+PP
+322 -154 0 308 4898 3905 3 MP
+PP
+-7 -469 331 158 4909 3874 3 MP
+PP
+344 168 -324 154 5239 4084 3 MP
+PP
+296 101 -286 225 4907 4623 3 MP
+PP
+343 -65 10 331 4940 4622 3 MP
+PP
+166 261 -338 64 5299 4919 3 MP
+PP
+-196 228 -165 -259 5097 5259 3 MP
+PP
+352 -95 -96 298 5424 5958 3 MP
+PP
+-30 -351 254 201 5443 5934 3 MP
+PP
+-333 -135 224 -150 5422 5905 3 MP
+PP
+-191 309 -109 -288 5392 5916 3 MP
+PP
+-259 -197 229 -155 5725 6138 3 MP
+PP
+348 114 -312 192 4866 4264 3 MP
+PP
+306 -139 36 306 4901 4263 3 MP
+PP
+356 269 -313 141 5266 4457 3 MP
+PP
+130 -351 265 201 5711 5757 3 MP
+PP
+385 -298 44 416 5297 4453 3 MP
+PP
+315 -204 20 322 5273 4082 3 MP
+PP
+403 -153 79 361 5613 5372 3 MP
+PP
+374 -41 -149 342 5421 3169 3 MP
+PP
+-208 -378 599 76 5362 4890 3 MP
+PP
+256 253 -369 41 5649 3500 3 MP
+PP
+149 -346 225 301 5446 3150 3 MP
+PP
+-269 -314 375 -45 5440 3119 3 MP
+PP
+-373 -43 220 -300 7279 5091 3 MP
+PP
+-149 -345 373 43 7130 4716 3 MP
+PP
+-221 304 -153 -344 7250 5104 3 MP
+PP
+-374 -43 224 -303 7104 4698 3 MP
+PP
+-149 -345 374 43 6447 5015 3 MP
+PP
+225 -306 149 346 7383 4401 3 MP
+PP
+-152 -345 374 40 7386 4370 3 MP
+PP
+-371 -42 222 -303 6850 5045 3 MP
+PP
+-150 -345 371 41 6704 4669 3 MP
+PP
+-374 -40 221 -304 6679 4650 3 MP
+PP
+374 -44 -149 346 5849 3118 3 MP
+PP
+-222 304 -153 -344 6650 4663 3 MP
+PP
+225 -302 152 344 7637 4053 3 MP
+PP
+-152 -345 374 41 6529 4274 3 MP
+PP
+-374 -40 221 -304 7361 4351 3 MP
+PP
+-221 301 -153 -344 7332 4364 3 MP
+PP
+-373 -43 221 -301 6932 4302 3 MP
+PP
+-228 304 -149 -346 8018 4063 3 MP
+PP
+-374 -40 221 -304 6250 4604 3 MP
+PP
+-153 -344 375 39 6100 4229 3 MP
+PP
+-275 284 -154 -347 6220 4617 3 MP
+PP
+222 -304 153 345 6351 3911 3 MP
+PP
+-374 -40 221 -304 6075 4210 3 MP
+PP
+-222 304 -153 -344 6046 4223 3 MP
+PP
+-196 -407 379 40 5921 3833 3 MP
+PP
+-304 -21 218 -300 5650 4162 3 MP
+PP
+102 320 -373 -39 6039 4253 3 MP
+PP
+-319 206 -102 -322 5734 4543 3 MP
+PP
+-85 -321 333 118 5286 4054 3 MP
+PP
+-259 -256 253 -207 5266 4027 3 MP
+PP
+303 20 -113 292 5679 3516 3 MP
+PP
+181 -364 194 319 5702 3496 3 MP
+PP
+-374 -40 224 -302 6422 4996 3 MP
+PP
+-224 302 -150 -342 6393 5009 3 MP
+PP
+-430 -64 226 -305 5991 4952 3 MP
+PP
+128 542 -386 -41 6395 5044 3 MP
+PP
+159 -359 226 303 5874 3098 3 MP
+PP
+-170 -285 369 39 7213 3977 3 MP
+PP
+228 -303 173 289 7441 3716 3 MP
+PP
+-141 -498 384 41 6350 3877 3 MP
+PP
+-160 361 -277 -319 6566 3372 3 MP
+PP
+243 -456 199 413 6128 3446 3 MP
+PP
+239 407 -600 -76 5956 4991 3 MP
+PP
+490 212 -362 332 5982 5012 3 MP
+PP
+0 sg
+-96 298 5424 5958 2 MP stroke
+96 -296 5297 6245 2 MP stroke
+300 -21 5092 5937 2 MP stroke
+-300 21 5393 5949 2 MP stroke
+-355 73 4977 3198 2 MP stroke
+360 -73 4613 3242 2 MP stroke
+260 258 4737 2891 2 MP stroke
+-260 -260 4973 3169 2 MP stroke
+-286 225 4907 4623 2 MP stroke
+289 -228 4601 4826 2 MP stroke
+348 114 4554 4456 2 MP stroke
+-350 -115 4890 4598 2 MP stroke
+-332 154 4863 3905 2 MP stroke
+334 -156 4514 4034 2 MP stroke
+310 191 4552 3661 2 MP stroke
+-314 -192 4848 3878 2 MP stroke
+-227 287 5122 5305 2 MP stroke
+229 -288 4868 5577 2 MP stroke
+361 31 4736 5228 2 MP stroke
+-367 -32 5097 5289 2 MP stroke
+-282 134 4834 3527 2 MP stroke
+280 -133 4539 3631 2 MP stroke
+221 204 4622 3271 2 MP stroke
+-220 -204 4819 3498 2 MP stroke
+-196 228 4932 5000 2 MP stroke
+196 -228 4710 5207 2 MP stroke
+296 101 4621 4848 2 MP stroke
+-294 -99 4906 4979 2 MP stroke
+-312 192 4866 4264 2 MP stroke
+314 -192 4534 4432 2 MP stroke
+332 154 4531 4059 2 MP stroke
+-334 -156 4848 4240 2 MP stroke
+-365 32 5102 2859 2 MP stroke
+367 -32 4730 2861 2 MP stroke
+-191 309 5283 5628 2 MP stroke
+194 -313 5065 5924 2 MP stroke
+366 -11 4895 5592 2 MP stroke
+-368 12 5259 5611 2 MP stroke
+-106 289 5135 2872 2 MP stroke
+105 -290 4997 3149 2 MP stroke
+-359 34 5392 3157 2 MP stroke
+355 -35 5029 3161 2 MP stroke
+253 257 5157 2850 2 MP stroke
+-249 -254 5384 3126 2 MP stroke
+-208 -303 5217 3512 2 MP stroke
+211 307 5033 3191 2 MP stroke
+-149 342 5421 3169 2 MP stroke
+148 -341 5244 3498 2 MP stroke
+-106 359 5546 2760 2 MP stroke
+106 -356 5410 3107 2 MP stroke
+139 276 5155 5293 2 MP stroke
+-139 -276 5261 5581 2 MP stroke
+-263 214 5581 5377 2 MP stroke
+262 -213 5294 5569 2 MP stroke
+409 64 5153 5264 2 MP stroke
+-401 -63 5556 5356 2 MP stroke
+-333 -135 5646 5755 2 MP stroke
+339 138 5318 5591 2 MP stroke
+79 361 5613 5372 2 MP stroke
+-76 -352 5657 5729 2 MP stroke
+239 407 5356 4915 2 MP stroke
+-233 -398 5562 5328 2 MP stroke
+172 -325 5127 5244 2 MP stroke
+-176 334 5329 4930 2 MP stroke
+-135 279 5009 3209 2 MP stroke
+134 -277 4843 3475 2 MP stroke
+-347 -25 5214 3544 2 MP stroke
+343 24 4874 3488 2 MP stroke
+-28 -325 4862 3852 2 MP stroke
+28 330 4867 3519 2 MP stroke
+-324 311 5233 3563 2 MP stroke
+319 -305 4895 3849 2 MP stroke
+0 308 4898 3905 2 MP stroke
+0 -308 4863 4213 2 MP stroke
+-324 154 5239 4084 2 MP stroke
+322 -154 4898 4213 2 MP stroke
+331 158 4909 3874 2 MP stroke
+-322 -154 5220 4059 2 MP stroke
+6 463 5260 3564 2 MP stroke
+-7 -469 5240 4032 2 MP stroke
+-342 -167 5243 4430 2 MP stroke
+344 168 4915 4238 2 MP stroke
+20 322 5273 4082 2 MP stroke
+-20 -322 5259 4406 2 MP stroke
+10 331 4940 4622 2 MP stroke
+-10 -326 4917 4949 2 MP stroke
+-338 64 5299 4919 2 MP stroke
+343 -65 4950 4953 2 MP stroke
+356 269 4953 4598 2 MP stroke
+-353 -266 5293 4888 2 MP stroke
+-165 -259 5097 5259 2 MP stroke
+166 261 4961 4983 2 MP stroke
+254 201 5443 5934 2 MP stroke
+-256 -203 5680 6161 2 MP stroke
+30 352 5695 5786 2 MP stroke
+-30 -351 5697 6135 2 MP stroke
+224 -150 5422 5905 2 MP stroke
+-224 150 5667 5784 2 MP stroke
+-109 -288 5392 5916 2 MP stroke
+109 285 5313 5620 2 MP stroke
+265 201 5711 5757 2 MP stroke
+-259 -197 5954 5983 2 MP stroke
+36 306 4901 4263 2 MP stroke
+-36 -306 4902 4570 2 MP stroke
+-313 141 5266 4457 2 MP stroke
+306 -139 4937 4569 2 MP stroke
+44 416 5297 4453 2 MP stroke
+-43 -410 5309 4867 2 MP stroke
+403 -153 5692 5733 2 MP stroke
+-395 150 6106 5607 2 MP stroke
+-391 302 5753 4588 2 MP stroke
+385 -298 5341 4869 2 MP stroke
+421 116 5313 4427 2 MP stroke
+-429 -118 5726 4571 2 MP stroke
+-319 206 5632 4221 2 MP stroke
+315 -204 5293 4404 2 MP stroke
+333 118 5286 4054 2 MP stroke
+-335 -118 5608 4200 2 MP stroke
+490 212 5620 5344 2 MP stroke
+-482 -208 6095 5580 2 MP stroke
+-369 41 5649 3500 2 MP stroke
+374 -41 5272 3511 2 MP stroke
+225 301 5446 3150 2 MP stroke
+-225 -301 5646 3470 2 MP stroke
+-600 -76 5956 4991 2 MP stroke
+599 76 5362 4890 2 MP stroke
+204 369 5787 4583 2 MP stroke
+-208 -378 5961 4966 2 MP stroke
+-259 -256 5519 3820 2 MP stroke
+256 253 5280 3541 2 MP stroke
+-113 292 5679 3516 2 MP stroke
+113 -294 5536 3794 2 MP stroke
+-149 346 5849 3118 2 MP stroke
+149 -346 5671 3451 2 MP stroke
+375 -45 5440 3119 2 MP stroke
+-374 45 5820 3105 2 MP stroke
+373 43 7130 4716 2 MP stroke
+-373 -43 7499 4791 2 MP stroke
+-153 -344 7250 5104 2 MP stroke
+153 343 7126 4748 2 MP stroke
+149 346 7383 4401 2 MP stroke
+-149 -345 7503 4759 2 MP stroke
+224 -303 7104 4698 2 MP stroke
+-224 302 7354 4414 2 MP stroke
+222 -303 6850 5045 2 MP stroke
+-221 304 7097 4760 2 MP stroke
+374 43 6958 4321 2 MP stroke
+-374 -43 7328 4395 2 MP stroke
+-150 -345 7075 4710 2 MP stroke
+150 346 6954 4352 2 MP stroke
+149 345 6701 4700 2 MP stroke
+-149 -345 6821 5058 2 MP stroke
+224 -302 6422 4996 2 MP stroke
+-225 302 6672 4713 2 MP stroke
+374 40 7386 4370 2 MP stroke
+-374 -40 7757 4441 2 MP stroke
+152 344 7637 4053 2 MP stroke
+-152 -345 7760 4410 2 MP stroke
+221 -304 7361 4351 2 MP stroke
+-222 305 7608 4065 2 MP stroke
+371 41 6704 4669 2 MP stroke
+-371 -42 7072 4742 2 MP stroke
+221 -304 6679 4650 2 MP stroke
+-221 304 6925 4365 2 MP stroke
+374 41 6529 4274 2 MP stroke
+-374 -40 6900 4346 2 MP stroke
+-153 -344 6650 4663 2 MP stroke
+153 344 6526 4306 2 MP stroke
+-375 45 6077 3451 2 MP stroke
+374 -44 5700 3464 2 MP stroke
+226 303 5874 3098 2 MP stroke
+-225 -302 6074 3420 2 MP stroke
+221 -304 6250 4604 2 MP stroke
+-222 304 6497 4319 2 MP stroke
+-374 -40 6646 4694 2 MP stroke
+375 40 6275 4623 2 MP stroke
+377 42 7641 4021 2 MP stroke
+-377 -42 8014 4095 2 MP stroke
+152 344 6780 3958 2 MP stroke
+-152 -345 6903 4315 2 MP stroke
+222 -304 6504 4256 2 MP stroke
+-222 304 6751 3970 2 MP stroke
+369 39 7213 3977 2 MP stroke
+-374 -40 7582 4047 2 MP stroke
+-153 -344 7332 4364 2 MP stroke
+153 344 7208 4007 2 MP stroke
+221 -301 6932 4302 2 MP stroke
+-221 301 7179 4020 2 MP stroke
+228 -303 7614 4005 2 MP stroke
+-228 304 7869 3717 2 MP stroke
+375 39 6100 4229 2 MP stroke
+-374 -40 6471 4300 2 MP stroke
+-154 -347 6220 4617 2 MP stroke
+153 344 6097 4260 2 MP stroke
+153 345 6351 3911 2 MP stroke
+-153 -344 6475 4268 2 MP stroke
+221 -304 6075 4210 2 MP stroke
+-222 305 6322 3924 2 MP stroke
+271 -281 5768 4534 2 MP stroke
+-275 284 6066 4270 2 MP stroke
+-430 -64 6217 4647 2 MP stroke
+429 63 5791 4554 2 MP stroke
+384 41 6350 3877 2 MP stroke
+-375 -41 6726 3952 2 MP stroke
+379 40 5921 3833 2 MP stroke
+-374 -40 6296 3906 2 MP stroke
+-153 -344 6046 4223 2 MP stroke
+153 344 5922 3866 2 MP stroke
+218 -300 5650 4162 2 MP stroke
+-222 304 5893 3879 2 MP stroke
+-373 -39 6039 4253 2 MP stroke
+375 40 5671 4183 2 MP stroke
+199 413 6128 3446 2 MP stroke
+-196 -407 6300 3873 2 MP stroke
+181 -364 5896 3815 2 MP stroke
+-183 367 6104 3466 2 MP stroke
+303 20 5566 3808 2 MP stroke
+-304 -21 5868 3862 2 MP stroke
+-85 -321 5619 4172 2 MP stroke
+86 321 5564 3841 2 MP stroke
+-102 -322 5734 4543 2 MP stroke
+102 320 5666 4214 2 MP stroke
+253 -207 5266 4027 2 MP stroke
+-248 203 5534 3851 2 MP stroke
+194 319 5702 3496 2 MP stroke
+-190 -312 5869 3828 2 MP stroke
+-150 -342 6393 5009 2 MP stroke
+150 342 6272 4654 2 MP stroke
+226 -305 5991 4952 2 MP stroke
+-224 302 6243 4667 2 MP stroke
+-386 -41 6395 5044 2 MP stroke
+374 40 6019 4969 2 MP stroke
+-128 -544 6110 5556 2 MP stroke
+128 542 6009 5003 2 MP stroke
+-160 361 6289 3053 2 MP stroke
+159 -359 6100 3401 2 MP stroke
+173 289 7441 3716 2 MP stroke
+-170 -285 7582 4016 2 MP stroke
+243 -456 6327 3859 2 MP stroke
+-243 457 6593 3420 2 MP stroke
+-442 43 6570 3403 2 MP stroke
+437 -42 6129 3414 2 MP stroke
+-362 332 5982 5012 2 MP stroke
+361 -331 5595 5322 2 MP stroke
+-138 320 4868 2541 2 MP stroke
+-100 333 4713 2909 2 MP stroke
+-60 337 4599 3294 2 MP stroke
+-20 348 4534 3686 2 MP stroke
+20 348 4514 4084 2 MP stroke
+61 343 4540 4483 2 MP stroke
+98 327 4612 4880 2 MP stroke
+138 320 4730 5257 2 MP stroke
+174 301 4891 5623 2 MP stroke
+204 275 5093 5970 2 MP stroke
+-229 -288 5097 2829 2 MP stroke
+-359 99 5516 2751 2 MP stroke
+130 -351 5976 5958 2 MP stroke
+374 40 6876 5064 2 MP stroke
+225 -306 7532 4747 2 MP stroke
+-373 -43 7153 4001 2 MP stroke
+-199 246 7412 3731 2 MP stroke
+-401 14 7842 3702 2 MP stroke
+352 -95 5328 6256 2 MP stroke
+229 -155 5725 6138 2 MP stroke
+-269 -314 5815 3074 2 MP stroke
+220 -300 7279 5091 2 MP stroke
+374 43 6447 5015 2 MP stroke
+225 -302 7789 4397 2 MP stroke
+-149 -346 8018 4063 2 MP stroke
+258 -501 6137 5545 2 MP stroke
+-385 56 6259 3042 2 MP stroke
+-141 -498 6734 3918 2 MP stroke
+-277 -319 6566 3372 2 MP stroke
+gr
+
+0 sg
+  18   18 5093 5970 PO
+  18   18 5297 6245 PO
+  18   18 5393 5949 PO
+  18   18 4713 2909 PO
+  18   18 4613 3242 PO
+  18   18 4973 3169 PO
+  18   18 4540 4483 PO
+  18   18 4601 4826 PO
+  18   18 4890 4598 PO
+  18   18 4534 3686 PO
+  18   18 4514 4034 PO
+  18   18 4848 3878 PO
+  18   18 4730 5257 PO
+  18   18 4868 5577 PO
+  18   18 5097 5289 PO
+  18   18 4599 3294 PO
+  18   18 4539 3631 PO
+  18   18 4819 3498 PO
+  18   18 4612 4880 PO
+  18   18 4710 5207 PO
+  18   18 4906 4979 PO
+  18   18 4514 4084 PO
+  18   18 4534 4432 PO
+  18   18 4848 4240 PO
+  18   18 4868 2541 PO
+  18   18 4730 2861 PO
+  18   18 5097 2829 PO
+  18   18 4891 5623 PO
+  18   18 5065 5924 PO
+  18   18 5259 5611 PO
+  18   18 5102 2859 PO
+  18   18 4737 2891 PO
+  18   18 4997 3149 PO
+  18   18 5135 2872 PO
+  18   18 5029 3161 PO
+  18   18 5384 3126 PO
+  18   18 5392 3157 PO
+  18   18 5033 3191 PO
+  18   18 5244 3498 PO
+  18   18 5157 2850 PO
+  18   18 5410 3107 PO
+  18   18 5516 2751 PO
+  18   18 5122 5305 PO
+  18   18 4895 5592 PO
+  18   18 5261 5581 PO
+  18   18 5155 5293 PO
+  18   18 5294 5569 PO
+  18   18 5556 5356 PO
+  18   18 5581 5377 PO
+  18   18 5318 5591 PO
+  18   18 5657 5729 PO
+  18   18 5153 5264 PO
+  18   18 5562 5328 PO
+  18   18 5329 4930 PO
+  18   18 4977 3198 PO
+  18   18 4622 3271 PO
+  18   18 4843 3475 PO
+  18   18 5009 3209 PO
+  18   18 4874 3488 PO
+  18   18 5217 3512 PO
+  18   18 5214 3544 PO
+  18   18 4867 3519 PO
+  18   18 4895 3849 PO
+  18   18 4862 3852 PO
+  18   18 4834 3527 PO
+  18   18 4552 3661 PO
+  18   18 4863 3905 PO
+  18   18 4531 4059 PO
+  18   18 4863 4213 PO
+  18   18 4898 3905 PO
+  18   18 4898 4213 PO
+  18   18 5220 4059 PO
+  18   18 4909 3874 PO
+  18   18 5240 4032 PO
+  18   18 5233 3563 PO
+  18   18 5239 4084 PO
+  18   18 4915 4238 PO
+  18   18 5259 4406 PO
+  18   18 4907 4623 PO
+  18   18 4621 4848 PO
+  18   18 4917 4949 PO
+  18   18 4940 4622 PO
+  18   18 4950 4953 PO
+  18   18 5293 4888 PO
+  18   18 5299 4919 PO
+  18   18 4961 4983 PO
+  18   18 5127 5244 PO
+  18   18 5097 5259 PO
+  18   18 4932 5000 PO
+  18   18 4736 5228 PO
+  18   18 5424 5958 PO
+  18   18 5328 6256 PO
+  18   18 5680 6161 PO
+  18   18 5443 5934 PO
+  18   18 5697 6135 PO
+  18   18 5667 5784 PO
+  18   18 5422 5905 PO
+  18   18 5646 5755 PO
+  18   18 5313 5620 PO
+  18   18 5392 5916 PO
+  18   18 5283 5628 PO
+  18   18 5092 5937 PO
+  18   18 5725 6138 PO
+  18   18 5954 5983 PO
+  18   18 5695 5786 PO
+  18   18 4866 4264 PO
+  18   18 4554 4456 PO
+  18   18 4902 4570 PO
+  18   18 4901 4263 PO
+  18   18 4937 4569 PO
+  18   18 5243 4430 PO
+  18   18 5266 4457 PO
+  18   18 4953 4598 PO
+  18   18 5309 4867 PO
+  18   18 5711 5757 PO
+  18   18 5976 5958 PO
+  18   18 6106 5607 PO
+  18   18 5297 4453 PO
+  18   18 5341 4869 PO
+  18   18 5726 4571 PO
+  18   18 5273 4082 PO
+  18   18 5293 4404 PO
+  18   18 5608 4200 PO
+  18   18 5613 5372 PO
+  18   18 5692 5733 PO
+  18   18 6095 5580 PO
+  18   18 5421 3169 PO
+  18   18 5272 3511 PO
+  18   18 5646 3470 PO
+  18   18 5362 4890 PO
+  18   18 5961 4966 PO
+  18   18 5753 4588 PO
+  18   18 5649 3500 PO
+  18   18 5280 3541 PO
+  18   18 5536 3794 PO
+  18   18 5446 3150 PO
+  18   18 5671 3451 PO
+  18   18 5820 3105 PO
+  18   18 5440 3119 PO
+  18   18 5815 3074 PO
+  18   18 5546 2760 PO
+  18   18 7279 5091 PO
+  18   18 7499 4791 PO
+  18   18 7126 4748 PO
+  18   18 7130 4716 PO
+  18   18 7503 4759 PO
+  18   18 7354 4414 PO
+  18   18 7250 5104 PO
+  18   18 7097 4760 PO
+  18   18 6876 5064 PO
+  18   18 7104 4698 PO
+  18   18 7328 4395 PO
+  18   18 6954 4352 PO
+  18   18 6447 5015 PO
+  18   18 6821 5058 PO
+  18   18 6672 4713 PO
+  18   18 7383 4401 PO
+  18   18 7532 4747 PO
+  18   18 7757 4441 PO
+  18   18 7386 4370 PO
+  18   18 7760 4410 PO
+  18   18 7608 4065 PO
+  18   18 6850 5045 PO
+  18   18 7072 4742 PO
+  18   18 6701 4700 PO
+  18   18 6704 4669 PO
+  18   18 7075 4710 PO
+  18   18 6925 4365 PO
+  18   18 6679 4650 PO
+  18   18 6900 4346 PO
+  18   18 6526 4306 PO
+  18   18 5849 3118 PO
+  18   18 5700 3464 PO
+  18   18 6074 3420 PO
+  18   18 6650 4663 PO
+  18   18 6497 4319 PO
+  18   18 6275 4623 PO
+  18   18 7637 4053 PO
+  18   18 7789 4397 PO
+  18   18 8014 4095 PO
+  18   18 6529 4274 PO
+  18   18 6903 4315 PO
+  18   18 6751 3970 PO
+  18   18 7361 4351 PO
+  18   18 7582 4047 PO
+  18   18 7208 4007 PO
+  18   18 7332 4364 PO
+  18   18 7179 4020 PO
+  18   18 6958 4321 PO
+  18   18 6932 4302 PO
+  18   18 7153 4001 PO
+  18   18 6780 3958 PO
+  18   18 8018 4063 PO
+  18   18 7869 3717 PO
+  18   18 7641 4021 PO
+  18   18 6250 4604 PO
+  18   18 6471 4300 PO
+  18   18 6097 4260 PO
+  18   18 6100 4229 PO
+  18   18 6475 4268 PO
+  18   18 6322 3924 PO
+  18   18 6220 4617 PO
+  18   18 6066 4270 PO
+  18   18 5791 4554 PO
+  18   18 6351 3911 PO
+  18   18 6504 4256 PO
+  18   18 6726 3952 PO
+  18   18 6075 4210 PO
+  18   18 6296 3906 PO
+  18   18 5922 3866 PO
+  18   18 6046 4223 PO
+  18   18 5893 3879 PO
+  18   18 5671 4183 PO
+  18   18 5921 3833 PO
+  18   18 6300 3873 PO
+  18   18 6104 3466 PO
+  18   18 5650 4162 PO
+  18   18 5868 3862 PO
+  18   18 5564 3841 PO
+  18   18 6039 4253 PO
+  18   18 5666 4214 PO
+  18   18 5768 4534 PO
+  18   18 5734 4543 PO
+  18   18 5632 4221 PO
+  18   18 5313 4427 PO
+  18   18 5286 4054 PO
+  18   18 5619 4172 PO
+  18   18 5534 3851 PO
+  18   18 5266 4027 PO
+  18   18 5519 3820 PO
+  18   18 5260 3564 PO
+  18   18 5679 3516 PO
+  18   18 5566 3808 PO
+  18   18 5869 3828 PO
+  18   18 5702 3496 PO
+  18   18 5896 3815 PO
+  18   18 6077 3451 PO
+  18   18 6422 4996 PO
+  18   18 6646 4694 PO
+  18   18 6272 4654 PO
+  18   18 6393 5009 PO
+  18   18 6243 4667 PO
+  18   18 6019 4969 PO
+  18   18 5991 4952 PO
+  18   18 6217 4647 PO
+  18   18 5787 4583 PO
+  18   18 6395 5044 PO
+  18   18 6009 5003 PO
+  18   18 6137 5545 PO
+  18   18 5874 3098 PO
+  18   18 6100 3401 PO
+  18   18 6259 3042 PO
+  18   18 7213 3977 PO
+  18   18 7582 4016 PO
+  18   18 7412 3731 PO
+  18   18 7441 3716 PO
+  18   18 7614 4005 PO
+  18   18 7842 3702 PO
+  18   18 6350 3877 PO
+  18   18 6734 3918 PO
+  18   18 6593 3420 PO
+  18   18 6566 3372 PO
+  18   18 6289 3053 PO
+  18   18 6129 3414 PO
+  18   18 6128 3446 PO
+  18   18 6327 3859 PO
+  18   18 6570 3403 PO
+  18   18 5956 4991 PO
+  18   18 5356 4915 PO
+  18   18 5595 5322 PO
+  18   18 5982 5012 PO
+  18   18 5620 5344 PO
+  18   18 6110 5556 PO
+  18   18 5093 5970 FO
+  18   18 5297 6245 FO
+  18   18 5393 5949 FO
+  18   18 4713 2909 FO
+  18   18 4613 3242 FO
+  18   18 4973 3169 FO
+  18   18 4540 4483 FO
+  18   18 4601 4826 FO
+  18   18 4890 4598 FO
+  18   18 4534 3686 FO
+  18   18 4514 4034 FO
+  18   18 4848 3878 FO
+  18   18 4730 5257 FO
+  18   18 4868 5577 FO
+  18   18 5097 5289 FO
+  18   18 4599 3294 FO
+  18   18 4539 3631 FO
+  18   18 4819 3498 FO
+  18   18 4612 4880 FO
+  18   18 4710 5207 FO
+  18   18 4906 4979 FO
+  18   18 4514 4084 FO
+  18   18 4534 4432 FO
+  18   18 4848 4240 FO
+  18   18 4868 2541 FO
+  18   18 4730 2861 FO
+  18   18 5097 2829 FO
+  18   18 4891 5623 FO
+  18   18 5065 5924 FO
+  18   18 5259 5611 FO
+  18   18 5102 2859 FO
+  18   18 4737 2891 FO
+  18   18 4997 3149 FO
+  18   18 5135 2872 FO
+  18   18 5029 3161 FO
+  18   18 5384 3126 FO
+  18   18 5392 3157 FO
+  18   18 5033 3191 FO
+  18   18 5244 3498 FO
+  18   18 5157 2850 FO
+  18   18 5410 3107 FO
+  18   18 5516 2751 FO
+  18   18 5122 5305 FO
+  18   18 4895 5592 FO
+  18   18 5261 5581 FO
+  18   18 5155 5293 FO
+  18   18 5294 5569 FO
+  18   18 5556 5356 FO
+  18   18 5581 5377 FO
+  18   18 5318 5591 FO
+  18   18 5657 5729 FO
+  18   18 5153 5264 FO
+  18   18 5562 5328 FO
+  18   18 5329 4930 FO
+  18   18 4977 3198 FO
+  18   18 4622 3271 FO
+  18   18 4843 3475 FO
+  18   18 5009 3209 FO
+  18   18 4874 3488 FO
+  18   18 5217 3512 FO
+  18   18 5214 3544 FO
+  18   18 4867 3519 FO
+  18   18 4895 3849 FO
+  18   18 4862 3852 FO
+  18   18 4834 3527 FO
+  18   18 4552 3661 FO
+  18   18 4863 3905 FO
+  18   18 4531 4059 FO
+  18   18 4863 4213 FO
+  18   18 4898 3905 FO
+  18   18 4898 4213 FO
+  18   18 5220 4059 FO
+  18   18 4909 3874 FO
+  18   18 5240 4032 FO
+  18   18 5233 3563 FO
+  18   18 5239 4084 FO
+  18   18 4915 4238 FO
+  18   18 5259 4406 FO
+  18   18 4907 4623 FO
+  18   18 4621 4848 FO
+  18   18 4917 4949 FO
+  18   18 4940 4622 FO
+  18   18 4950 4953 FO
+  18   18 5293 4888 FO
+  18   18 5299 4919 FO
+  18   18 4961 4983 FO
+  18   18 5127 5244 FO
+  18   18 5097 5259 FO
+  18   18 4932 5000 FO
+  18   18 4736 5228 FO
+  18   18 5424 5958 FO
+  18   18 5328 6256 FO
+  18   18 5680 6161 FO
+  18   18 5443 5934 FO
+  18   18 5697 6135 FO
+  18   18 5667 5784 FO
+  18   18 5422 5905 FO
+  18   18 5646 5755 FO
+  18   18 5313 5620 FO
+  18   18 5392 5916 FO
+  18   18 5283 5628 FO
+  18   18 5092 5937 FO
+  18   18 5725 6138 FO
+  18   18 5954 5983 FO
+  18   18 5695 5786 FO
+  18   18 4866 4264 FO
+  18   18 4554 4456 FO
+  18   18 4902 4570 FO
+  18   18 4901 4263 FO
+  18   18 4937 4569 FO
+  18   18 5243 4430 FO
+  18   18 5266 4457 FO
+  18   18 4953 4598 FO
+  18   18 5309 4867 FO
+  18   18 5711 5757 FO
+  18   18 5976 5958 FO
+  18   18 6106 5607 FO
+  18   18 5297 4453 FO
+  18   18 5341 4869 FO
+  18   18 5726 4571 FO
+  18   18 5273 4082 FO
+  18   18 5293 4404 FO
+  18   18 5608 4200 FO
+  18   18 5613 5372 FO
+  18   18 5692 5733 FO
+  18   18 6095 5580 FO
+  18   18 5421 3169 FO
+  18   18 5272 3511 FO
+  18   18 5646 3470 FO
+  18   18 5362 4890 FO
+  18   18 5961 4966 FO
+  18   18 5753 4588 FO
+  18   18 5649 3500 FO
+  18   18 5280 3541 FO
+  18   18 5536 3794 FO
+  18   18 5446 3150 FO
+  18   18 5671 3451 FO
+  18   18 5820 3105 FO
+  18   18 5440 3119 FO
+  18   18 5815 3074 FO
+  18   18 5546 2760 FO
+  18   18 7279 5091 FO
+  18   18 7499 4791 FO
+  18   18 7126 4748 FO
+  18   18 7130 4716 FO
+  18   18 7503 4759 FO
+  18   18 7354 4414 FO
+  18   18 7250 5104 FO
+  18   18 7097 4760 FO
+  18   18 6876 5064 FO
+  18   18 7104 4698 FO
+  18   18 7328 4395 FO
+  18   18 6954 4352 FO
+  18   18 6447 5015 FO
+  18   18 6821 5058 FO
+  18   18 6672 4713 FO
+  18   18 7383 4401 FO
+  18   18 7532 4747 FO
+  18   18 7757 4441 FO
+  18   18 7386 4370 FO
+  18   18 7760 4410 FO
+  18   18 7608 4065 FO
+  18   18 6850 5045 FO
+  18   18 7072 4742 FO
+  18   18 6701 4700 FO
+  18   18 6704 4669 FO
+  18   18 7075 4710 FO
+  18   18 6925 4365 FO
+  18   18 6679 4650 FO
+  18   18 6900 4346 FO
+  18   18 6526 4306 FO
+  18   18 5849 3118 FO
+  18   18 5700 3464 FO
+  18   18 6074 3420 FO
+  18   18 6650 4663 FO
+  18   18 6497 4319 FO
+  18   18 6275 4623 FO
+  18   18 7637 4053 FO
+  18   18 7789 4397 FO
+  18   18 8014 4095 FO
+  18   18 6529 4274 FO
+  18   18 6903 4315 FO
+  18   18 6751 3970 FO
+  18   18 7361 4351 FO
+  18   18 7582 4047 FO
+  18   18 7208 4007 FO
+  18   18 7332 4364 FO
+  18   18 7179 4020 FO
+  18   18 6958 4321 FO
+  18   18 6932 4302 FO
+  18   18 7153 4001 FO
+  18   18 6780 3958 FO
+  18   18 8018 4063 FO
+  18   18 7869 3717 FO
+  18   18 7641 4021 FO
+  18   18 6250 4604 FO
+  18   18 6471 4300 FO
+  18   18 6097 4260 FO
+  18   18 6100 4229 FO
+  18   18 6475 4268 FO
+  18   18 6322 3924 FO
+  18   18 6220 4617 FO
+  18   18 6066 4270 FO
+  18   18 5791 4554 FO
+  18   18 6351 3911 FO
+  18   18 6504 4256 FO
+  18   18 6726 3952 FO
+  18   18 6075 4210 FO
+  18   18 6296 3906 FO
+  18   18 5922 3866 FO
+  18   18 6046 4223 FO
+  18   18 5893 3879 FO
+  18   18 5671 4183 FO
+  18   18 5921 3833 FO
+  18   18 6300 3873 FO
+  18   18 6104 3466 FO
+  18   18 5650 4162 FO
+  18   18 5868 3862 FO
+  18   18 5564 3841 FO
+  18   18 6039 4253 FO
+  18   18 5666 4214 FO
+  18   18 5768 4534 FO
+  18   18 5734 4543 FO
+  18   18 5632 4221 FO
+  18   18 5313 4427 FO
+  18   18 5286 4054 FO
+  18   18 5619 4172 FO
+  18   18 5534 3851 FO
+  18   18 5266 4027 FO
+  18   18 5519 3820 FO
+  18   18 5260 3564 FO
+  18   18 5679 3516 FO
+  18   18 5566 3808 FO
+  18   18 5869 3828 FO
+  18   18 5702 3496 FO
+  18   18 5896 3815 FO
+  18   18 6077 3451 FO
+  18   18 6422 4996 FO
+  18   18 6646 4694 FO
+  18   18 6272 4654 FO
+  18   18 6393 5009 FO
+  18   18 6243 4667 FO
+  18   18 6019 4969 FO
+  18   18 5991 4952 FO
+  18   18 6217 4647 FO
+  18   18 5787 4583 FO
+  18   18 6395 5044 FO
+  18   18 6009 5003 FO
+  18   18 6137 5545 FO
+  18   18 5874 3098 FO
+  18   18 6100 3401 FO
+  18   18 6259 3042 FO
+  18   18 7213 3977 FO
+  18   18 7582 4016 FO
+  18   18 7412 3731 FO
+  18   18 7441 3716 FO
+  18   18 7614 4005 FO
+  18   18 7842 3702 FO
+  18   18 6350 3877 FO
+  18   18 6734 3918 FO
+  18   18 6593 3420 FO
+  18   18 6566 3372 FO
+  18   18 6289 3053 FO
+  18   18 6129 3414 FO
+  18   18 6128 3446 FO
+  18   18 6327 3859 FO
+  18   18 6570 3403 FO
+  18   18 5956 4991 FO
+  18   18 5356 4915 FO
+  18   18 5595 5322 FO
+  18   18 5982 5012 FO
+  18   18 5620 5344 FO
+  18   18 6110 5556 FO
+gs 3601 631 8695 6858 rc
+/c9 { 0.000000 0.562500 1.000000 sr} bdef
+c9
+-362 -53 207 -278 10594 6245 3 MP
+PP
+-242 176 -20 -340 11382 4029 3 MP
+PP
+-348 114 60 -341 11294 4825 3 MP
+PP
+-300 -211 310 -156 9331 7201 3 MP
+PP
+-295 48 135 -312 11030 5573 3 MP
+PP
+-285 -89 261 -219 10022 6796 3 MP
+PP
+-366 -11 173 -300 10830 5923 3 MP
+PP
+-288 227 -60 -341 11354 3634 3 MP
+PP
+-332 155 20 -346 11360 4431 3 MP
+PP
+-288 -208 291 -191 9688 7017 3 MP
+PP
+-359 74 100 -332 11182 5208 3 MP
+PP
+-254 -175 320 -117 8960 7341 3 MP
+PP
+-354 -96 238 -252 10322 6538 3 MP
+PP
+-155 -330 352 95 10212 6159 3 MP
+PP
+-343 -88 196 -235 10185 6136 3 MP
+PP
+-148 -351 346 89 10039 5781 3 MP
+PP
+-221 297 -148 -327 10155 6149 3 MP
+PP
+-161 -266 362 11 10640 5581 3 MP
+PP
+-223 337 -99 -432 10588 5570 3 MP
+PP
+147 349 -315 -93 10581 5604 3 MP
+PP
+361 54 -169 256 10609 5626 3 MP
+PP
+-286 -226 356 -73 10914 4920 3 MP
+PP
+-346 75 70 -298 10879 4911 3 MP
+PP
+-64 365 -279 -226 10858 4936 3 MP
+PP
+-299 -270 351 -76 10588 4659 3 MP
+PP
+-310 -190 346 -114 10993 4569 3 MP
+PP
+-332 38 36 -305 10958 4561 3 MP
+PP
+-282 -341 337 -38 10647 4261 3 MP
+PP
+329 -153 -66 318 11102 3893 3 MP
+PP
+-255 -254 295 -49 10863 5276 3 MP
+PP
+-339 137 41 -305 10828 5270 3 MP
+PP
+98 429 -302 -170 10817 5301 3 MP
+PP
+107 354 -351 -76 10942 3536 3 MP
+PP
+-114 -342 286 89 10006 6455 3 MP
+PP
+-365 -29 174 -254 9978 6434 3 MP
+PP
+-68 388 -191 -283 9954 6454 3 MP
+PP
+281 203 -256 104 9965 6489 3 MP
+PP
+10 -362 256 176 9044 7021 3 MP
+PP
+-422 -123 270 -189 9021 6996 3 MP
+PP
+-157 330 -150 -308 8989 7006 3 MP
+PP
+239 270 -305 22 8993 7040 3 MP
+PP
+-343 -113 242 -176 11099 3838 3 MP
+PP
+-241 275 -101 -291 11066 3848 3 MP
+PP
+280 339 -346 -16 11069 3881 3 MP
+PP
+3 -400 302 212 9356 6805 3 MP
+PP
+-319 -302 310 -192 9339 6774 3 MP
+PP
+-428 375 -9 -503 9309 6781 3 MP
+PP
+70 -399 318 300 9347 6255 3 MP
+PP
+-364 41 220 -334 10244 5454 3 MP
+PP
+-374 76 56 -381 10615 4249 3 MP
+PP
+-320 100 52 -343 10556 4648 3 MP
+PP
+-344 -80 198 -262 10013 5758 3 MP
+PP
+-370 -16 220 -296 9760 6101 3 MP
+PP
+-267 437 -108 -360 10669 3834 3 MP
+PP
+11 353 -380 -311 10459 5088 3 MP
+PP
+-148 -345 373 15 9612 5757 3 MP
+PP
+-235 416 -152 -317 9731 6123 3 MP
+PP
+-141 -288 338 79 9873 5386 3 MP
+PP
+-348 -110 198 -210 9844 5364 3 MP
+PP
+-10 -349 355 112 9700 5013 3 MP
+PP
+-217 299 -152 -324 9814 5376 3 MP
+PP
+-459 -122 349 -241 9676 4993 3 MP
+PP
+146 355 -372 -24 9812 5408 3 MP
+PP
+-225 320 -146 -354 9557 5753 3 MP
+PP
+-372 -48 226 -320 9160 5699 3 MP
+PP
+140 455 -378 -35 9557 5788 3 MP
+PP
+65 -374 384 315 10097 4757 3 MP
+PP
+-372 -40 218 -300 9418 5333 3 MP
+PP
+-153 -340 370 48 9018 5298 3 MP
+PP
+-369 -47 216 -292 8992 5278 3 MP
+PP
+-144 -345 369 46 8843 4907 3 MP
+PP
+-219 303 -153 -339 8962 5291 3 MP
+PP
+-225 301 -146 -368 9131 5711 3 MP
+PP
+-264 319 -109 -359 9642 5000 3 MP
+PP
+-197 -399 460 123 9572 4601 3 MP
+PP
+266 -320 145 348 9098 4594 3 MP
+PP
+-372 -47 225 -298 8817 4887 3 MP
+PP
+-373 -39 220 -303 8563 5236 3 MP
+PP
+148 336 -372 -37 8958 5324 3 MP
+PP
+154 340 -369 -67 9126 5743 3 MP
+PP
+357 173 -218 276 9153 5767 3 MP
+PP
+-364 -88 258 -271 9548 4576 3 MP
+PP
+171 -304 195 393 9865 4319 3 MP
+PP
+429 -375 -62 553 8919 6075 3 MP
+PP
+-226 306 -147 -345 8787 4900 3 MP
+PP
+-146 -345 372 46 8674 4510 3 MP
+PP
+-144 -450 370 90 9445 4182 3 MP
+PP
+306 -337 148 351 8931 4195 3 MP
+PP
+385 -326 147 459 9699 3808 3 MP
+PP
+452 14 -223 305 9158 3860 3 MP
+PP
+442 -58 -171 305 10262 4424 3 MP
+PP
+-317 -304 325 -101 10272 4373 3 MP
+PP
+-378 320 7 -410 10241 4376 3 MP
+PP
+-304 336 -108 -364 9517 4590 3 MP
+PP
+-455 39 226 -360 9418 4164 3 MP
+PP
+0 sg
+361 54 10440 5882 2 MP stroke
+-362 -53 10801 5967 2 MP stroke
+-155 -330 10564 6254 2 MP stroke
+155 331 10439 5914 2 MP stroke
+242 -176 11099 3838 2 MP stroke
+-242 176 11362 3689 2 MP stroke
+-263 -165 11365 4058 2 MP stroke
+262 164 11120 3865 2 MP stroke
+346 -114 10993 4569 2 MP stroke
+-348 114 11354 4484 2 MP stroke
+-286 -226 11270 4847 2 MP stroke
+288 227 11006 4598 2 MP stroke
+302 212 9356 6805 2 MP stroke
+-300 -211 9641 7045 2 MP stroke
+10 -362 9300 7197 2 MP stroke
+-10 367 9341 6834 2 MP stroke
+295 -49 10863 5276 2 MP stroke
+-295 48 11165 5261 2 MP stroke
+-161 -266 11002 5592 2 MP stroke
+160 264 10870 5309 2 MP stroke
+286 89 10006 6455 2 MP stroke
+-285 -89 10283 6577 2 MP stroke
+-25 -307 9990 6796 2 MP stroke
+24 308 9998 6488 2 MP stroke
+362 11 10640 5581 2 MP stroke
+-366 -11 11003 5623 2 MP stroke
+-192 -310 10801 5936 2 MP stroke
+193 311 10637 5612 2 MP stroke
+-343 -113 11341 3662 2 MP stroke
+348 114 11006 3520 2 MP stroke
+329 -153 11036 4211 2 MP stroke
+-332 155 11380 4085 2 MP stroke
+-310 -190 11339 4455 2 MP stroke
+312 191 11048 4240 2 MP stroke
+281 203 9709 6593 2 MP stroke
+-288 -208 9979 6826 2 MP stroke
+3 -400 9658 7017 2 MP stroke
+-3 399 9691 6618 2 MP stroke
+356 -73 10914 4920 2 MP stroke
+-359 74 11282 4876 2 MP stroke
+-255 -254 11158 5227 2 MP stroke
+259 258 10923 4950 2 MP stroke
+256 176 9044 7021 2 MP stroke
+-254 -175 9280 7224 2 MP stroke
+66 -292 8927 7332 2 MP stroke
+-66 292 9026 7049 2 MP stroke
+352 95 10212 6159 2 MP stroke
+-354 -96 10560 6286 2 MP stroke
+-114 -342 10292 6544 2 MP stroke
+116 348 10206 6190 2 MP stroke
+196 -235 10185 6136 2 MP stroke
+-197 235 10409 5924 2 MP stroke
+346 89 10039 5781 2 MP stroke
+-343 -88 10381 5901 2 MP stroke
+-148 -327 10155 6149 2 MP stroke
+147 323 10038 5813 2 MP stroke
+147 349 10266 5511 2 MP stroke
+-148 -351 10385 5870 2 MP stroke
+198 -262 10013 5758 2 MP stroke
+-198 262 10237 5519 2 MP stroke
+220 -296 9760 6101 2 MP stroke
+-221 297 10007 5822 2 MP stroke
+-365 -29 10152 6180 2 MP stroke
+369 30 9786 6119 2 MP stroke
+204 -259 10613 5560 2 MP stroke
+-201 255 10841 5326 2 MP stroke
+98 429 10515 5131 2 MP stroke
+-99 -432 10588 5570 2 MP stroke
+220 -334 10244 5454 2 MP stroke
+-223 337 10489 5138 2 MP stroke
+-315 -93 10581 5604 2 MP stroke
+322 95 10266 5475 2 MP stroke
+-169 256 10609 5626 2 MP stroke
+168 -256 10413 5860 2 MP stroke
+70 -298 10879 4911 2 MP stroke
+-70 299 10984 4621 2 MP stroke
+351 -76 10588 4659 2 MP stroke
+-346 75 10949 4613 2 MP stroke
+-279 -226 10858 4936 2 MP stroke
+276 223 10603 4688 2 MP stroke
+65 -374 10481 5072 2 MP stroke
+-64 365 10579 4710 2 MP stroke
+-339 137 10869 4965 2 MP stroke
+343 -139 10515 5075 2 MP stroke
+296 267 10662 4294 2 MP stroke
+-299 -270 10939 4583 2 MP stroke
+52 -343 10556 4648 2 MP stroke
+-52 346 10640 4313 2 MP stroke
+36 -305 10958 4561 2 MP stroke
+-36 304 11029 4265 2 MP stroke
+337 -38 10647 4261 2 MP stroke
+-332 38 10994 4256 2 MP stroke
+280 339 10723 3865 2 MP stroke
+-282 -341 10984 4223 2 MP stroke
+56 -381 10615 4249 2 MP stroke
+-55 379 10702 3882 2 MP stroke
+66 -323 11003 4204 2 MP stroke
+-66 318 11102 3893 2 MP stroke
+41 -305 10828 5270 2 MP stroke
+-40 303 10903 4973 2 MP stroke
+-302 -170 10817 5301 2 MP stroke
+298 168 10530 5102 2 MP stroke
+-108 -360 10669 3834 2 MP stroke
+107 354 10591 3460 2 MP stroke
+-241 275 10965 3557 2 MP stroke
+244 -278 10698 3814 2 MP stroke
+174 -254 9978 6434 2 MP stroke
+-172 253 10178 6202 2 MP stroke
+-191 -283 9954 6454 2 MP stroke
+191 283 9787 6151 2 MP stroke
+70 -399 9665 6555 2 MP stroke
+-68 388 9763 6171 2 MP stroke
+-256 104 9965 6489 2 MP stroke
+259 -105 9695 6559 2 MP stroke
+270 -189 9021 6996 2 MP stroke
+-266 186 9310 6835 2 MP stroke
+437 128 8872 6653 2 MP stroke
+-422 -123 9291 6807 2 MP stroke
+-150 -308 8989 7006 2 MP stroke
+152 312 8869 6684 2 MP stroke
+-305 22 8993 7040 2 MP stroke
+307 -22 8682 7028 2 MP stroke
+-101 -291 11066 3848 2 MP stroke
+101 289 10998 3549 2 MP stroke
+-346 -16 11069 3881 2 MP stroke
+342 16 10724 3832 2 MP stroke
+310 -192 9339 6774 2 MP stroke
+-305 188 9661 6617 2 MP stroke
+318 300 9347 6255 2 MP stroke
+-319 -302 9649 6582 2 MP stroke
+-9 -503 9309 6781 2 MP stroke
+9 494 9330 6280 2 MP stroke
+429 -375 8857 6628 2 MP stroke
+-428 375 9300 6278 2 MP stroke
+387 -99 9344 6222 2 MP stroke
+-388 99 9735 6156 2 MP stroke
+369 -42 10090 5130 2 MP stroke
+-364 41 10464 5120 2 MP stroke
+-141 -288 10211 5465 2 MP stroke
+144 293 10100 5161 2 MP stroke
+375 -77 10294 3911 2 MP stroke
+-374 76 10671 3868 2 MP stroke
+-317 -304 10597 4272 2 MP stroke
+318 305 10297 3944 2 MP stroke
+325 -101 10272 4373 2 MP stroke
+-320 100 10608 4305 2 MP stroke
+-271 -247 10533 4671 2 MP stroke
+268 243 10288 4405 2 MP stroke
+338 79 9873 5386 2 MP stroke
+-344 -80 10211 5496 2 MP stroke
+-148 -345 9985 5772 2 MP stroke
+146 342 9867 5416 2 MP stroke
+373 15 9612 5757 2 MP stroke
+-370 -16 9980 5805 2 MP stroke
+-152 -317 9731 6123 2 MP stroke
+150 312 9610 5789 2 MP stroke
+384 315 10097 4757 2 MP stroke
+-380 -311 10459 5088 2 MP stroke
+-10 -349 10055 5125 2 MP stroke
+11 353 10079 4777 2 MP stroke
+226 -331 9586 5739 2 MP stroke
+-225 330 9837 5427 2 MP stroke
+238 -420 9319 6208 2 MP stroke
+-235 416 9579 5806 2 MP stroke
+198 -210 9844 5364 2 MP stroke
+-197 209 10070 5177 2 MP stroke
+355 112 9700 5013 2 MP stroke
+-348 -110 10042 5154 2 MP stroke
+-152 -324 9814 5376 2 MP stroke
+150 320 9694 5044 2 MP stroke
+349 -241 9676 4993 2 MP stroke
+-345 237 10045 4776 2 MP stroke
+218 -300 9418 5333 2 MP stroke
+-217 299 9662 5052 2 MP stroke
+-372 -24 9812 5408 2 MP stroke
+369 25 9445 5351 2 MP stroke
+460 123 9572 4601 2 MP stroke
+-459 -122 10025 4752 2 MP stroke
+-109 -359 9642 5000 2 MP stroke
+110 363 9566 4630 2 MP stroke
+-146 -354 9557 5753 2 MP stroke
+146 355 9440 5384 2 MP stroke
+226 -320 9160 5699 2 MP stroke
+-225 320 9411 5399 2 MP stroke
+-378 -35 9557 5788 2 MP stroke
+371 34 9186 5719 2 MP stroke
+370 48 9018 5298 2 MP stroke
+-372 -48 9386 5379 2 MP stroke
+-146 -368 9131 5711 2 MP stroke
+146 368 9014 5331 2 MP stroke
+-139 -449 9292 6216 2 MP stroke
+140 455 9179 5753 2 MP stroke
+442 -58 10091 4729 2 MP stroke
+-449 59 10546 4698 2 MP stroke
+373 40 9269 4960 2 MP stroke
+-372 -40 9636 5033 2 MP stroke
+-153 -340 9388 5346 2 MP stroke
+154 340 9264 4993 2 MP stroke
+216 -292 8992 5278 2 MP stroke
+-217 292 9235 5006 2 MP stroke
+369 46 8843 4907 2 MP stroke
+-369 -47 9208 4986 2 MP stroke
+-153 -339 8962 5291 2 MP stroke
+153 339 8839 4939 2 MP stroke
+145 348 9098 4594 2 MP stroke
+-144 -345 9212 4953 2 MP stroke
+225 -298 8817 4887 2 MP stroke
+-225 299 9068 4608 2 MP stroke
+220 -303 8563 5236 2 MP stroke
+-219 303 8809 4952 2 MP stroke
+-372 -37 8958 5324 2 MP stroke
+372 36 8590 5255 2 MP stroke
+224 -299 8734 5623 2 MP stroke
+-225 301 8985 5343 2 MP stroke
+-369 -67 9126 5743 2 MP stroke
+371 67 8760 5644 2 MP stroke
+266 -320 9243 4942 2 MP stroke
+-264 319 9533 4641 2 MP stroke
+195 393 9865 4319 2 MP stroke
+-197 -399 10032 4724 2 MP stroke
+258 -271 9548 4576 2 MP stroke
+-263 276 9835 4325 2 MP stroke
+412 28 9105 4562 2 MP stroke
+-411 -28 9509 4622 2 MP stroke
+372 46 8674 4510 2 MP stroke
+-372 -47 9042 4589 2 MP stroke
+-147 -345 8787 4900 2 MP stroke
+147 345 8670 4542 2 MP stroke
+373 39 8414 4861 2 MP stroke
+-373 -39 8783 4933 2 MP stroke
+-218 276 9153 5767 2 MP stroke
+215 -273 8911 6016 2 MP stroke
+-367 -178 9286 6253 2 MP stroke
+357 173 8935 6043 2 MP stroke
+370 90 9445 4182 2 MP stroke
+-364 -88 9806 4305 2 MP stroke
+-108 -364 9517 4590 2 MP stroke
+106 359 9442 4217 2 MP stroke
+-171 305 10262 4424 2 MP stroke
+171 -304 10060 4712 2 MP stroke
+371 90 9870 4286 2 MP stroke
+-366 -89 10231 4408 2 MP stroke
+148 351 8931 4195 2 MP stroke
+-146 -345 9046 4556 2 MP stroke
+147 459 9699 3808 2 MP stroke
+-144 -450 9815 4272 2 MP stroke
+226 -360 9418 4164 2 MP stroke
+-226 360 9671 3822 2 MP stroke
+-304 336 9409 4226 2 MP stroke
+306 -337 9079 4546 2 MP stroke
+452 14 8935 4165 2 MP stroke
+-454 -14 9385 4209 2 MP stroke
+-378 320 10248 3966 2 MP stroke
+385 -326 9846 4267 2 MP stroke
+229 321 9189 3843 2 MP stroke
+-229 -319 9387 4179 2 MP stroke
+7 -410 10241 4376 2 MP stroke
+-8 405 10280 3968 2 MP stroke
+-20 -340 11382 4029 2 MP stroke
+-60 -341 11354 3634 2 MP stroke
+320 -117 8960 7341 2 MP stroke
+310 -156 9331 7201 2 MP stroke
+291 -191 9688 7017 2 MP stroke
+261 -219 10022 6796 2 MP stroke
+238 -252 10322 6538 2 MP stroke
+207 -278 10594 6245 2 MP stroke
+173 -300 10830 5923 2 MP stroke
+135 -312 11030 5573 2 MP stroke
+100 -332 11182 5208 2 MP stroke
+60 -341 11294 4825 2 MP stroke
+20 -346 11360 4431 2 MP stroke
+-288 227 11294 3293 2 MP stroke
+-267 437 10561 3474 2 MP stroke
+153 342 8410 4894 2 MP stroke
+148 336 8586 5287 2 MP stroke
+-226 299 8900 4211 2 MP stroke
+-532 -133 10231 3941 2 MP stroke
+-455 39 9644 3804 2 MP stroke
+-351 -76 10942 3536 2 MP stroke
+-157 330 8839 6698 2 MP stroke
+239 270 8688 7062 2 MP stroke
+154 340 8757 5676 2 MP stroke
+-62 553 8919 6075 2 MP stroke
+-226 306 8640 4555 2 MP stroke
+-223 305 9158 3860 2 MP stroke
+gr
+
+  18   18 10594 6245 PO
+  18   18 10801 5967 PO
+  18   18 10439 5914 PO
+  18   18 11382 4029 PO
+  18   18 11362 3689 PO
+  18   18 11120 3865 PO
+  18   18 11294 4825 PO
+  18   18 11354 4484 PO
+  18   18 11006 4598 PO
+  18   18 9331 7201 PO
+  18   18 9641 7045 PO
+  18   18 9341 6834 PO
+  18   18 11030 5573 PO
+  18   18 11165 5261 PO
+  18   18 10870 5309 PO
+  18   18 10022 6796 PO
+  18   18 10283 6577 PO
+  18   18 9998 6488 PO
+  18   18 10830 5923 PO
+  18   18 11003 5623 PO
+  18   18 10637 5612 PO
+  18   18 11354 3634 PO
+  18   18 11294 3293 PO
+  18   18 11006 3520 PO
+  18   18 11360 4431 PO
+  18   18 11380 4085 PO
+  18   18 11048 4240 PO
+  18   18 9688 7017 PO
+  18   18 9979 6826 PO
+  18   18 9691 6618 PO
+  18   18 11182 5208 PO
+  18   18 11282 4876 PO
+  18   18 10923 4950 PO
+  18   18 8960 7341 PO
+  18   18 9280 7224 PO
+  18   18 9026 7049 PO
+  18   18 10322 6538 PO
+  18   18 10560 6286 PO
+  18   18 10206 6190 PO
+  18   18 10212 6159 PO
+  18   18 10564 6254 PO
+  18   18 10409 5924 PO
+  18   18 10185 6136 PO
+  18   18 10381 5901 PO
+  18   18 10038 5813 PO
+  18   18 10039 5781 PO
+  18   18 10385 5870 PO
+  18   18 10237 5519 PO
+  18   18 10155 6149 PO
+  18   18 10007 5822 PO
+  18   18 9786 6119 PO
+  18   18 10640 5581 PO
+  18   18 11002 5592 PO
+  18   18 10841 5326 PO
+  18   18 10588 5570 PO
+  18   18 10489 5138 PO
+  18   18 10266 5475 PO
+  18   18 10581 5604 PO
+  18   18 10266 5511 PO
+  18   18 10413 5860 PO
+  18   18 10609 5626 PO
+  18   18 10440 5882 PO
+  18   18 10801 5936 PO
+  18   18 10914 4920 PO
+  18   18 11270 4847 PO
+  18   18 10984 4621 PO
+  18   18 10879 4911 PO
+  18   18 10949 4613 PO
+  18   18 10603 4688 PO
+  18   18 10858 4936 PO
+  18   18 10579 4710 PO
+  18   18 10515 5075 PO
+  18   18 10588 4659 PO
+  18   18 10939 4583 PO
+  18   18 10640 4313 PO
+  18   18 10993 4569 PO
+  18   18 11339 4455 PO
+  18   18 11029 4265 PO
+  18   18 10958 4561 PO
+  18   18 10994 4256 PO
+  18   18 10662 4294 PO
+  18   18 10647 4261 PO
+  18   18 10984 4223 PO
+  18   18 10702 3882 PO
+  18   18 11102 3893 PO
+  18   18 11036 4211 PO
+  18   18 11365 4058 PO
+  18   18 10863 5276 PO
+  18   18 11158 5227 PO
+  18   18 10903 4973 PO
+  18   18 10828 5270 PO
+  18   18 10869 4965 PO
+  18   18 10530 5102 PO
+  18   18 10817 5301 PO
+  18   18 10515 5131 PO
+  18   18 10613 5560 PO
+  18   18 10942 3536 PO
+  18   18 10591 3460 PO
+  18   18 10698 3814 PO
+  18   18 10006 6455 PO
+  18   18 10292 6544 PO
+  18   18 10178 6202 PO
+  18   18 9978 6434 PO
+  18   18 10152 6180 PO
+  18   18 9787 6151 PO
+  18   18 9954 6454 PO
+  18   18 9763 6171 PO
+  18   18 9695 6559 PO
+  18   18 9965 6489 PO
+  18   18 9709 6593 PO
+  18   18 9990 6796 PO
+  18   18 9044 7021 PO
+  18   18 9300 7197 PO
+  18   18 9310 6835 PO
+  18   18 9021 6996 PO
+  18   18 9291 6807 PO
+  18   18 8869 6684 PO
+  18   18 8989 7006 PO
+  18   18 8839 6698 PO
+  18   18 8682 7028 PO
+  18   18 8993 7040 PO
+  18   18 8688 7062 PO
+  18   18 8927 7332 PO
+  18   18 11099 3838 PO
+  18   18 11341 3662 PO
+  18   18 10998 3549 PO
+  18   18 11066 3848 PO
+  18   18 10965 3557 PO
+  18   18 10724 3832 PO
+  18   18 11069 3881 PO
+  18   18 10723 3865 PO
+  18   18 11003 4204 PO
+  18   18 9356 6805 PO
+  18   18 9658 7017 PO
+  18   18 9661 6617 PO
+  18   18 9339 6774 PO
+  18   18 9649 6582 PO
+  18   18 9330 6280 PO
+  18   18 9309 6781 PO
+  18   18 9300 6278 PO
+  18   18 8872 6653 PO
+  18   18 9347 6255 PO
+  18   18 9665 6555 PO
+  18   18 9735 6156 PO
+  18   18 10244 5454 PO
+  18   18 10464 5120 PO
+  18   18 10100 5161 PO
+  18   18 10615 4249 PO
+  18   18 10671 3868 PO
+  18   18 10297 3944 PO
+  18   18 10556 4648 PO
+  18   18 10608 4305 PO
+  18   18 10288 4405 PO
+  18   18 10013 5758 PO
+  18   18 10211 5496 PO
+  18   18 9867 5416 PO
+  18   18 9760 6101 PO
+  18   18 9980 5805 PO
+  18   18 9610 5789 PO
+  18   18 10669 3834 PO
+  18   18 10561 3474 PO
+  18   18 10294 3911 PO
+  18   18 10459 5088 PO
+  18   18 10079 4777 PO
+  18   18 10090 5130 PO
+  18   18 9612 5757 PO
+  18   18 9985 5772 PO
+  18   18 9837 5427 PO
+  18   18 9731 6123 PO
+  18   18 9579 5806 PO
+  18   18 9344 6222 PO
+  18   18 9873 5386 PO
+  18   18 10211 5465 PO
+  18   18 10070 5177 PO
+  18   18 9844 5364 PO
+  18   18 10042 5154 PO
+  18   18 9694 5044 PO
+  18   18 9700 5013 PO
+  18   18 10055 5125 PO
+  18   18 10045 4776 PO
+  18   18 9814 5376 PO
+  18   18 9662 5052 PO
+  18   18 9445 5351 PO
+  18   18 9676 4993 PO
+  18   18 10025 4752 PO
+  18   18 9566 4630 PO
+  18   18 9812 5408 PO
+  18   18 9440 5384 PO
+  18   18 9586 5739 PO
+  18   18 9557 5753 PO
+  18   18 9411 5399 PO
+  18   18 9186 5719 PO
+  18   18 9160 5699 PO
+  18   18 9386 5379 PO
+  18   18 9014 5331 PO
+  18   18 9557 5788 PO
+  18   18 9179 5753 PO
+  18   18 9319 6208 PO
+  18   18 10097 4757 PO
+  18   18 10481 5072 PO
+  18   18 10546 4698 PO
+  18   18 9418 5333 PO
+  18   18 9636 5033 PO
+  18   18 9264 4993 PO
+  18   18 9018 5298 PO
+  18   18 9388 5346 PO
+  18   18 9235 5006 PO
+  18   18 8992 5278 PO
+  18   18 9208 4986 PO
+  18   18 8839 4939 PO
+  18   18 8843 4907 PO
+  18   18 9212 4953 PO
+  18   18 9068 4608 PO
+  18   18 8962 5291 PO
+  18   18 8809 4952 PO
+  18   18 8590 5255 PO
+  18   18 9131 5711 PO
+  18   18 8985 5343 PO
+  18   18 8760 5644 PO
+  18   18 9642 5000 PO
+  18   18 9533 4641 PO
+  18   18 9269 4960 PO
+  18   18 9572 4601 PO
+  18   18 10032 4724 PO
+  18   18 9835 4325 PO
+  18   18 9098 4594 PO
+  18   18 9243 4942 PO
+  18   18 9509 4622 PO
+  18   18 8817 4887 PO
+  18   18 9042 4589 PO
+  18   18 8670 4542 PO
+  18   18 8563 5236 PO
+  18   18 8783 4933 PO
+  18   18 8410 4894 PO
+  18   18 8958 5324 PO
+  18   18 8586 5287 PO
+  18   18 8734 5623 PO
+  18   18 9126 5743 PO
+  18   18 8757 5676 PO
+  18   18 8911 6016 PO
+  18   18 9153 5767 PO
+  18   18 8935 6043 PO
+  18   18 9292 6216 PO
+  18   18 9548 4576 PO
+  18   18 9806 4305 PO
+  18   18 9442 4217 PO
+  18   18 9865 4319 PO
+  18   18 10060 4712 PO
+  18   18 10231 4408 PO
+  18   18 8919 6075 PO
+  18   18 8857 6628 PO
+  18   18 9286 6253 PO
+  18   18 8787 4900 PO
+  18   18 8640 4555 PO
+  18   18 8414 4861 PO
+  18   18 8674 4510 PO
+  18   18 9046 4556 PO
+  18   18 8900 4211 PO
+  18   18 9445 4182 PO
+  18   18 9815 4272 PO
+  18   18 9671 3822 PO
+  18   18 8931 4195 PO
+  18   18 9079 4546 PO
+  18   18 9385 4209 PO
+  18   18 9699 3808 PO
+  18   18 9846 4267 PO
+  18   18 10231 3941 PO
+  18   18 9158 3860 PO
+  18   18 8935 4165 PO
+  18   18 9387 4179 PO
+  18   18 10262 4424 PO
+  18   18 10091 4729 PO
+  18   18 10533 4671 PO
+  18   18 10272 4373 PO
+  18   18 10597 4272 PO
+  18   18 10280 3968 PO
+  18   18 10241 4376 PO
+  18   18 10248 3966 PO
+  18   18 9870 4286 PO
+  18   18 9517 4590 PO
+  18   18 9409 4226 PO
+  18   18 9105 4562 PO
+  18   18 9418 4164 PO
+  18   18 9644 3804 PO
+  18   18 9189 3843 PO
+  18   18 10594 6245 FO
+  18   18 10801 5967 FO
+  18   18 10439 5914 FO
+  18   18 11382 4029 FO
+  18   18 11362 3689 FO
+  18   18 11120 3865 FO
+  18   18 11294 4825 FO
+  18   18 11354 4484 FO
+  18   18 11006 4598 FO
+  18   18 9331 7201 FO
+  18   18 9641 7045 FO
+  18   18 9341 6834 FO
+  18   18 11030 5573 FO
+  18   18 11165 5261 FO
+  18   18 10870 5309 FO
+  18   18 10022 6796 FO
+  18   18 10283 6577 FO
+  18   18 9998 6488 FO
+  18   18 10830 5923 FO
+  18   18 11003 5623 FO
+  18   18 10637 5612 FO
+  18   18 11354 3634 FO
+  18   18 11294 3293 FO
+  18   18 11006 3520 FO
+  18   18 11360 4431 FO
+  18   18 11380 4085 FO
+  18   18 11048 4240 FO
+  18   18 9688 7017 FO
+  18   18 9979 6826 FO
+  18   18 9691 6618 FO
+  18   18 11182 5208 FO
+  18   18 11282 4876 FO
+  18   18 10923 4950 FO
+  18   18 8960 7341 FO
+  18   18 9280 7224 FO
+  18   18 9026 7049 FO
+  18   18 10322 6538 FO
+  18   18 10560 6286 FO
+  18   18 10206 6190 FO
+  18   18 10212 6159 FO
+  18   18 10564 6254 FO
+  18   18 10409 5924 FO
+  18   18 10185 6136 FO
+  18   18 10381 5901 FO
+  18   18 10038 5813 FO
+  18   18 10039 5781 FO
+  18   18 10385 5870 FO
+  18   18 10237 5519 FO
+  18   18 10155 6149 FO
+  18   18 10007 5822 FO
+  18   18 9786 6119 FO
+  18   18 10640 5581 FO
+  18   18 11002 5592 FO
+  18   18 10841 5326 FO
+  18   18 10588 5570 FO
+  18   18 10489 5138 FO
+  18   18 10266 5475 FO
+  18   18 10581 5604 FO
+  18   18 10266 5511 FO
+  18   18 10413 5860 FO
+  18   18 10609 5626 FO
+  18   18 10440 5882 FO
+  18   18 10801 5936 FO
+  18   18 10914 4920 FO
+  18   18 11270 4847 FO
+  18   18 10984 4621 FO
+  18   18 10879 4911 FO
+  18   18 10949 4613 FO
+  18   18 10603 4688 FO
+  18   18 10858 4936 FO
+  18   18 10579 4710 FO
+  18   18 10515 5075 FO
+  18   18 10588 4659 FO
+  18   18 10939 4583 FO
+  18   18 10640 4313 FO
+  18   18 10993 4569 FO
+  18   18 11339 4455 FO
+  18   18 11029 4265 FO
+  18   18 10958 4561 FO
+  18   18 10994 4256 FO
+  18   18 10662 4294 FO
+  18   18 10647 4261 FO
+  18   18 10984 4223 FO
+  18   18 10702 3882 FO
+  18   18 11102 3893 FO
+  18   18 11036 4211 FO
+  18   18 11365 4058 FO
+  18   18 10863 5276 FO
+  18   18 11158 5227 FO
+  18   18 10903 4973 FO
+  18   18 10828 5270 FO
+  18   18 10869 4965 FO
+  18   18 10530 5102 FO
+  18   18 10817 5301 FO
+  18   18 10515 5131 FO
+  18   18 10613 5560 FO
+  18   18 10942 3536 FO
+  18   18 10591 3460 FO
+  18   18 10698 3814 FO
+  18   18 10006 6455 FO
+  18   18 10292 6544 FO
+  18   18 10178 6202 FO
+  18   18 9978 6434 FO
+  18   18 10152 6180 FO
+  18   18 9787 6151 FO
+  18   18 9954 6454 FO
+  18   18 9763 6171 FO
+  18   18 9695 6559 FO
+  18   18 9965 6489 FO
+  18   18 9709 6593 FO
+  18   18 9990 6796 FO
+  18   18 9044 7021 FO
+  18   18 9300 7197 FO
+  18   18 9310 6835 FO
+  18   18 9021 6996 FO
+  18   18 9291 6807 FO
+  18   18 8869 6684 FO
+  18   18 8989 7006 FO
+  18   18 8839 6698 FO
+  18   18 8682 7028 FO
+  18   18 8993 7040 FO
+  18   18 8688 7062 FO
+  18   18 8927 7332 FO
+  18   18 11099 3838 FO
+  18   18 11341 3662 FO
+  18   18 10998 3549 FO
+  18   18 11066 3848 FO
+  18   18 10965 3557 FO
+  18   18 10724 3832 FO
+  18   18 11069 3881 FO
+  18   18 10723 3865 FO
+  18   18 11003 4204 FO
+  18   18 9356 6805 FO
+  18   18 9658 7017 FO
+  18   18 9661 6617 FO
+  18   18 9339 6774 FO
+  18   18 9649 6582 FO
+  18   18 9330 6280 FO
+  18   18 9309 6781 FO
+  18   18 9300 6278 FO
+  18   18 8872 6653 FO
+  18   18 9347 6255 FO
+  18   18 9665 6555 FO
+  18   18 9735 6156 FO
+  18   18 10244 5454 FO
+  18   18 10464 5120 FO
+  18   18 10100 5161 FO
+  18   18 10615 4249 FO
+  18   18 10671 3868 FO
+  18   18 10297 3944 FO
+  18   18 10556 4648 FO
+  18   18 10608 4305 FO
+  18   18 10288 4405 FO
+  18   18 10013 5758 FO
+  18   18 10211 5496 FO
+  18   18 9867 5416 FO
+  18   18 9760 6101 FO
+  18   18 9980 5805 FO
+  18   18 9610 5789 FO
+  18   18 10669 3834 FO
+  18   18 10561 3474 FO
+  18   18 10294 3911 FO
+  18   18 10459 5088 FO
+  18   18 10079 4777 FO
+  18   18 10090 5130 FO
+  18   18 9612 5757 FO
+  18   18 9985 5772 FO
+  18   18 9837 5427 FO
+  18   18 9731 6123 FO
+  18   18 9579 5806 FO
+  18   18 9344 6222 FO
+  18   18 9873 5386 FO
+  18   18 10211 5465 FO
+  18   18 10070 5177 FO
+  18   18 9844 5364 FO
+  18   18 10042 5154 FO
+  18   18 9694 5044 FO
+  18   18 9700 5013 FO
+  18   18 10055 5125 FO
+  18   18 10045 4776 FO
+  18   18 9814 5376 FO
+  18   18 9662 5052 FO
+  18   18 9445 5351 FO
+  18   18 9676 4993 FO
+  18   18 10025 4752 FO
+  18   18 9566 4630 FO
+  18   18 9812 5408 FO
+  18   18 9440 5384 FO
+  18   18 9586 5739 FO
+  18   18 9557 5753 FO
+  18   18 9411 5399 FO
+  18   18 9186 5719 FO
+  18   18 9160 5699 FO
+  18   18 9386 5379 FO
+  18   18 9014 5331 FO
+  18   18 9557 5788 FO
+  18   18 9179 5753 FO
+  18   18 9319 6208 FO
+  18   18 10097 4757 FO
+  18   18 10481 5072 FO
+  18   18 10546 4698 FO
+  18   18 9418 5333 FO
+  18   18 9636 5033 FO
+  18   18 9264 4993 FO
+  18   18 9018 5298 FO
+  18   18 9388 5346 FO
+  18   18 9235 5006 FO
+  18   18 8992 5278 FO
+  18   18 9208 4986 FO
+  18   18 8839 4939 FO
+  18   18 8843 4907 FO
+  18   18 9212 4953 FO
+  18   18 9068 4608 FO
+  18   18 8962 5291 FO
+  18   18 8809 4952 FO
+  18   18 8590 5255 FO
+  18   18 9131 5711 FO
+  18   18 8985 5343 FO
+  18   18 8760 5644 FO
+  18   18 9642 5000 FO
+  18   18 9533 4641 FO
+  18   18 9269 4960 FO
+  18   18 9572 4601 FO
+  18   18 10032 4724 FO
+  18   18 9835 4325 FO
+  18   18 9098 4594 FO
+  18   18 9243 4942 FO
+  18   18 9509 4622 FO
+  18   18 8817 4887 FO
+  18   18 9042 4589 FO
+  18   18 8670 4542 FO
+  18   18 8563 5236 FO
+  18   18 8783 4933 FO
+  18   18 8410 4894 FO
+  18   18 8958 5324 FO
+  18   18 8586 5287 FO
+  18   18 8734 5623 FO
+  18   18 9126 5743 FO
+  18   18 8757 5676 FO
+  18   18 8911 6016 FO
+  18   18 9153 5767 FO
+  18   18 8935 6043 FO
+  18   18 9292 6216 FO
+  18   18 9548 4576 FO
+  18   18 9806 4305 FO
+  18   18 9442 4217 FO
+  18   18 9865 4319 FO
+  18   18 10060 4712 FO
+  18   18 10231 4408 FO
+  18   18 8919 6075 FO
+  18   18 8857 6628 FO
+  18   18 9286 6253 FO
+  18   18 8787 4900 FO
+  18   18 8640 4555 FO
+  18   18 8414 4861 FO
+  18   18 8674 4510 FO
+  18   18 9046 4556 FO
+  18   18 8900 4211 FO
+  18   18 9445 4182 FO
+  18   18 9815 4272 FO
+  18   18 9671 3822 FO
+  18   18 8931 4195 FO
+  18   18 9079 4546 FO
+  18   18 9385 4209 FO
+  18   18 9699 3808 FO
+  18   18 9846 4267 FO
+  18   18 10231 3941 FO
+  18   18 9158 3860 FO
+  18   18 8935 4165 FO
+  18   18 9387 4179 FO
+  18   18 10262 4424 FO
+  18   18 10091 4729 FO
+  18   18 10533 4671 FO
+  18   18 10272 4373 FO
+  18   18 10597 4272 FO
+  18   18 10280 3968 FO
+  18   18 10241 4376 FO
+  18   18 10248 3966 FO
+  18   18 9870 4286 FO
+  18   18 9517 4590 FO
+  18   18 9409 4226 FO
+  18   18 9105 4562 FO
+  18   18 9418 4164 FO
+  18   18 9644 3804 FO
+  18   18 9189 3843 FO
+gs 3601 631 8695 6858 rc
+/c10 { 0.562500 1.000000 0.437500 sr} bdef
+c10
+273 244 -326 119 6938 778 3 MP
+PP
+354 96 -238 252 5573 1580 3 MP
+PP
+288 112 -284 187 6205 1099 3 MP
+PP
+299 -14 -171 295 5062 2197 3 MP
+PP
+210 301 -345 40 7722 634 3 MP
+PP
+300 211 -310 156 6564 917 3 MP
+PP
+363 54 -207 279 5301 1872 3 MP
+PP
+173 323 -347 0 8121 631 3 MP
+PP
+385 110 -267 224 5879 1319 3 MP
+PP
+215 208 -332 78 7322 682 3 MP
+PP
+-10 365 -272 -243 6867 1166 3 MP
+PP
+268 234 -282 121 6881 1199 3 MP
+PP
+-78 362 -270 -236 6849 1581 3 MP
+PP
+331 -166 -14 358 6912 1201 3 MP
+PP
+115 326 -287 -112 6198 1429 3 MP
+PP
+391 48 -174 217 6228 1449 3 MP
+PP
+77 -358 217 265 6254 1432 3 MP
+PP
+-296 -207 292 -93 6243 1400 3 MP
+PP
+-134 339 -172 -321 7921 971 3 MP
+PP
+172 311 -306 18 7923 1006 3 MP
+PP
+367 -43 -135 332 7952 1019 3 MP
+PP
+-291 341 -177 -320 7763 1357 3 MP
+PP
+117 350 -386 -110 5990 1682 3 MP
+PP
+476 140 -273 244 6019 1703 3 MP
+PP
+147 393 -478 -140 6217 2114 3 MP
+PP
+201 -332 201 381 6050 1696 3 MP
+PP
+-117 289 -208 -298 7561 991 3 MP
+PP
+44 345 -330 -9 7560 1024 3 MP
+PP
+-270 150 -43 -340 7242 1365 3 MP
+PP
+-216 -208 268 -149 6915 1143 3 MP
+PP
+155 330 -352 -95 5683 1959 3 MP
+PP
+342 147 -199 237 5710 1983 3 MP
+PP
+49 443 -348 -148 5849 2400 3 MP
+PP
+224 283 -300 14 5194 2512 3 MP
+PP
+353 -97 -75 299 5226 2521 3 MP
+PP
+-48 -437 281 204 5241 2492 3 MP
+PP
+-358 -54 229 -230 5221 2465 3 MP
+PP
+373 24 -295 290 5867 2425 3 MP
+PP
+312 206 -332 167 7245 1421 3 MP
+PP
+106 -286 265 310 5572 2746 3 MP
+PP
+249 212 -346 125 6857 1611 3 MP
+PP
+365 170 -329 250 6238 2140 3 MP
+PP
+172 254 -365 43 8185 1339 3 MP
+PP
+-200 331 -253 -215 6735 1973 3 MP
+PP
+-98 342 -314 -207 7205 1820 3 MP
+PP
+-147 338 -171 -253 7963 1657 3 MP
+PP
+331 -50 -19 375 7276 1428 3 MP
+PP
+211 293 -326 50 7595 1787 3 MP
+PP
+365 -70 -116 346 7626 1797 3 MP
+PP
+-157 337 -213 -295 7456 2151 3 MP
+PP
+73 -360 248 274 7649 1776 3 MP
+PP
+404 -182 -74 366 8003 1692 3 MP
+PP
+-134 -489 331 184 8015 1661 3 MP
+PP
+187 280 -365 70 7879 2105 3 MP
+PP
+-411 134 157 -338 7055 2185 3 MP
+PP
+-59 366 -251 -202 7030 2210 3 MP
+PP
+-459 117 60 -377 6686 2376 3 MP
+PP
+401 152 -312 165 7048 2237 3 MP
+PP
+-25 380 -409 -155 7125 2581 3 MP
+PP
+283 -361 89 319 7082 2226 3 MP
+PP
+320 210 -435 225 7138 2606 3 MP
+PP
+-356 160 25 -374 6656 2803 3 MP
+PP
+-286 366 -191 -286 7672 2478 3 MP
+PP
+428 -69 -180 355 7910 2113 3 MP
+PP
+-397 -260 361 -162 6306 2561 3 MP
+PP
+336 -170 -114 428 7167 2611 3 MP
+PP
+-66 491 -320 -210 7002 3071 3 MP
+PP
+-7 381 -330 -215 6638 2830 3 MP
+PP
+378 -55 -105 284 5976 2784 3 MP
+PP
+7 -376 273 229 5997 2761 3 MP
+PP
+-356 -165 279 -147 5978 2732 3 MP
+PP
+-468 20 152 -350 7612 1737 3 MP
+PP
+306 290 -429 69 8164 2428 3 MP
+PP
+-342 168 65 -488 6588 3349 3 MP
+PP
+314 205 -334 170 7398 2900 3 MP
+PP
+157 -473 252 289 7934 2088 3 MP
+PP
+414 160 -387 281 7017 3098 3 MP
+PP
+252 -340 224 260 7193 2586 3 MP
+PP
+-157 470 -211 -318 8581 2229 3 MP
+PP
+315 193 -361 150 8585 2261 3 MP
+PP
+-124 359 -319 -196 8518 2630 3 MP
+PP
+-106 -372 375 44 6785 3925 3 MP
+PP
+290 -228 26 434 7048 3099 3 MP
+PP
+-347 96 -80 -436 7852 3654 3 MP
+PP
+-255 345 -310 -294 8014 2807 3 MP
+PP
+141 495 -415 -161 7034 3571 3 MP
+PP
+-302 -118 198 -246 7188 3955 3 MP
+PP
+341 -94 -21 376 7431 2905 3 MP
+PP
+237 -339 328 288 7452 2883 3 MP
+PP
+353 91 -233 333 8044 2852 3 MP
+PP
+79 431 -355 -91 8158 3311 3 MP
+PP
+302 119 -284 223 7378 3335 3 MP
+PP
+407 -14 18 352 7412 3334 3 MP
+PP
+0 sg
+-272 -243 6867 1166 2 MP stroke
+273 244 6612 897 2 MP stroke
+-52 357 6967 786 2 MP stroke
+53 -363 6885 1141 2 MP stroke
+-352 -95 5683 1959 2 MP stroke
+354 96 5335 1832 2 MP stroke
+117 350 5604 1572 2 MP stroke
+-116 -348 5689 1928 2 MP stroke
+-287 -112 6198 1429 2 MP stroke
+288 112 5921 1286 2 MP stroke
+4 300 6239 1100 2 MP stroke
+-4 -299 6209 1398 2 MP stroke
+-300 14 5194 2512 2 MP stroke
+299 -14 4891 2492 2 MP stroke
+129 284 5092 2181 2 MP stroke
+-128 -281 5190 2478 2 MP stroke
+-208 -298 7561 991 2 MP stroke
+210 301 7377 674 2 MP stroke
+-134 339 7749 650 2 MP stroke
+135 -341 7587 975 2 MP stroke
+-296 -207 6535 1307 2 MP stroke
+300 211 6254 1073 2 MP stroke
+-10 365 6595 923 2 MP stroke
+10 -367 6554 1284 2 MP stroke
+-358 -54 5450 2235 2 MP stroke
+363 54 5094 2151 2 MP stroke
+155 330 5331 1864 2 MP stroke
+-156 -333 5457 2205 2 MP stroke
+-172 -321 7921 971 2 MP stroke
+173 323 7774 631 2 MP stroke
+-386 -110 5990 1682 2 MP stroke
+385 110 5612 1543 2 MP stroke
+115 326 5911 1317 2 MP stroke
+-118 -334 5997 1653 2 MP stroke
+-216 -208 7183 994 2 MP stroke
+215 208 6990 760 2 MP stroke
+-117 289 7353 693 2 MP stroke
+117 -286 7205 968 2 MP stroke
+-282 121 6881 1199 2 MP stroke
+282 -122 6585 1288 2 MP stroke
+-270 -236 6849 1581 2 MP stroke
+268 234 6599 1320 2 MP stroke
+-14 358 6912 1201 2 MP stroke
+14 -355 6867 1554 2 MP stroke
+77 -358 6471 1697 2 MP stroke
+-78 362 6579 1345 2 MP stroke
+-346 125 6857 1611 2 MP stroke
+348 -126 6501 1707 2 MP stroke
+-332 167 7245 1421 2 MP stroke
+331 -166 6898 1559 2 MP stroke
+313 190 6929 1175 2 MP stroke
+-317 -192 7229 1393 2 MP stroke
+-174 217 6228 1449 2 MP stroke
+172 -214 6026 1643 2 MP stroke
+-402 -49 6452 1745 2 MP stroke
+391 48 6054 1666 2 MP stroke
+217 265 6254 1432 2 MP stroke
+-217 -265 6445 1714 2 MP stroke
+292 -93 6243 1400 2 MP stroke
+-294 93 6548 1339 2 MP stroke
+-306 18 7923 1006 2 MP stroke
+306 -18 7615 989 2 MP stroke
+-177 -320 7763 1357 2 MP stroke
+172 311 7617 1024 2 MP stroke
+-135 332 7952 1019 2 MP stroke
+134 -329 7789 1335 2 MP stroke
+-365 43 8185 1339 2 MP stroke
+367 -43 7817 1351 2 MP stroke
+286 -336 7274 1360 2 MP stroke
+-291 341 7586 1037 2 MP stroke
+-468 20 7764 1387 2 MP stroke
+468 -21 7295 1378 2 MP stroke
+-273 244 6019 1703 2 MP stroke
+269 -240 5721 1922 2 MP stroke
+-478 -140 6217 2114 2 MP stroke
+476 140 5746 1947 2 MP stroke
+201 381 6050 1696 2 MP stroke
+-203 -384 6222 2087 2 MP stroke
+-143 -384 5853 2367 2 MP stroke
+147 393 5739 1974 2 MP stroke
+-329 250 6238 2140 2 MP stroke
+331 -253 5886 2367 2 MP stroke
+-200 331 6482 1758 2 MP stroke
+201 -332 6251 2077 2 MP stroke
+-330 -9 7560 1024 2 MP stroke
+325 9 7236 982 2 MP stroke
+-43 -340 7242 1365 2 MP stroke
+44 345 7230 1015 2 MP stroke
+268 -149 6915 1143 2 MP stroke
+-270 150 7199 1025 2 MP stroke
+-199 237 5710 1983 2 MP stroke
+197 -235 5486 2194 2 MP stroke
+-348 -148 5849 2400 2 MP stroke
+342 147 5511 2220 2 MP stroke
+-48 -437 5522 2696 2 MP stroke
+49 443 5501 2252 2 MP stroke
+-295 290 5867 2425 2 MP stroke
+299 -295 5550 2695 2 MP stroke
+-75 299 5226 2521 2 MP stroke
+76 -297 5118 2809 2 MP stroke
+281 204 5241 2492 2 MP stroke
+-278 -202 5504 2723 2 MP stroke
+229 -230 5221 2465 2 MP stroke
+-233 233 5474 2259 2 MP stroke
+-371 -24 5943 2770 2 MP stroke
+373 24 5572 2715 2 MP stroke
+77 312 5901 2420 2 MP stroke
+-78 -314 5945 2739 2 MP stroke
+-314 -207 7205 1820 2 MP stroke
+312 206 6913 1588 2 MP stroke
+-19 375 7276 1428 2 MP stroke
+20 -373 7225 1794 2 MP stroke
+-105 284 5976 2784 2 MP stroke
+106 -286 5837 3056 2 MP stroke
+-253 -215 6735 1973 2 MP stroke
+249 212 6511 1736 2 MP stroke
+-98 342 6891 1613 2 MP stroke
+97 -337 6760 1948 2 MP stroke
+-356 -165 6257 2585 2 MP stroke
+365 170 5909 2390 2 MP stroke
+36 422 6270 2139 2 MP stroke
+-36 -420 6274 2560 2 MP stroke
+-171 -253 7963 1657 2 MP stroke
+172 254 7820 1382 2 MP stroke
+-197 305 8212 1356 2 MP stroke
+193 -297 7992 1636 2 MP stroke
+-459 117 6746 1999 2 MP stroke
+453 -116 6282 2089 2 MP stroke
+-411 134 7212 1847 2 MP stroke
+412 -135 6793 1955 2 MP stroke
+152 -350 7612 1737 2 MP stroke
+-147 338 7792 1404 2 MP stroke
+-321 86 7970 1690 2 MP stroke
+318 -85 7645 1742 2 MP stroke
+-326 50 7595 1787 2 MP stroke
+331 -50 7257 1803 2 MP stroke
+316 330 7296 1407 2 MP stroke
+-312 -325 7588 1753 2 MP stroke
+-213 -295 7456 2151 2 MP stroke
+211 293 7269 1837 2 MP stroke
+-116 346 7626 1797 2 MP stroke
+115 -343 7480 2130 2 MP stroke
+-365 70 7879 2105 2 MP stroke
+365 -70 7510 2143 2 MP stroke
+248 274 7649 1776 2 MP stroke
+-249 -276 7875 2073 2 MP stroke
+157 -338 7055 2185 2 MP stroke
+-157 337 7243 1856 2 MP stroke
+-372 42 7454 2184 2 MP stroke
+370 -42 7086 2193 2 MP stroke
+-74 366 8003 1692 2 MP stroke
+73 -360 7897 2050 2 MP stroke
+-409 184 8343 1904 2 MP stroke
+404 -182 7929 2058 2 MP stroke
+331 184 8015 1661 2 MP stroke
+-330 -184 8333 1876 2 MP stroke
+-191 -286 7672 2478 2 MP stroke
+187 280 7514 2175 2 MP stroke
+-180 355 7910 2113 2 MP stroke
+178 -350 7701 2455 2 MP stroke
+-251 -202 7030 2210 2 MP stroke
+254 204 6801 1981 2 MP stroke
+60 -377 6686 2376 2 MP stroke
+-59 366 6779 2008 2 MP stroke
+-312 165 7048 2237 2 MP stroke
+310 -164 6720 2374 2 MP stroke
+-397 -260 6667 2399 2 MP stroke
+399 260 6287 2116 2 MP stroke
+-409 -155 7125 2581 2 MP stroke
+401 152 6736 2402 2 MP stroke
+89 319 7082 2226 2 MP stroke
+-89 -317 7137 2554 2 MP stroke
+25 -374 6656 2803 2 MP stroke
+-25 380 6716 2426 2 MP stroke
+-435 225 7138 2606 2 MP stroke
+434 -225 6691 2806 2 MP stroke
+-286 366 7481 2192 2 MP stroke
+283 -361 7171 2545 2 MP stroke
+-320 -210 7002 3071 2 MP stroke
+320 210 6703 2831 2 MP stroke
+-114 428 7167 2611 2 MP stroke
+115 -435 7023 3041 2 MP stroke
+361 -162 6306 2561 2 MP stroke
+-356 160 6681 2429 2 MP stroke
+-330 -215 6638 2830 2 MP stroke
+331 214 6325 2589 2 MP stroke
+-476 80 7669 2506 2 MP stroke
+477 -80 7195 2558 2 MP stroke
+-429 69 8164 2428 2 MP stroke
+428 -69 7730 2468 2 MP stroke
+252 289 7934 2088 2 MP stroke
+-248 -286 8158 2399 2 MP stroke
+-334 170 7398 2900 2 MP stroke
+336 -170 7053 3039 2 MP stroke
+224 260 7193 2586 2 MP stroke
+-222 -258 7389 2869 2 MP stroke
+65 -488 6588 3349 2 MP stroke
+-66 491 6682 2861 2 MP stroke
+-387 281 7017 3098 2 MP stroke
+386 -281 6616 3352 2 MP stroke
+7 -376 6270 2990 2 MP stroke
+-7 381 6308 2615 2 MP stroke
+-342 168 6653 2861 2 MP stroke
+337 -166 6301 2996 2 MP stroke
+273 229 5997 2761 2 MP stroke
+-273 -229 6249 3013 2 MP stroke
+279 -147 5978 2732 2 MP stroke
+-280 147 6277 2614 2 MP stroke
+-310 -294 8014 2807 2 MP stroke
+306 290 7735 2497 2 MP stroke
+-124 359 8199 2434 2 MP stroke
+123 -359 8041 2787 2 MP stroke
+-316 -206 7364 3305 2 MP stroke
+314 205 7064 3070 2 MP stroke
+-21 376 7431 2905 2 MP stroke
+20 -375 7378 3275 2 MP stroke
+-157 470 8370 1911 2 MP stroke
+157 -473 8186 2377 2 MP stroke
+-415 -161 7034 3571 2 MP stroke
+414 160 6630 3379 2 MP stroke
+26 434 7048 3099 2 MP stroke
+-27 -441 7044 3539 2 MP stroke
+-255 345 7704 2513 2 MP stroke
+252 -340 7417 2846 2 MP stroke
+-361 150 8585 2261 2 MP stroke
+368 -152 8213 2381 2 MP stroke
+-319 -196 8518 2630 2 MP stroke
+315 193 8224 2411 2 MP stroke
+104 364 7084 3591 2 MP stroke
+-106 -372 7160 3969 2 MP stroke
+274 -334 6760 3905 2 MP stroke
+-269 328 7054 3597 2 MP stroke
+-284 223 7378 3335 2 MP stroke
+290 -228 7074 3533 2 MP stroke
+79 431 7803 3220 2 MP stroke
+-80 -436 7852 3654 2 MP stroke
+341 -94 7410 3281 2 MP stroke
+-347 96 7772 3218 2 MP stroke
+-425 -338 7837 3672 2 MP stroke
+427 340 7425 3314 2 MP stroke
+-565 51 8017 2832 2 MP stroke
+565 -51 7449 2858 2 MP stroke
+302 119 7094 3558 2 MP stroke
+-302 -118 7386 3709 2 MP stroke
+328 288 7452 2883 2 MP stroke
+-320 -282 7751 3187 2 MP stroke
+-233 333 8044 2852 2 MP stroke
+237 -339 7780 3171 2 MP stroke
+-355 -91 8158 3311 2 MP stroke
+353 91 7811 3185 2 MP stroke
+18 352 7412 3334 2 MP stroke
+-18 -342 7396 3677 2 MP stroke
+-347 0 8121 631 2 MP stroke
+-345 40 7722 634 2 MP stroke
+-332 78 7322 682 2 MP stroke
+-326 119 6938 778 2 MP stroke
+-310 156 6564 917 2 MP stroke
+-284 187 6205 1099 2 MP stroke
+-267 224 5879 1319 2 MP stroke
+-238 252 5573 1580 2 MP stroke
+-207 279 5301 1872 2 MP stroke
+-171 295 5062 2197 2 MP stroke
+174 -323 7947 954 2 MP stroke
+-232 -289 8184 1308 2 MP stroke
+265 310 5572 2746 2 MP stroke
+-134 -489 8346 1845 2 MP stroke
+378 -55 5871 3068 2 MP stroke
+277 320 6311 3029 2 MP stroke
+46 -343 8539 2604 2 MP stroke
+443 -163 8075 2793 2 MP stroke
+141 495 6619 3410 2 MP stroke
+-120 -424 8164 3276 2 MP stroke
+224 283 4894 2526 2 MP stroke
+353 -97 5151 2820 2 MP stroke
+-211 -318 8581 2229 2 MP stroke
+375 44 6785 3925 2 MP stroke
+198 -246 7188 3955 2 MP stroke
+276 -340 7882 3651 2 MP stroke
+407 -14 7430 3686 2 MP stroke
+gr
+
+  18   18 6938  778 PO
+  18   18 6612  897 PO
+  18   18 6885 1141 PO
+  18   18 5573 1580 PO
+  18   18 5335 1832 PO
+  18   18 5689 1928 PO
+  18   18 6205 1099 PO
+  18   18 5921 1286 PO
+  18   18 6209 1398 PO
+  18   18 5062 2197 PO
+  18   18 4891 2492 PO
+  18   18 5190 2478 PO
+  18   18 7722  634 PO
+  18   18 7377  674 PO
+  18   18 7587  975 PO
+  18   18 6564  917 PO
+  18   18 6254 1073 PO
+  18   18 6554 1284 PO
+  18   18 5301 1872 PO
+  18   18 5094 2151 PO
+  18   18 5457 2205 PO
+  18   18 8121  631 PO
+  18   18 7774  631 PO
+  18   18 7947  954 PO
+  18   18 5879 1319 PO
+  18   18 5612 1543 PO
+  18   18 5997 1653 PO
+  18   18 7322  682 PO
+  18   18 6990  760 PO
+  18   18 7205  968 PO
+  18   18 6867 1166 PO
+  18   18 6595  923 PO
+  18   18 6585 1288 PO
+  18   18 6881 1199 PO
+  18   18 6599 1320 PO
+  18   18 6867 1554 PO
+  18   18 6849 1581 PO
+  18   18 6579 1345 PO
+  18   18 6501 1707 PO
+  18   18 6912 1201 PO
+  18   18 6898 1559 PO
+  18   18 7229 1393 PO
+  18   18 6198 1429 PO
+  18   18 5911 1317 PO
+  18   18 6026 1643 PO
+  18   18 6228 1449 PO
+  18   18 6054 1666 PO
+  18   18 6445 1714 PO
+  18   18 6254 1432 PO
+  18   18 6471 1697 PO
+  18   18 6548 1339 PO
+  18   18 6243 1400 PO
+  18   18 6535 1307 PO
+  18   18 6239 1100 PO
+  18   18 7921  971 PO
+  18   18 7749  650 PO
+  18   18 7615  989 PO
+  18   18 7923 1006 PO
+  18   18 7617 1024 PO
+  18   18 7789 1335 PO
+  18   18 7952 1019 PO
+  18   18 7817 1351 PO
+  18   18 8184 1308 PO
+  18   18 7763 1357 PO
+  18   18 7586 1037 PO
+  18   18 7295 1378 PO
+  18   18 5990 1682 PO
+  18   18 5604 1572 PO
+  18   18 5721 1922 PO
+  18   18 6019 1703 PO
+  18   18 5746 1947 PO
+  18   18 6222 2087 PO
+  18   18 6217 2114 PO
+  18   18 5739 1974 PO
+  18   18 5886 2367 PO
+  18   18 6050 1696 PO
+  18   18 6251 2077 PO
+  18   18 6452 1745 PO
+  18   18 7561  991 PO
+  18   18 7353  693 PO
+  18   18 7236  982 PO
+  18   18 7560 1024 PO
+  18   18 7230 1015 PO
+  18   18 7274 1360 PO
+  18   18 7242 1365 PO
+  18   18 7199 1025 PO
+  18   18 6929 1175 PO
+  18   18 6915 1143 PO
+  18   18 7183  994 PO
+  18   18 6967  786 PO
+  18   18 5683 1959 PO
+  18   18 5331 1864 PO
+  18   18 5486 2194 PO
+  18   18 5710 1983 PO
+  18   18 5511 2220 PO
+  18   18 5853 2367 PO
+  18   18 5849 2400 PO
+  18   18 5501 2252 PO
+  18   18 5550 2695 PO
+  18   18 5194 2512 PO
+  18   18 4894 2526 PO
+  18   18 5118 2809 PO
+  18   18 5226 2521 PO
+  18   18 5151 2820 PO
+  18   18 5504 2723 PO
+  18   18 5241 2492 PO
+  18   18 5522 2696 PO
+  18   18 5474 2259 PO
+  18   18 5221 2465 PO
+  18   18 5450 2235 PO
+  18   18 5092 2181 PO
+  18   18 5867 2425 PO
+  18   18 5572 2715 PO
+  18   18 5945 2739 PO
+  18   18 7245 1421 PO
+  18   18 6913 1588 PO
+  18   18 7225 1794 PO
+  18   18 5572 2746 PO
+  18   18 5837 3056 PO
+  18   18 5943 2770 PO
+  18   18 6857 1611 PO
+  18   18 6511 1736 PO
+  18   18 6760 1948 PO
+  18   18 6238 2140 PO
+  18   18 5909 2390 PO
+  18   18 6274 2560 PO
+  18   18 8185 1339 PO
+  18   18 7820 1382 PO
+  18   18 7992 1636 PO
+  18   18 6735 1973 PO
+  18   18 6482 1758 PO
+  18   18 6282 2089 PO
+  18   18 7205 1820 PO
+  18   18 6891 1613 PO
+  18   18 6793 1955 PO
+  18   18 7963 1657 PO
+  18   18 7792 1404 PO
+  18   18 7645 1742 PO
+  18   18 7276 1428 PO
+  18   18 7257 1803 PO
+  18   18 7588 1753 PO
+  18   18 7595 1787 PO
+  18   18 7269 1837 PO
+  18   18 7480 2130 PO
+  18   18 7626 1797 PO
+  18   18 7510 2143 PO
+  18   18 7875 2073 PO
+  18   18 7456 2151 PO
+  18   18 7243 1856 PO
+  18   18 7086 2193 PO
+  18   18 7649 1776 PO
+  18   18 7897 2050 PO
+  18   18 7970 1690 PO
+  18   18 8003 1692 PO
+  18   18 7929 2058 PO
+  18   18 8333 1876 PO
+  18   18 8015 1661 PO
+  18   18 8346 1845 PO
+  18   18 8212 1356 PO
+  18   18 7879 2105 PO
+  18   18 7514 2175 PO
+  18   18 7701 2455 PO
+  18   18 7055 2185 PO
+  18   18 7212 1847 PO
+  18   18 6801 1981 PO
+  18   18 7030 2210 PO
+  18   18 6779 2008 PO
+  18   18 6720 2374 PO
+  18   18 6686 2376 PO
+  18   18 6746 1999 PO
+  18   18 6287 2116 PO
+  18   18 7048 2237 PO
+  18   18 6736 2402 PO
+  18   18 7137 2554 PO
+  18   18 7125 2581 PO
+  18   18 6716 2426 PO
+  18   18 6691 2806 PO
+  18   18 7082 2226 PO
+  18   18 7171 2545 PO
+  18   18 7454 2184 PO
+  18   18 7138 2606 PO
+  18   18 6703 2831 PO
+  18   18 7023 3041 PO
+  18   18 6656 2803 PO
+  18   18 6681 2429 PO
+  18   18 6325 2589 PO
+  18   18 7672 2478 PO
+  18   18 7481 2192 PO
+  18   18 7195 2558 PO
+  18   18 7910 2113 PO
+  18   18 7730 2468 PO
+  18   18 8158 2399 PO
+  18   18 6306 2561 PO
+  18   18 6667 2399 PO
+  18   18 6270 2139 PO
+  18   18 7167 2611 PO
+  18   18 7053 3039 PO
+  18   18 7389 2869 PO
+  18   18 7002 3071 PO
+  18   18 6682 2861 PO
+  18   18 6616 3352 PO
+  18   18 6638 2830 PO
+  18   18 6308 2615 PO
+  18   18 6301 2996 PO
+  18   18 5976 2784 PO
+  18   18 5871 3068 PO
+  18   18 6249 3013 PO
+  18   18 5997 2761 PO
+  18   18 6270 2990 PO
+  18   18 6277 2614 PO
+  18   18 5978 2732 PO
+  18   18 6257 2585 PO
+  18   18 5901 2420 PO
+  18   18 7612 1737 PO
+  18   18 7764 1387 PO
+  18   18 7296 1407 PO
+  18   18 8164 2428 PO
+  18   18 7735 2497 PO
+  18   18 8041 2787 PO
+  18   18 6588 3349 PO
+  18   18 6653 2861 PO
+  18   18 6311 3029 PO
+  18   18 7398 2900 PO
+  18   18 7064 3070 PO
+  18   18 7378 3275 PO
+  18   18 7934 2088 PO
+  18   18 8186 2377 PO
+  18   18 8343 1904 PO
+  18   18 7017 3098 PO
+  18   18 6630 3379 PO
+  18   18 7044 3539 PO
+  18   18 7193 2586 PO
+  18   18 7417 2846 PO
+  18   18 7669 2506 PO
+  18   18 8581 2229 PO
+  18   18 8370 1911 PO
+  18   18 8213 2381 PO
+  18   18 8585 2261 PO
+  18   18 8224 2411 PO
+  18   18 8539 2604 PO
+  18   18 8518 2630 PO
+  18   18 8199 2434 PO
+  18   18 8075 2793 PO
+  18   18 6785 3925 PO
+  18   18 7160 3969 PO
+  18   18 7054 3597 PO
+  18   18 7048 3099 PO
+  18   18 7074 3533 PO
+  18   18 7364 3305 PO
+  18   18 7852 3654 PO
+  18   18 7772 3218 PO
+  18   18 7425 3314 PO
+  18   18 8014 2807 PO
+  18   18 7704 2513 PO
+  18   18 7449 2858 PO
+  18   18 7034 3571 PO
+  18   18 6619 3410 PO
+  18   18 6760 3905 PO
+  18   18 7188 3955 PO
+  18   18 7386 3709 PO
+  18   18 7084 3591 PO
+  18   18 7431 2905 PO
+  18   18 7410 3281 PO
+  18   18 7751 3187 PO
+  18   18 7452 2883 PO
+  18   18 7780 3171 PO
+  18   18 8017 2832 PO
+  18   18 8044 2852 PO
+  18   18 7811 3185 PO
+  18   18 8164 3276 PO
+  18   18 8158 3311 PO
+  18   18 7803 3220 PO
+  18   18 7882 3651 PO
+  18   18 7378 3335 PO
+  18   18 7094 3558 PO
+  18   18 7396 3677 PO
+  18   18 7412 3334 PO
+  18   18 7430 3686 PO
+  18   18 7837 3672 PO
+  18   18 6938  778 FO
+  18   18 6612  897 FO
+  18   18 6885 1141 FO
+  18   18 5573 1580 FO
+  18   18 5335 1832 FO
+  18   18 5689 1928 FO
+  18   18 6205 1099 FO
+  18   18 5921 1286 FO
+  18   18 6209 1398 FO
+  18   18 5062 2197 FO
+  18   18 4891 2492 FO
+  18   18 5190 2478 FO
+  18   18 7722  634 FO
+  18   18 7377  674 FO
+  18   18 7587  975 FO
+  18   18 6564  917 FO
+  18   18 6254 1073 FO
+  18   18 6554 1284 FO
+  18   18 5301 1872 FO
+  18   18 5094 2151 FO
+  18   18 5457 2205 FO
+  18   18 8121  631 FO
+  18   18 7774  631 FO
+  18   18 7947  954 FO
+  18   18 5879 1319 FO
+  18   18 5612 1543 FO
+  18   18 5997 1653 FO
+  18   18 7322  682 FO
+  18   18 6990  760 FO
+  18   18 7205  968 FO
+  18   18 6867 1166 FO
+  18   18 6595  923 FO
+  18   18 6585 1288 FO
+  18   18 6881 1199 FO
+  18   18 6599 1320 FO
+  18   18 6867 1554 FO
+  18   18 6849 1581 FO
+  18   18 6579 1345 FO
+  18   18 6501 1707 FO
+  18   18 6912 1201 FO
+  18   18 6898 1559 FO
+  18   18 7229 1393 FO
+  18   18 6198 1429 FO
+  18   18 5911 1317 FO
+  18   18 6026 1643 FO
+  18   18 6228 1449 FO
+  18   18 6054 1666 FO
+  18   18 6445 1714 FO
+  18   18 6254 1432 FO
+  18   18 6471 1697 FO
+  18   18 6548 1339 FO
+  18   18 6243 1400 FO
+  18   18 6535 1307 FO
+  18   18 6239 1100 FO
+  18   18 7921  971 FO
+  18   18 7749  650 FO
+  18   18 7615  989 FO
+  18   18 7923 1006 FO
+  18   18 7617 1024 FO
+  18   18 7789 1335 FO
+  18   18 7952 1019 FO
+  18   18 7817 1351 FO
+  18   18 8184 1308 FO
+  18   18 7763 1357 FO
+  18   18 7586 1037 FO
+  18   18 7295 1378 FO
+  18   18 5990 1682 FO
+  18   18 5604 1572 FO
+  18   18 5721 1922 FO
+  18   18 6019 1703 FO
+  18   18 5746 1947 FO
+  18   18 6222 2087 FO
+  18   18 6217 2114 FO
+  18   18 5739 1974 FO
+  18   18 5886 2367 FO
+  18   18 6050 1696 FO
+  18   18 6251 2077 FO
+  18   18 6452 1745 FO
+  18   18 7561  991 FO
+  18   18 7353  693 FO
+  18   18 7236  982 FO
+  18   18 7560 1024 FO
+  18   18 7230 1015 FO
+  18   18 7274 1360 FO
+  18   18 7242 1365 FO
+  18   18 7199 1025 FO
+  18   18 6929 1175 FO
+  18   18 6915 1143 FO
+  18   18 7183  994 FO
+  18   18 6967  786 FO
+  18   18 5683 1959 FO
+  18   18 5331 1864 FO
+  18   18 5486 2194 FO
+  18   18 5710 1983 FO
+  18   18 5511 2220 FO
+  18   18 5853 2367 FO
+  18   18 5849 2400 FO
+  18   18 5501 2252 FO
+  18   18 5550 2695 FO
+  18   18 5194 2512 FO
+  18   18 4894 2526 FO
+  18   18 5118 2809 FO
+  18   18 5226 2521 FO
+  18   18 5151 2820 FO
+  18   18 5504 2723 FO
+  18   18 5241 2492 FO
+  18   18 5522 2696 FO
+  18   18 5474 2259 FO
+  18   18 5221 2465 FO
+  18   18 5450 2235 FO
+  18   18 5092 2181 FO
+  18   18 5867 2425 FO
+  18   18 5572 2715 FO
+  18   18 5945 2739 FO
+  18   18 7245 1421 FO
+  18   18 6913 1588 FO
+  18   18 7225 1794 FO
+  18   18 5572 2746 FO
+  18   18 5837 3056 FO
+  18   18 5943 2770 FO
+  18   18 6857 1611 FO
+  18   18 6511 1736 FO
+  18   18 6760 1948 FO
+  18   18 6238 2140 FO
+  18   18 5909 2390 FO
+  18   18 6274 2560 FO
+  18   18 8185 1339 FO
+  18   18 7820 1382 FO
+  18   18 7992 1636 FO
+  18   18 6735 1973 FO
+  18   18 6482 1758 FO
+  18   18 6282 2089 FO
+  18   18 7205 1820 FO
+  18   18 6891 1613 FO
+  18   18 6793 1955 FO
+  18   18 7963 1657 FO
+  18   18 7792 1404 FO
+  18   18 7645 1742 FO
+  18   18 7276 1428 FO
+  18   18 7257 1803 FO
+  18   18 7588 1753 FO
+  18   18 7595 1787 FO
+  18   18 7269 1837 FO
+  18   18 7480 2130 FO
+  18   18 7626 1797 FO
+  18   18 7510 2143 FO
+  18   18 7875 2073 FO
+  18   18 7456 2151 FO
+  18   18 7243 1856 FO
+  18   18 7086 2193 FO
+  18   18 7649 1776 FO
+  18   18 7897 2050 FO
+  18   18 7970 1690 FO
+  18   18 8003 1692 FO
+  18   18 7929 2058 FO
+  18   18 8333 1876 FO
+  18   18 8015 1661 FO
+  18   18 8346 1845 FO
+  18   18 8212 1356 FO
+  18   18 7879 2105 FO
+  18   18 7514 2175 FO
+  18   18 7701 2455 FO
+  18   18 7055 2185 FO
+  18   18 7212 1847 FO
+  18   18 6801 1981 FO
+  18   18 7030 2210 FO
+  18   18 6779 2008 FO
+  18   18 6720 2374 FO
+  18   18 6686 2376 FO
+  18   18 6746 1999 FO
+  18   18 6287 2116 FO
+  18   18 7048 2237 FO
+  18   18 6736 2402 FO
+  18   18 7137 2554 FO
+  18   18 7125 2581 FO
+  18   18 6716 2426 FO
+  18   18 6691 2806 FO
+  18   18 7082 2226 FO
+  18   18 7171 2545 FO
+  18   18 7454 2184 FO
+  18   18 7138 2606 FO
+  18   18 6703 2831 FO
+  18   18 7023 3041 FO
+  18   18 6656 2803 FO
+  18   18 6681 2429 FO
+  18   18 6325 2589 FO
+  18   18 7672 2478 FO
+  18   18 7481 2192 FO
+  18   18 7195 2558 FO
+  18   18 7910 2113 FO
+  18   18 7730 2468 FO
+  18   18 8158 2399 FO
+  18   18 6306 2561 FO
+  18   18 6667 2399 FO
+  18   18 6270 2139 FO
+  18   18 7167 2611 FO
+  18   18 7053 3039 FO
+  18   18 7389 2869 FO
+  18   18 7002 3071 FO
+  18   18 6682 2861 FO
+  18   18 6616 3352 FO
+  18   18 6638 2830 FO
+  18   18 6308 2615 FO
+  18   18 6301 2996 FO
+  18   18 5976 2784 FO
+  18   18 5871 3068 FO
+  18   18 6249 3013 FO
+  18   18 5997 2761 FO
+  18   18 6270 2990 FO
+  18   18 6277 2614 FO
+  18   18 5978 2732 FO
+  18   18 6257 2585 FO
+  18   18 5901 2420 FO
+  18   18 7612 1737 FO
+  18   18 7764 1387 FO
+  18   18 7296 1407 FO
+  18   18 8164 2428 FO
+  18   18 7735 2497 FO
+  18   18 8041 2787 FO
+  18   18 6588 3349 FO
+  18   18 6653 2861 FO
+  18   18 6311 3029 FO
+  18   18 7398 2900 FO
+  18   18 7064 3070 FO
+  18   18 7378 3275 FO
+  18   18 7934 2088 FO
+  18   18 8186 2377 FO
+  18   18 8343 1904 FO
+  18   18 7017 3098 FO
+  18   18 6630 3379 FO
+  18   18 7044 3539 FO
+  18   18 7193 2586 FO
+  18   18 7417 2846 FO
+  18   18 7669 2506 FO
+  18   18 8581 2229 FO
+  18   18 8370 1911 FO
+  18   18 8213 2381 FO
+  18   18 8585 2261 FO
+  18   18 8224 2411 FO
+  18   18 8539 2604 FO
+  18   18 8518 2630 FO
+  18   18 8199 2434 FO
+  18   18 8075 2793 FO
+  18   18 6785 3925 FO
+  18   18 7160 3969 FO
+  18   18 7054 3597 FO
+  18   18 7048 3099 FO
+  18   18 7074 3533 FO
+  18   18 7364 3305 FO
+  18   18 7852 3654 FO
+  18   18 7772 3218 FO
+  18   18 7425 3314 FO
+  18   18 8014 2807 FO
+  18   18 7704 2513 FO
+  18   18 7449 2858 FO
+  18   18 7034 3571 FO
+  18   18 6619 3410 FO
+  18   18 6760 3905 FO
+  18   18 7188 3955 FO
+  18   18 7386 3709 FO
+  18   18 7084 3591 FO
+  18   18 7431 2905 FO
+  18   18 7410 3281 FO
+  18   18 7751 3187 FO
+  18   18 7452 2883 FO
+  18   18 7780 3171 FO
+  18   18 8017 2832 FO
+  18   18 8044 2852 FO
+  18   18 7811 3185 FO
+  18   18 8164 3276 FO
+  18   18 8158 3311 FO
+  18   18 7803 3220 FO
+  18   18 7882 3651 FO
+  18   18 7378 3335 FO
+  18   18 7094 3558 FO
+  18   18 7396 3677 FO
+  18   18 7412 3334 FO
+  18   18 7430 3686 FO
+  18   18 7837 3672 FO
+gs 3601 631 8695 6858 rc
+/c11 { 1.000000 0.437500 0.000000 sr} bdef
+c11
+-174 -324 347 1 7774 7487 3 MP
+PP
+-32 -297 305 153 6256 7048 3 MP
+PP
+74 -359 266 223 5611 6574 3 MP
+PP
+-243 -274 338 -80 8569 7435 3 MP
+PP
+-95 -354 338 80 6988 7355 3 MP
+PP
+116 -348 238 252 5335 6286 3 MP
+PP
+-210 -301 345 -40 8173 7484 3 MP
+PP
+-53 -363 326 119 6612 7221 3 MP
+PP
+33 -366 290 191 5918 6828 3 MP
+PP
+-149 -271 339 40 7379 7446 3 MP
+PP
+93 -352 209 299 8332 7123 3 MP
+PP
+-207 -289 302 -53 8326 7088 3 MP
+PP
+-329 38 96 -345 8297 7076 3 MP
+PP
+159 -335 208 292 8445 6724 3 MP
+PP
+242 -273 52 361 6916 6970 3 MP
+PP
+-55 -351 294 88 6926 6936 3 MP
+PP
+-360 -85 241 -266 6903 6914 3 MP
+PP
+292 -227 55 355 7196 6663 3 MP
+PP
+172 -320 150 273 7598 7198 3 MP
+PP
+-323 -300 327 -47 7588 7165 3 MP
+PP
+306 -18 -75 323 8043 6789 3 MP
+PP
+173 321 -307 18 8280 7129 3 MP
+PP
+321 -173 -74 357 5982 6441 3 MP
+PP
+138 -398 251 186 6003 6411 3 MP
+PP
+-383 -163 391 -213 5991 6385 3 MP
+PP
+444 -75 -141 404 6425 6201 3 MP
+PP
+339 -135 -115 346 5719 6197 3 MP
+PP
+8 -362 220 208 5740 6170 3 MP
+PP
+275 -145 -32 361 6271 6658 3 MP
+PP
+187 -292 247 219 6294 6633 3 MP
+PP
+303 58 -185 289 6756 6576 3 MP
+PP
+31 299 -301 -58 6864 6956 3 MP
+PP
+190 -232 93 349 7261 7075 3 MP
+PP
+4 -343 285 118 7271 7042 3 MP
+PP
+76 -329 325 302 7611 6799 3 MP
+PP
+-196 -287 399 -27 7606 6769 3 MP
+PP
+-150 -416 350 128 7202 6631 3 MP
+PP
+-222 -301 369 -43 8441 6692 3 MP
+PP
+-107 -359 362 85 6790 6532 3 MP
+PP
+-297 50 104 -332 8030 6720 3 MP
+PP
+-254 -524 388 165 6003 5977 3 MP
+PP
+61 -543 225 306 8607 6319 3 MP
+PP
+197 -283 105 354 7075 6250 3 MP
+PP
+-373 44 148 -344 8411 6679 3 MP
+PP
+-566 -51 261 -281 6758 6517 3 MP
+PP
+-223 299 -148 -336 8704 5636 3 MP
+PP
+153 342 -372 -38 8701 5669 3 MP
+PP
+-372 -45 223 -299 8307 5580 3 MP
+PP
+373 37 -218 304 8727 5688 3 MP
+PP
+-153 -342 372 45 8162 5204 3 MP
+PP
+-371 -43 219 -297 8135 5184 3 MP
+PP
+-147 -344 371 44 7987 4811 3 MP
+PP
+-221 303 -152 -342 8106 5198 3 MP
+PP
+-220 304 -153 -342 8453 5986 3 MP
+PP
+-224 301 -149 -344 8277 5593 3 MP
+PP
+-373 -43 224 -301 7961 4792 3 MP
+PP
+148 339 -372 -39 8102 5230 3 MP
+PP
+-223 300 -148 -339 7848 5544 3 MP
+PP
+152 342 -372 -39 7845 5576 3 MP
+PP
+-373 -43 223 -300 7451 5485 3 MP
+PP
+-220 303 -153 -343 7596 5893 3 MP
+PP
+373 43 -220 304 7871 5595 3 MP
+PP
+-224 301 -149 -343 7421 5498 3 MP
+PP
+167 455 -380 -44 8025 5977 3 MP
+PP
+226 -306 148 345 8240 4497 3 MP
+PP
+-372 -39 220 -303 7707 5140 3 MP
+PP
+-152 -342 372 44 7305 5109 3 MP
+PP
+149 341 -372 -39 7245 5135 3 MP
+PP
+-181 273 -147 -337 6992 5447 3 MP
+PP
+-370 -42 182 -275 6636 5364 3 MP
+PP
+111 366 -331 -64 6990 5481 3 MP
+PP
+-452 169 -116 -380 6739 5795 3 MP
+PP
+-256 496 -194 -328 6610 5388 3 MP
+PP
+204 -316 150 417 7429 6334 3 MP
+PP
+-165 -452 357 102 7429 6298 3 MP
+PP
+-105 335 -223 -297 8386 6697 3 MP
+PP
+-93 -352 302 -51 7835 6402 3 MP
+PP
+281 -315 93 354 8073 5980 3 MP
+PP
+-183 -382 304 71 7075 6214 3 MP
+PP
+-374 -43 123 -313 7046 6193 3 MP
+PP
+-152 -346 373 43 6794 5804 3 MP
+PP
+-91 -268 370 -43 8190 6347 3 MP
+PP
+277 -229 91 266 8504 6022 3 MP
+PP
+-148 -345 372 44 7816 4415 3 MP
+PP
+-149 -344 373 40 7558 4765 3 MP
+PP
+151 346 -372 -43 7417 5531 3 MP
+PP
+-373 -43 221 -304 8053 5929 3 MP
+PP
+186 389 -376 -40 7595 5926 3 MP
+PP
+224 -301 148 344 8070 4102 3 MP
+PP
+374 39 -224 301 8468 4164 3 MP
+PP
+-312 316 -258 -366 7021 6210 3 MP
+PP
+-575 -213 316 -320 6419 6141 3 MP
+PP
+0 sg
+173 321 7973 7147 2 MP stroke
+-174 -324 8121 7488 2 MP stroke
+172 -320 7748 7471 2 MP stroke
+-173 323 7947 7164 2 MP stroke
+31 299 6563 6898 2 MP stroke
+-32 -297 6561 7201 2 MP stroke
+275 -145 6239 7019 2 MP stroke
+-273 144 6529 6904 2 MP stroke
+-74 357 5982 6441 2 MP stroke
+74 -359 5877 6797 2 MP stroke
+339 -135 5604 6543 2 MP stroke
+-340 136 5951 6438 2 MP stroke
+93 -352 8541 7422 2 MP stroke
+-95 354 8664 7081 2 MP stroke
+93 349 7261 7075 2 MP stroke
+-95 -354 7326 7435 2 MP stroke
+242 -273 6968 7331 2 MP stroke
+-243 274 7231 7081 2 MP stroke
+-115 346 5719 6197 2 MP stroke
+116 -348 5573 6538 2 MP stroke
+209 299 8332 7123 2 MP stroke
+-210 -301 8518 7444 2 MP stroke
+134 -339 8146 7468 2 MP stroke
+-135 341 8308 7143 2 MP stroke
+52 361 6916 6970 2 MP stroke
+-53 -363 6938 7340 2 MP stroke
+270 -241 6594 7197 2 MP stroke
+-273 244 6885 6977 2 MP stroke
+-32 361 6271 6658 2 MP stroke
+33 -366 6208 7019 2 MP stroke
+321 -173 5908 6798 2 MP stroke
+-323 175 6241 6653 2 MP stroke
+150 273 7598 7198 2 MP stroke
+-149 -271 7718 7486 2 MP stroke
+190 -232 7354 7424 2 MP stroke
+-190 231 7569 7215 2 MP stroke
+302 -53 8326 7088 2 MP stroke
+-302 53 8634 7070 2 MP stroke
+208 292 8445 6724 2 MP stroke
+-207 -289 8628 7035 2 MP stroke
+96 -345 8297 7076 2 MP stroke
+-95 342 8421 6746 2 MP stroke
+328 -38 8058 6735 2 MP stroke
+-329 38 8393 6731 2 MP stroke
+-231 -305 8274 7094 2 MP stroke
+233 307 8064 6769 2 MP stroke
+369 -43 8441 6692 2 MP stroke
+-367 43 8812 6681 2 MP stroke
+294 88 6926 6936 2 MP stroke
+-294 -88 7210 7058 2 MP stroke
+55 355 7196 6663 2 MP stroke
+-55 -351 7220 7024 2 MP stroke
+241 -266 6903 6914 2 MP stroke
+-239 263 7165 6673 2 MP stroke
+362 85 6790 6532 2 MP stroke
+-360 -85 7144 6648 2 MP stroke
+-118 -347 6874 6923 2 MP stroke
+119 351 6784 6563 2 MP stroke
+-289 225 7560 6817 2 MP stroke
+292 -227 7251 7018 2 MP stroke
+350 128 7202 6631 2 MP stroke
+-347 -128 7543 6791 2 MP stroke
+327 -47 7588 7165 2 MP stroke
+-322 47 7920 7151 2 MP stroke
+325 302 7611 6799 2 MP stroke
+-323 -300 7915 7118 2 MP stroke
+4 -343 7556 7160 2 MP stroke
+-4 347 7592 6818 2 MP stroke
+76 -329 7936 7101 2 MP stroke
+-75 323 8043 6789 2 MP stroke
+-307 18 8280 7129 2 MP stroke
+306 -18 7968 7112 2 MP stroke
+251 186 6003 6411 2 MP stroke
+-247 -184 6229 6625 2 MP stroke
+-141 404 6425 6201 2 MP stroke
+138 -398 6254 6597 2 MP stroke
+391 -213 5991 6385 2 MP stroke
+-389 212 6392 6199 2 MP stroke
+388 165 6003 5977 2 MP stroke
+-383 -163 6382 6172 2 MP stroke
+8 -362 5960 6378 2 MP stroke
+-8 376 5999 6009 2 MP stroke
+-434 73 6728 6560 2 MP stroke
+444 -75 6284 6605 2 MP stroke
+305 332 6453 6185 2 MP stroke
+-303 -329 6728 6530 2 MP stroke
+220 208 5740 6170 2 MP stroke
+-224 -211 5943 6408 2 MP stroke
+247 219 6294 6633 2 MP stroke
+-243 -216 6514 6874 2 MP stroke
+-185 289 6756 6576 2 MP stroke
+187 -292 6541 6852 2 MP stroke
+-301 -58 6864 6956 2 MP stroke
+303 58 6571 6865 2 MP stroke
+285 118 7271 7042 2 MP stroke
+-283 -117 7544 7192 2 MP stroke
+399 -27 7606 6769 2 MP stroke
+-401 27 8012 6772 2 MP stroke
+193 282 7837 6438 2 MP stroke
+-196 -287 8005 6742 2 MP stroke
+204 -316 7579 6751 2 MP stroke
+-203 314 7809 6455 2 MP stroke
+150 417 7429 6334 2 MP stroke
+-150 -416 7552 6759 2 MP stroke
+197 -283 7180 6604 2 MP stroke
+-200 288 7402 6343 2 MP stroke
+225 306 8607 6319 2 MP stroke
+-222 -301 8810 6649 2 MP stroke
+148 -344 8411 6679 2 MP stroke
+-147 344 8588 6348 2 MP stroke
+105 354 7075 6250 2 MP stroke
+-107 -359 7152 6617 2 MP stroke
+261 -281 6758 6517 2 MP stroke
+-255 274 7045 6258 2 MP stroke
+-105 335 8163 6400 2 MP stroke
+104 -332 8030 6720 2 MP stroke
+302 -51 7835 6402 2 MP stroke
+-297 50 8134 6388 2 MP stroke
+259 533 6160 5608 2 MP stroke
+-254 -524 6391 6142 2 MP stroke
+277 -229 8595 6288 2 MP stroke
+-286 237 8893 6082 2 MP stroke
+304 71 7075 6214 2 MP stroke
+-302 -71 7377 6321 2 MP stroke
+370 -43 8190 6347 2 MP stroke
+-373 44 8559 6335 2 MP stroke
+-223 -297 8386 6697 2 MP stroke
+225 300 8186 6379 2 MP stroke
+570 50 6451 6160 2 MP stroke
+-566 -51 7019 6236 2 MP stroke
+223 -299 8307 5580 2 MP stroke
+-223 299 8556 5300 2 MP stroke
+-372 -38 8701 5669 2 MP stroke
+371 37 8333 5599 2 MP stroke
+-153 -342 8453 5986 2 MP stroke
+153 342 8329 5631 2 MP stroke
+-218 304 8727 5688 2 MP stroke
+219 -304 8482 5973 2 MP stroke
+372 45 8162 5204 2 MP stroke
+-372 -45 8530 5281 2 MP stroke
+-149 -344 8277 5593 2 MP stroke
+149 344 8158 5236 2 MP stroke
+-368 -37 8872 6059 2 MP stroke
+373 37 8509 5992 2 MP stroke
+219 -297 8135 5184 2 MP stroke
+-219 297 8381 4907 2 MP stroke
+371 44 7987 4811 2 MP stroke
+-371 -43 8354 4887 2 MP stroke
+-152 -342 8106 5198 2 MP stroke
+152 340 7983 4844 2 MP stroke
+148 345 8240 4497 2 MP stroke
+-147 -344 8358 4855 2 MP stroke
+224 -301 7961 4792 2 MP stroke
+-224 300 8211 4511 2 MP stroke
+220 -303 7707 5140 2 MP stroke
+-221 303 7954 4856 2 MP stroke
+-372 -39 8102 5230 2 MP stroke
+373 39 7733 5159 2 MP stroke
+221 -304 8053 5929 2 MP stroke
+-220 304 8300 5644 2 MP stroke
+-374 -39 8447 6019 2 MP stroke
+373 38 8080 5948 2 MP stroke
+224 -300 7878 5530 2 MP stroke
+-224 301 8128 5249 2 MP stroke
+-373 -43 8274 5625 2 MP stroke
+373 43 7904 5550 2 MP stroke
+372 44 7816 4415 2 MP stroke
+-373 -43 8185 4491 2 MP stroke
+-149 -344 7931 4805 2 MP stroke
+149 344 7812 4448 2 MP stroke
+-148 -339 7848 5544 2 MP stroke
+148 339 7730 5191 2 MP stroke
+223 -300 7451 5485 2 MP stroke
+-223 300 7700 5205 2 MP stroke
+-372 -39 7845 5576 2 MP stroke
+371 39 7477 5505 2 MP stroke
+-153 -343 7596 5893 2 MP stroke
+152 342 7473 5537 2 MP stroke
+-220 304 7871 5595 2 MP stroke
+220 -303 7625 5879 2 MP stroke
+372 44 7305 5109 2 MP stroke
+-373 -43 7674 5185 2 MP stroke
+-149 -343 7421 5498 2 MP stroke
+150 343 7301 5142 2 MP stroke
+221 -303 7196 5834 2 MP stroke
+-220 303 7443 5550 2 MP stroke
+-376 -40 7595 5926 2 MP stroke
+373 40 7223 5853 2 MP stroke
+-380 -44 8025 5977 2 MP stroke
+373 43 7651 5899 2 MP stroke
+152 347 7901 5582 2 MP stroke
+-153 -347 8024 5942 2 MP stroke
+223 -302 7022 5437 2 MP stroke
+-224 301 7272 5155 2 MP stroke
+-372 -43 7417 5531 2 MP stroke
+373 42 7048 5456 2 MP stroke
+-165 -452 7786 6400 2 MP stroke
+167 455 7645 5933 2 MP stroke
+-209 403 8044 5999 2 MP stroke
+213 -411 7812 6388 2 MP stroke
+374 39 8244 4465 2 MP stroke
+-374 -39 8614 4536 2 MP stroke
+373 40 7558 4765 2 MP stroke
+-372 -39 7927 4837 2 MP stroke
+-152 -342 7677 5153 2 MP stroke
+152 342 7555 4798 2 MP stroke
+-147 -337 6992 5447 2 MP stroke
+149 341 6873 5096 2 MP stroke
+182 -275 6636 5364 2 MP stroke
+-181 273 6845 5110 2 MP stroke
+-331 -64 6990 5481 2 MP stroke
+328 64 6664 5383 2 MP stroke
+-194 -328 6610 5388 2 MP stroke
+188 317 6448 5047 2 MP stroke
+-116 -380 6739 5795 2 MP stroke
+111 366 6659 5417 2 MP stroke
+-221 303 7015 5501 2 MP stroke
+220 -302 6770 5783 2 MP stroke
+450 -168 6160 5556 2 MP stroke
+-452 169 6623 5415 2 MP stroke
+-575 -213 6735 5821 2 MP stroke
+568 211 6171 5584 2 MP stroke
+357 102 7429 6298 2 MP stroke
+-354 -101 7783 6435 2 MP stroke
+190 -349 7405 6275 2 MP stroke
+-192 350 7621 5948 2 MP stroke
+93 354 8073 5980 2 MP stroke
+-93 -352 8137 6351 2 MP stroke
+-279 311 8469 6036 2 MP stroke
+281 -315 8166 6334 2 MP stroke
+186 389 7219 5886 2 MP stroke
+-183 -382 7379 6285 2 MP stroke
+123 -313 7046 6193 2 MP stroke
+-121 311 7196 5903 2 MP stroke
+373 43 6794 5804 2 MP stroke
+-374 -43 7169 5880 2 MP stroke
+-258 -366 7021 6210 2 MP stroke
+251 356 6795 5837 2 MP stroke
+151 346 7045 5488 2 MP stroke
+-152 -346 7167 5847 2 MP stroke
+91 266 8504 6022 2 MP stroke
+-91 -268 8560 6304 2 MP stroke
+148 344 8070 4102 2 MP stroke
+-148 -345 8188 4459 2 MP stroke
+-224 301 8468 4164 2 MP stroke
+224 -301 8218 4446 2 MP stroke
+316 -320 6419 6141 2 MP stroke
+-312 316 6763 5844 2 MP stroke
+238 252 5335 6286 2 MP stroke
+266 223 5611 6574 2 MP stroke
+290 191 5918 6828 2 MP stroke
+305 153 6256 7048 2 MP stroke
+326 119 6612 7221 2 MP stroke
+338 80 6988 7355 2 MP stroke
+339 40 7379 7446 2 MP stroke
+347 0 7774 7487 2 MP stroke
+345 -40 8173 7484 2 MP stroke
+338 -80 8569 7435 2 MP stroke
+-243 -274 8907 7355 2 MP stroke
+-354 96 5689 6190 2 MP stroke
+159 -335 8653 7016 2 MP stroke
+-228 154 5968 6016 2 MP stroke
+61 -543 8832 6625 2 MP stroke
+-155 -341 8882 6029 2 MP stroke
+226 -306 8388 4842 2 MP stroke
+-220 298 7525 4811 2 MP stroke
+-370 -42 6818 5089 2 MP stroke
+-256 496 6416 5060 2 MP stroke
+-224 301 8040 4114 2 MP stroke
+-372 -43 8442 4145 2 MP stroke
+-150 -340 8618 4504 2 MP stroke
+-134 359 6137 5618 2 MP stroke
+-148 -336 8704 5636 2 MP stroke
+-153 -342 8534 5249 2 MP stroke
+-372 -39 7245 5135 2 MP stroke
+-224 304 7782 4461 2 MP stroke
+gr
+
+  18   18 7774 7487 PO
+  18   18 8121 7488 PO
+  18   18 7947 7164 PO
+  18   18 6256 7048 PO
+  18   18 6561 7201 PO
+  18   18 6529 6904 PO
+  18   18 5611 6574 PO
+  18   18 5877 6797 PO
+  18   18 5951 6438 PO
+  18   18 8569 7435 PO
+  18   18 8907 7355 PO
+  18   18 8664 7081 PO
+  18   18 6988 7355 PO
+  18   18 7326 7435 PO
+  18   18 7231 7081 PO
+  18   18 5335 6286 PO
+  18   18 5573 6538 PO
+  18   18 5689 6190 PO
+  18   18 8173 7484 PO
+  18   18 8518 7444 PO
+  18   18 8308 7143 PO
+  18   18 6612 7221 PO
+  18   18 6938 7340 PO
+  18   18 6885 6977 PO
+  18   18 5918 6828 PO
+  18   18 6208 7019 PO
+  18   18 6241 6653 PO
+  18   18 7379 7446 PO
+  18   18 7718 7486 PO
+  18   18 7569 7215 PO
+  18   18 8332 7123 PO
+  18   18 8541 7422 PO
+  18   18 8634 7070 PO
+  18   18 8326 7088 PO
+  18   18 8628 7035 PO
+  18   18 8421 6746 PO
+  18   18 8297 7076 PO
+  18   18 8393 6731 PO
+  18   18 8064 6769 PO
+  18   18 8445 6724 PO
+  18   18 8653 7016 PO
+  18   18 8812 6681 PO
+  18   18 6916 6970 PO
+  18   18 6968 7331 PO
+  18   18 7210 7058 PO
+  18   18 6926 6936 PO
+  18   18 7220 7024 PO
+  18   18 7165 6673 PO
+  18   18 6903 6914 PO
+  18   18 7144 6648 PO
+  18   18 6784 6563 PO
+  18   18 7196 6663 PO
+  18   18 7251 7018 PO
+  18   18 7543 6791 PO
+  18   18 7598 7198 PO
+  18   18 7748 7471 PO
+  18   18 7920 7151 PO
+  18   18 7588 7165 PO
+  18   18 7915 7118 PO
+  18   18 7592 6818 PO
+  18   18 8043 6789 PO
+  18   18 7968 7112 PO
+  18   18 8274 7094 PO
+  18   18 8280 7129 PO
+  18   18 7973 7147 PO
+  18   18 8146 7468 PO
+  18   18 5982 6441 PO
+  18   18 5908 6798 PO
+  18   18 6229 6625 PO
+  18   18 6003 6411 PO
+  18   18 6254 6597 PO
+  18   18 6392 6199 PO
+  18   18 5991 6385 PO
+  18   18 6382 6172 PO
+  18   18 5999 6009 PO
+  18   18 6425 6201 PO
+  18   18 6284 6605 PO
+  18   18 6728 6530 PO
+  18   18 5719 6197 PO
+  18   18 5604 6543 PO
+  18   18 5943 6408 PO
+  18   18 5740 6170 PO
+  18   18 5960 6378 PO
+  18   18 5968 6016 PO
+  18   18 6271 6658 PO
+  18   18 6239 7019 PO
+  18   18 6514 6874 PO
+  18   18 6294 6633 PO
+  18   18 6541 6852 PO
+  18   18 6728 6560 PO
+  18   18 6756 6576 PO
+  18   18 6571 6865 PO
+  18   18 6874 6923 PO
+  18   18 6864 6956 PO
+  18   18 6563 6898 PO
+  18   18 6594 7197 PO
+  18   18 7261 7075 PO
+  18   18 7354 7424 PO
+  18   18 7544 7192 PO
+  18   18 7271 7042 PO
+  18   18 7556 7160 PO
+  18   18 7560 6817 PO
+  18   18 7611 6799 PO
+  18   18 7936 7101 PO
+  18   18 8012 6772 PO
+  18   18 7606 6769 PO
+  18   18 8005 6742 PO
+  18   18 7809 6455 PO
+  18   18 7202 6631 PO
+  18   18 7552 6759 PO
+  18   18 7402 6343 PO
+  18   18 8441 6692 PO
+  18   18 8810 6649 PO
+  18   18 8588 6348 PO
+  18   18 6790 6532 PO
+  18   18 7152 6617 PO
+  18   18 7045 6258 PO
+  18   18 8030 6720 PO
+  18   18 8134 6388 PO
+  18   18 7837 6438 PO
+  18   18 6003 5977 PO
+  18   18 6391 6142 PO
+  18   18 6137 5618 PO
+  18   18 8607 6319 PO
+  18   18 8832 6625 PO
+  18   18 8893 6082 PO
+  18   18 7075 6250 PO
+  18   18 7180 6604 PO
+  18   18 7377 6321 PO
+  18   18 8411 6679 PO
+  18   18 8559 6335 PO
+  18   18 8186 6379 PO
+  18   18 6758 6517 PO
+  18   18 7019 6236 PO
+  18   18 6453 6185 PO
+  18   18 8704 5636 PO
+  18   18 8556 5300 PO
+  18   18 8333 5599 PO
+  18   18 8701 5669 PO
+  18   18 8329 5631 PO
+  18   18 8482 5973 PO
+  18   18 8307 5580 PO
+  18   18 8530 5281 PO
+  18   18 8158 5236 PO
+  18   18 8727 5688 PO
+  18   18 8509 5992 PO
+  18   18 8882 6029 PO
+  18   18 8162 5204 PO
+  18   18 8534 5249 PO
+  18   18 8381 4907 PO
+  18   18 8135 5184 PO
+  18   18 8354 4887 PO
+  18   18 7983 4844 PO
+  18   18 7987 4811 PO
+  18   18 8358 4855 PO
+  18   18 8211 4511 PO
+  18   18 8106 5198 PO
+  18   18 7954 4856 PO
+  18   18 7733 5159 PO
+  18   18 8453 5986 PO
+  18   18 8300 5644 PO
+  18   18 8080 5948 PO
+  18   18 8277 5593 PO
+  18   18 8128 5249 PO
+  18   18 7904 5550 PO
+  18   18 7961 4792 PO
+  18   18 8185 4491 PO
+  18   18 7812 4448 PO
+  18   18 8102 5230 PO
+  18   18 7730 5191 PO
+  18   18 7878 5530 PO
+  18   18 7848 5544 PO
+  18   18 7700 5205 PO
+  18   18 7477 5505 PO
+  18   18 7845 5576 PO
+  18   18 7473 5537 PO
+  18   18 7625 5879 PO
+  18   18 7451 5485 PO
+  18   18 7674 5185 PO
+  18   18 7301 5142 PO
+  18   18 7596 5893 PO
+  18   18 7443 5550 PO
+  18   18 7223 5853 PO
+  18   18 7871 5595 PO
+  18   18 7651 5899 PO
+  18   18 8024 5942 PO
+  18   18 7421 5498 PO
+  18   18 7272 5155 PO
+  18   18 7048 5456 PO
+  18   18 8025 5977 PO
+  18   18 7645 5933 PO
+  18   18 7812 6388 PO
+  18   18 8240 4497 PO
+  18   18 8388 4842 PO
+  18   18 8614 4536 PO
+  18   18 7707 5140 PO
+  18   18 7927 4837 PO
+  18   18 7555 4798 PO
+  18   18 7305 5109 PO
+  18   18 7677 5153 PO
+  18   18 7525 4811 PO
+  18   18 7245 5135 PO
+  18   18 6873 5096 PO
+  18   18 7022 5437 PO
+  18   18 6992 5447 PO
+  18   18 6845 5110 PO
+  18   18 6664 5383 PO
+  18   18 6636 5364 PO
+  18   18 6818 5089 PO
+  18   18 6448 5047 PO
+  18   18 6990 5481 PO
+  18   18 6659 5417 PO
+  18   18 6770 5783 PO
+  18   18 6739 5795 PO
+  18   18 6623 5415 PO
+  18   18 6171 5584 PO
+  18   18 6610 5388 PO
+  18   18 6416 5060 PO
+  18   18 6160 5556 PO
+  18   18 7429 6334 PO
+  18   18 7579 6751 PO
+  18   18 7783 6435 PO
+  18   18 7429 6298 PO
+  18   18 7786 6400 PO
+  18   18 7621 5948 PO
+  18   18 8386 6697 PO
+  18   18 8163 6400 PO
+  18   18 8058 6735 PO
+  18   18 7835 6402 PO
+  18   18 8137 6351 PO
+  18   18 8044 5999 PO
+  18   18 8073 5980 PO
+  18   18 8166 6334 PO
+  18   18 8447 6019 PO
+  18   18 7075 6214 PO
+  18   18 7379 6285 PO
+  18   18 7196 5903 PO
+  18   18 7046 6193 PO
+  18   18 7169 5880 PO
+  18   18 6795 5837 PO
+  18   18 6794 5804 PO
+  18   18 7167 5847 PO
+  18   18 7015 5501 PO
+  18   18 8190 6347 PO
+  18   18 8560 6304 PO
+  18   18 8469 6036 PO
+  18   18 8504 6022 PO
+  18   18 8595 6288 PO
+  18   18 8872 6059 PO
+  18   18 7816 4415 PO
+  18   18 8188 4459 PO
+  18   18 8040 4114 PO
+  18   18 7558 4765 PO
+  18   18 7931 4805 PO
+  18   18 7782 4461 PO
+  18   18 7417 5531 PO
+  18   18 7045 5488 PO
+  18   18 7196 5834 PO
+  18   18 8053 5929 PO
+  18   18 8274 5625 PO
+  18   18 7901 5582 PO
+  18   18 7595 5926 PO
+  18   18 7219 5886 PO
+  18   18 7405 6275 PO
+  18   18 8070 4102 PO
+  18   18 8218 4446 PO
+  18   18 8442 4145 PO
+  18   18 8468 4164 PO
+  18   18 8244 4465 PO
+  18   18 8618 4504 PO
+  18   18 7021 6210 PO
+  18   18 6763 5844 PO
+  18   18 6451 6160 PO
+  18   18 6419 6141 PO
+  18   18 6735 5821 PO
+  18   18 6160 5608 PO
+  18   18 7774 7487 FO
+  18   18 8121 7488 FO
+  18   18 7947 7164 FO
+  18   18 6256 7048 FO
+  18   18 6561 7201 FO
+  18   18 6529 6904 FO
+  18   18 5611 6574 FO
+  18   18 5877 6797 FO
+  18   18 5951 6438 FO
+  18   18 8569 7435 FO
+  18   18 8907 7355 FO
+  18   18 8664 7081 FO
+  18   18 6988 7355 FO
+  18   18 7326 7435 FO
+  18   18 7231 7081 FO
+  18   18 5335 6286 FO
+  18   18 5573 6538 FO
+  18   18 5689 6190 FO
+  18   18 8173 7484 FO
+  18   18 8518 7444 FO
+  18   18 8308 7143 FO
+  18   18 6612 7221 FO
+  18   18 6938 7340 FO
+  18   18 6885 6977 FO
+  18   18 5918 6828 FO
+  18   18 6208 7019 FO
+  18   18 6241 6653 FO
+  18   18 7379 7446 FO
+  18   18 7718 7486 FO
+  18   18 7569 7215 FO
+  18   18 8332 7123 FO
+  18   18 8541 7422 FO
+  18   18 8634 7070 FO
+  18   18 8326 7088 FO
+  18   18 8628 7035 FO
+  18   18 8421 6746 FO
+  18   18 8297 7076 FO
+  18   18 8393 6731 FO
+  18   18 8064 6769 FO
+  18   18 8445 6724 FO
+  18   18 8653 7016 FO
+  18   18 8812 6681 FO
+  18   18 6916 6970 FO
+  18   18 6968 7331 FO
+  18   18 7210 7058 FO
+  18   18 6926 6936 FO
+  18   18 7220 7024 FO
+  18   18 7165 6673 FO
+  18   18 6903 6914 FO
+  18   18 7144 6648 FO
+  18   18 6784 6563 FO
+  18   18 7196 6663 FO
+  18   18 7251 7018 FO
+  18   18 7543 6791 FO
+  18   18 7598 7198 FO
+  18   18 7748 7471 FO
+  18   18 7920 7151 FO
+  18   18 7588 7165 FO
+  18   18 7915 7118 FO
+  18   18 7592 6818 FO
+  18   18 8043 6789 FO
+  18   18 7968 7112 FO
+  18   18 8274 7094 FO
+  18   18 8280 7129 FO
+  18   18 7973 7147 FO
+  18   18 8146 7468 FO
+  18   18 5982 6441 FO
+  18   18 5908 6798 FO
+  18   18 6229 6625 FO
+  18   18 6003 6411 FO
+  18   18 6254 6597 FO
+  18   18 6392 6199 FO
+  18   18 5991 6385 FO
+  18   18 6382 6172 FO
+  18   18 5999 6009 FO
+  18   18 6425 6201 FO
+  18   18 6284 6605 FO
+  18   18 6728 6530 FO
+  18   18 5719 6197 FO
+  18   18 5604 6543 FO
+  18   18 5943 6408 FO
+  18   18 5740 6170 FO
+  18   18 5960 6378 FO
+  18   18 5968 6016 FO
+  18   18 6271 6658 FO
+  18   18 6239 7019 FO
+  18   18 6514 6874 FO
+  18   18 6294 6633 FO
+  18   18 6541 6852 FO
+  18   18 6728 6560 FO
+  18   18 6756 6576 FO
+  18   18 6571 6865 FO
+  18   18 6874 6923 FO
+  18   18 6864 6956 FO
+  18   18 6563 6898 FO
+  18   18 6594 7197 FO
+  18   18 7261 7075 FO
+  18   18 7354 7424 FO
+  18   18 7544 7192 FO
+  18   18 7271 7042 FO
+  18   18 7556 7160 FO
+  18   18 7560 6817 FO
+  18   18 7611 6799 FO
+  18   18 7936 7101 FO
+  18   18 8012 6772 FO
+  18   18 7606 6769 FO
+  18   18 8005 6742 FO
+  18   18 7809 6455 FO
+  18   18 7202 6631 FO
+  18   18 7552 6759 FO
+  18   18 7402 6343 FO
+  18   18 8441 6692 FO
+  18   18 8810 6649 FO
+  18   18 8588 6348 FO
+  18   18 6790 6532 FO
+  18   18 7152 6617 FO
+  18   18 7045 6258 FO
+  18   18 8030 6720 FO
+  18   18 8134 6388 FO
+  18   18 7837 6438 FO
+  18   18 6003 5977 FO
+  18   18 6391 6142 FO
+  18   18 6137 5618 FO
+  18   18 8607 6319 FO
+  18   18 8832 6625 FO
+  18   18 8893 6082 FO
+  18   18 7075 6250 FO
+  18   18 7180 6604 FO
+  18   18 7377 6321 FO
+  18   18 8411 6679 FO
+  18   18 8559 6335 FO
+  18   18 8186 6379 FO
+  18   18 6758 6517 FO
+  18   18 7019 6236 FO
+  18   18 6453 6185 FO
+  18   18 8704 5636 FO
+  18   18 8556 5300 FO
+  18   18 8333 5599 FO
+  18   18 8701 5669 FO
+  18   18 8329 5631 FO
+  18   18 8482 5973 FO
+  18   18 8307 5580 FO
+  18   18 8530 5281 FO
+  18   18 8158 5236 FO
+  18   18 8727 5688 FO
+  18   18 8509 5992 FO
+  18   18 8882 6029 FO
+  18   18 8162 5204 FO
+  18   18 8534 5249 FO
+  18   18 8381 4907 FO
+  18   18 8135 5184 FO
+  18   18 8354 4887 FO
+  18   18 7983 4844 FO
+  18   18 7987 4811 FO
+  18   18 8358 4855 FO
+  18   18 8211 4511 FO
+  18   18 8106 5198 FO
+  18   18 7954 4856 FO
+  18   18 7733 5159 FO
+  18   18 8453 5986 FO
+  18   18 8300 5644 FO
+  18   18 8080 5948 FO
+  18   18 8277 5593 FO
+  18   18 8128 5249 FO
+  18   18 7904 5550 FO
+  18   18 7961 4792 FO
+  18   18 8185 4491 FO
+  18   18 7812 4448 FO
+  18   18 8102 5230 FO
+  18   18 7730 5191 FO
+  18   18 7878 5530 FO
+  18   18 7848 5544 FO
+  18   18 7700 5205 FO
+  18   18 7477 5505 FO
+  18   18 7845 5576 FO
+  18   18 7473 5537 FO
+  18   18 7625 5879 FO
+  18   18 7451 5485 FO
+  18   18 7674 5185 FO
+  18   18 7301 5142 FO
+  18   18 7596 5893 FO
+  18   18 7443 5550 FO
+  18   18 7223 5853 FO
+  18   18 7871 5595 FO
+  18   18 7651 5899 FO
+  18   18 8024 5942 FO
+  18   18 7421 5498 FO
+  18   18 7272 5155 FO
+  18   18 7048 5456 FO
+  18   18 8025 5977 FO
+  18   18 7645 5933 FO
+  18   18 7812 6388 FO
+  18   18 8240 4497 FO
+  18   18 8388 4842 FO
+  18   18 8614 4536 FO
+  18   18 7707 5140 FO
+  18   18 7927 4837 FO
+  18   18 7555 4798 FO
+  18   18 7305 5109 FO
+  18   18 7677 5153 FO
+  18   18 7525 4811 FO
+  18   18 7245 5135 FO
+  18   18 6873 5096 FO
+  18   18 7022 5437 FO
+  18   18 6992 5447 FO
+  18   18 6845 5110 FO
+  18   18 6664 5383 FO
+  18   18 6636 5364 FO
+  18   18 6818 5089 FO
+  18   18 6448 5047 FO
+  18   18 6990 5481 FO
+  18   18 6659 5417 FO
+  18   18 6770 5783 FO
+  18   18 6739 5795 FO
+  18   18 6623 5415 FO
+  18   18 6171 5584 FO
+  18   18 6610 5388 FO
+  18   18 6416 5060 FO
+  18   18 6160 5556 FO
+  18   18 7429 6334 FO
+  18   18 7579 6751 FO
+  18   18 7783 6435 FO
+  18   18 7429 6298 FO
+  18   18 7786 6400 FO
+  18   18 7621 5948 FO
+  18   18 8386 6697 FO
+  18   18 8163 6400 FO
+  18   18 8058 6735 FO
+  18   18 7835 6402 FO
+  18   18 8137 6351 FO
+  18   18 8044 5999 FO
+  18   18 8073 5980 FO
+  18   18 8166 6334 FO
+  18   18 8447 6019 FO
+  18   18 7075 6214 FO
+  18   18 7379 6285 FO
+  18   18 7196 5903 FO
+  18   18 7046 6193 FO
+  18   18 7169 5880 FO
+  18   18 6795 5837 FO
+  18   18 6794 5804 FO
+  18   18 7167 5847 FO
+  18   18 7015 5501 FO
+  18   18 8190 6347 FO
+  18   18 8560 6304 FO
+  18   18 8469 6036 FO
+  18   18 8504 6022 FO
+  18   18 8595 6288 FO
+  18   18 8872 6059 FO
+  18   18 7816 4415 FO
+  18   18 8188 4459 FO
+  18   18 8040 4114 FO
+  18   18 7558 4765 FO
+  18   18 7931 4805 FO
+  18   18 7782 4461 FO
+  18   18 7417 5531 FO
+  18   18 7045 5488 FO
+  18   18 7196 5834 FO
+  18   18 8053 5929 FO
+  18   18 8274 5625 FO
+  18   18 7901 5582 FO
+  18   18 7595 5926 FO
+  18   18 7219 5886 FO
+  18   18 7405 6275 FO
+  18   18 8070 4102 FO
+  18   18 8218 4446 FO
+  18   18 8442 4145 FO
+  18   18 8468 4164 FO
+  18   18 8244 4465 FO
+  18   18 8618 4504 FO
+  18   18 7021 6210 FO
+  18   18 6763 5844 FO
+  18   18 6451 6160 FO
+  18   18 6419 6141 FO
+  18   18 6735 5821 FO
+  18   18 6160 5608 FO
+gs 3601 631 8695 6858 rc
+/c12 { 0.500000 0.000000 0.000000 sr} bdef
+c12
+-33 365 -289 -191 9976 1290 3 MP
+PP
+-193 311 -173 -300 11003 2495 3 MP
+PP
+131 269 -338 -40 8514 672 3 MP
+PP
+-259 258 -99 -332 11281 3242 3 MP
+PP
+53 363 -326 -119 9283 897 3 MP
+PP
+-74 295 -234 -248 10559 1829 3 MP
+PP
+32 297 -304 -153 9638 1070 3 MP
+PP
+-155 331 -207 -278 10801 2151 3 MP
+PP
+-167 247 -134 -312 11164 2856 3 MP
+PP
+95 354 -338 -80 8907 763 3 MP
+PP
+-74 359 -266 -223 10284 1544 3 MP
+PP
+-361 54 192 -310 10609 2492 3 MP
+PP
+-184 304 -168 -256 10579 2512 3 MP
+PP
+-447 -55 189 -313 10194 2549 3 MP
+PP
+280 292 -356 49 10586 2543 3 MP
+PP
+-310 48 154 -328 10411 2190 3 MP
+PP
+-283 231 -158 -286 10381 2208 3 MP
+PP
+-265 -164 280 -229 9920 2129 3 MP
+PP
+74 -296 261 162 9957 1708 3 MP
+PP
+-242 273 -52 -361 8979 1148 3 MP
+PP
+55 350 -293 -87 8968 1182 3 MP
+PP
+-389 221 -57 -361 8698 1457 3 MP
+PP
+360 84 -241 266 8992 1204 3 MP
+PP
+-208 231 -93 -350 8633 1043 3 MP
+PP
+-76 338 -307 -121 8621 1075 3 MP
+PP
+-304 48 75 -334 8206 1286 3 MP
+PP
+-131 -269 302 -49 7975 966 3 MP
+PP
+-356 -73 286 -226 10984 3497 3 MP
+PP
+-276 223 -70 -298 10949 3505 3 MP
+PP
+-324 -230 283 -228 10579 3406 3 MP
+PP
+-321 173 75 -356 9912 1676 3 MP
+PP
+-125 313 -246 -183 9888 1703 3 MP
+PP
+-437 74 127 -319 9481 1830 3 MP
+PP
+365 268 -381 133 9904 1730 3 MP
+PP
+-361 11 168 -249 10833 2774 3 MP
+PP
+-74 332 -192 -236 10807 2794 3 MP
+PP
+315 224 -268 97 10822 2826 3 MP
+PP
+257 -256 47 321 10855 2824 3 MP
+PP
+-275 145 33 -361 9623 1460 3 MP
+PP
+-187 292 -247 -219 9601 1485 3 MP
+PP
+-302 -58 185 -288 9139 1541 3 MP
+PP
+-32 -298 301 58 9031 1162 3 MP
+PP
+-121 367 -257 -366 10168 2562 3 MP
+PP
+-151 347 -283 -295 10487 2904 3 MP
+PP
+194 399 -363 -85 9110 1588 3 MP
+PP
+-446 95 121 -369 9758 2551 3 MP
+PP
+-376 1 150 -344 10022 2940 3 MP
+PP
+-315 355 -199 -409 8914 1918 3 MP
+PP
+488 419 -446 52 10506 2935 3 MP
+PP
+481 -70 -170 316 9142 1603 3 MP
+PP
+-452 -142 316 -356 8374 1843 3 MP
+PP
+211 318 -508 -54 8907 1946 3 MP
+PP
+317 -188 -46 339 8619 2263 3 MP
+PP
+326 184 -321 190 8907 2441 3 MP
+PP
+17 -412 275 152 8635 2231 3 MP
+PP
+4 374 -326 -183 8896 2843 3 MP
+PP
+322 -191 5 374 8940 2440 3 MP
+PP
+334 248 -326 193 8914 2872 3 MP
+PP
+86 -308 327 183 8960 2415 3 MP
+PP
+-449 165 -3 -384 8538 3038 3 MP
+PP
+338 146 -320 191 9283 2650 3 MP
+PP
+337 -293 8 441 8944 2870 3 MP
+PP
+226 -298 149 339 8499 4151 3 MP
+PP
+-149 -344 372 44 8074 4069 3 MP
+PP
+-372 -43 224 -301 8047 4050 3 MP
+PP
+224 -301 149 344 8327 3756 3 MP
+PP
+-101 -382 376 44 7903 3672 3 MP
+PP
+376 40 -224 300 8726 3819 3 MP
+PP
+220 -302 152 341 8756 3805 3 MP
+PP
+-195 -429 379 39 8754 3771 3 MP
+PP
+223 -299 100 377 8208 3324 3 MP
+PP
+-1 -280 317 77 8223 3293 3 MP
+PP
+324 -39 1 280 8576 3092 3 MP
+PP
+148 345 -329 39 8912 3366 3 MP
+PP
+372 44 -224 300 8555 3423 3 MP
+PP
+396 -382 18 344 9318 2636 3 MP
+PP
+-406 -296 423 -127 8941 2389 3 MP
+PP
+407 -37 -86 309 9410 2297 3 MP
+PP
+327 124 -336 291 9304 3045 3 MP
+PP
+192 422 -324 -122 9287 3494 3 MP
+PP
+452 -38 -132 302 9318 3512 3 MP
+PP
+324 -192 -9 413 9335 3043 3 MP
+PP
+78 -619 326 229 9346 3006 3 MP
+PP
+321 265 -327 194 9666 3295 3 MP
+PP
+-77 613 -232 -352 10005 2970 3 MP
+PP
+325 205 -303 256 10013 3007 3 MP
+PP
+467 -55 23 474 10044 3006 3 MP
+PP
+-5 458 -326 -205 10021 3501 3 MP
+PP
+191 388 -461 54 10538 3458 3 MP
+PP
+-451 -218 329 -211 8195 3273 3 MP
+PP
+81 -366 406 295 8979 1946 3 MP
+PP
+446 -94 -80 363 9502 1885 3 MP
+PP
+527 132 -336 256 10045 3525 3 MP
+PP
+0 sg
+33 -361 9623 1460 2 MP stroke
+-33 365 9687 1099 2 MP stroke
+-321 173 9987 1320 2 MP stroke
+322 -174 9654 1464 2 MP stroke
+192 -310 10609 2492 2 MP stroke
+-193 311 10830 2195 2 MP stroke
+-361 11 11001 2525 2 MP stroke
+366 -11 10637 2506 2 MP stroke
+-131 -269 8277 917 2 MP stroke
+131 269 8176 632 2 MP stroke
+-208 231 8540 693 2 MP stroke
+207 -229 8307 901 2 MP stroke
+257 -256 10902 3145 2 MP stroke
+-259 258 11182 2910 2 MP stroke
+-356 -73 11270 3271 2 MP stroke
+358 74 10923 3168 2 MP stroke
+-52 -361 8979 1148 2 MP stroke
+53 363 8957 778 2 MP stroke
+-269 240 9300 922 2 MP stroke
+273 -244 9010 1141 2 MP stroke
+74 -296 10218 1870 2 MP stroke
+-74 295 10325 1581 2 MP stroke
+-310 48 10565 1862 2 MP stroke
+308 -47 10251 1876 2 MP stroke
+-32 -298 9332 1220 2 MP stroke
+32 297 9334 917 2 MP stroke
+-275 145 9656 1099 2 MP stroke
+272 -144 9366 1214 2 MP stroke
+154 -328 10411 2190 2 MP stroke
+-155 331 10594 1873 2 MP stroke
+-361 54 10801 2182 2 MP stroke
+362 -53 10439 2204 2 MP stroke
+168 -249 10833 2774 2 MP stroke
+-167 247 11030 2544 2 MP stroke
+-304 -65 11159 2889 2 MP stroke
+301 65 10863 2791 2 MP stroke
+-93 -350 8633 1043 2 MP stroke
+95 354 8569 683 2 MP stroke
+-242 273 8927 787 2 MP stroke
+243 -274 8664 1037 2 MP stroke
+75 -356 9912 1676 2 MP stroke
+-74 359 10018 1321 2 MP stroke
+-335 134 10292 1574 2 MP stroke
+340 -136 9944 1680 2 MP stroke
+-168 -256 10579 2512 2 MP stroke
+169 256 10440 2236 2 MP stroke
+189 -313 10194 2549 2 MP stroke
+-184 304 10411 2256 2 MP stroke
+-356 49 10586 2543 2 MP stroke
+352 -48 10227 2560 2 MP stroke
+441 55 9940 2153 2 MP stroke
+-447 -55 10383 2236 2 MP stroke
+-257 -366 10168 2562 2 MP stroke
+258 368 9936 2181 2 MP stroke
+-283 -295 10487 2904 2 MP stroke
+280 292 10230 2592 2 MP stroke
+-74 332 10615 2558 2 MP stroke
+76 -341 10510 2884 2 MP stroke
+-158 -286 10381 2208 2 MP stroke
+156 280 10255 1910 2 MP stroke
+280 -229 9920 2129 2 MP stroke
+-283 231 10223 1922 2 MP stroke
+261 162 9957 1708 2 MP stroke
+-265 -164 10200 1900 2 MP stroke
+16 -401 9888 2131 2 MP stroke
+-15 393 9935 1736 2 MP stroke
+-293 -87 8968 1182 2 MP stroke
+294 88 8685 1060 2 MP stroke
+-57 -361 8698 1457 2 MP stroke
+55 350 8675 1095 2 MP stroke
+-241 266 8992 1204 2 MP stroke
+238 -263 8730 1445 2 MP stroke
+383 -217 8238 1292 2 MP stroke
+-389 221 8641 1096 2 MP stroke
+-452 -142 8690 1487 2 MP stroke
+446 140 8252 1317 2 MP stroke
+-363 -85 9110 1588 2 MP stroke
+360 84 8751 1470 2 MP stroke
+117 346 9022 1195 2 MP stroke
+-119 -350 9111 1554 2 MP stroke
+-307 -121 8621 1075 2 MP stroke
+301 119 8332 924 2 MP stroke
+75 -334 8206 1286 2 MP stroke
+-76 338 8314 954 2 MP stroke
+302 -49 7975 966 2 MP stroke
+-304 48 8281 952 2 MP stroke
+-70 -298 10949 3505 2 MP stroke
+70 299 10914 3198 2 MP stroke
+283 -228 10579 3406 2 MP stroke
+-276 223 10879 3207 2 MP stroke
+315 224 10554 2923 2 MP stroke
+-324 -230 10862 3178 2 MP stroke
+-42 -471 10548 3406 2 MP stroke
+41 458 10538 2948 2 MP stroke
+-246 -183 9888 1703 2 MP stroke
+246 183 9666 1493 2 MP stroke
+127 -319 9481 1830 2 MP stroke
+-125 313 9642 1520 2 MP stroke
+-381 133 9904 1730 2 MP stroke
+371 -130 9517 1833 2 MP stroke
+434 -73 9167 1558 2 MP stroke
+-437 74 9608 1511 2 MP stroke
+-311 -246 9453 1849 2 MP stroke
+310 245 9171 1585 2 MP stroke
+-366 -269 9868 2154 2 MP stroke
+365 268 9523 1863 2 MP stroke
+-192 -236 10807 2794 2 MP stroke
+193 238 10640 2536 2 MP stroke
+-268 97 10822 2826 2 MP stroke
+266 -96 10541 2890 2 MP stroke
+47 321 10855 2824 2 MP stroke
+-47 -321 10869 3147 2 MP stroke
+-247 -219 9601 1485 2 MP stroke
+242 216 9381 1244 2 MP stroke
+185 -288 9139 1541 2 MP stroke
+-187 292 9354 1266 2 MP stroke
+301 58 9031 1162 2 MP stroke
+-302 -58 9324 1253 2 MP stroke
+121 -369 9758 2551 2 MP stroke
+-121 367 9911 2196 2 MP stroke
+-376 1 10172 2596 2 MP stroke
+378 -1 9790 2563 2 MP stroke
+150 -344 10022 2940 2 MP stroke
+-151 347 10204 2609 2 MP stroke
+-446 52 10506 2935 2 MP stroke
+434 -52 10053 2956 2 MP stroke
+-199 -409 8914 1918 2 MP stroke
+194 399 8747 1503 2 MP stroke
+-170 316 9142 1603 2 MP stroke
+169 -314 8941 1902 2 MP stroke
+446 -94 9422 2248 2 MP stroke
+-446 95 9879 2182 2 MP stroke
+-321 -272 9731 2569 2 MP stroke
+325 274 9433 2277 2 MP stroke
+-232 -352 10005 2970 2 MP stroke
+226 343 9796 2597 2 MP stroke
+316 -356 8374 1843 2 MP stroke
+-315 355 8715 1509 2 MP stroke
+-508 -54 8907 1946 2 MP stroke
+514 54 8400 1864 2 MP stroke
+-490 -419 10534 3425 2 MP stroke
+488 419 10060 2987 2 MP stroke
+-487 71 9466 1875 2 MP stroke
+481 -70 8972 1919 2 MP stroke
+-292 260 8927 1971 2 MP stroke
+297 -264 8610 2210 2 MP stroke
+-321 190 8907 2441 2 MP stroke
+317 -188 8573 2602 2 MP stroke
+275 152 8635 2231 2 MP stroke
+-271 -151 8890 2414 2 MP stroke
+-326 -183 8896 2843 2 MP stroke
+326 184 8586 2631 2 MP stroke
+5 374 8940 2440 2 MP stroke
+-5 -374 8912 2815 2 MP stroke
+-17 423 8958 1966 2 MP stroke
+17 -412 8910 2383 2 MP stroke
+-3 -384 8538 3038 2 MP stroke
+4 374 8570 2660 2 MP stroke
+-326 193 8914 2872 2 MP stroke
+322 -191 8574 3034 2 MP stroke
+-320 191 9283 2650 2 MP stroke
+322 -191 8945 2814 2 MP stroke
+327 183 8960 2415 2 MP stroke
+-327 -183 9267 2623 2 MP stroke
+-325 -241 8901 3333 2 MP stroke
+334 248 8588 3065 2 MP stroke
+8 441 8944 2870 2 MP stroke
+-8 -441 8922 3313 2 MP stroke
+-86 309 9410 2297 2 MP stroke
+86 -308 9287 2598 2 MP stroke
+423 -127 8941 2389 2 MP stroke
+-413 125 9373 2290 2 MP stroke
+-451 -218 8524 3062 2 MP stroke
+452 219 8086 2819 2 MP stroke
+-345 -148 9289 3018 2 MP stroke
+338 146 8963 2841 2 MP stroke
+18 344 9318 2636 2 MP stroke
+-18 -337 9301 2987 2 MP stroke
+-336 291 9304 3045 2 MP stroke
+337 -293 8952 3311 2 MP stroke
+376 40 8502 4119 2 MP stroke
+-375 -41 8874 4192 2 MP stroke
+149 344 8327 3756 2 MP stroke
+-149 -344 8446 4113 2 MP stroke
+224 -301 8047 4050 2 MP stroke
+-223 300 8297 3769 2 MP stroke
+376 44 7903 3672 2 MP stroke
+-372 -43 8271 3749 2 MP stroke
+-224 300 8726 3819 2 MP stroke
+224 -301 8476 4100 2 MP stroke
+372 44 8331 3723 2 MP stroke
+-373 -43 8700 3799 2 MP stroke
+100 377 8208 3324 2 MP stroke
+-101 -382 8279 3716 2 MP stroke
+152 341 8756 3805 2 MP stroke
+-152 -340 8878 4159 2 MP stroke
+379 39 8754 3771 2 MP stroke
+-372 -39 9128 3844 2 MP stroke
+192 422 8963 3372 2 MP stroke
+-195 -429 9133 3810 2 MP stroke
+181 -384 8731 3750 2 MP stroke
+-184 390 8938 3381 2 MP stroke
+-224 300 8555 3423 2 MP stroke
+223 -299 8308 3701 2 MP stroke
+317 77 8223 3293 2 MP stroke
+-323 -78 8531 3402 2 MP stroke
+1 280 8576 3092 2 MP stroke
+-1 -280 8540 3370 2 MP stroke
+329 -211 8195 3273 2 MP stroke
+-316 203 8539 3090 2 MP stroke
+-329 39 8912 3366 2 MP stroke
+324 -39 8577 3372 2 MP stroke
+-148 -344 8703 3767 2 MP stroke
+148 345 8583 3405 2 MP stroke
+-404 390 9750 2616 2 MP stroke
+396 -382 9336 2980 2 MP stroke
+407 -37 9324 2606 2 MP stroke
+-414 38 9732 2598 2 MP stroke
+406 295 8979 1946 2 MP stroke
+-406 -296 9364 2262 2 MP stroke
+-324 -122 9287 3494 2 MP stroke
+327 124 8968 3336 2 MP stroke
+-9 413 9335 3043 2 MP stroke
+9 -415 9295 3460 2 MP stroke
+-132 302 9318 3512 2 MP stroke
+132 -300 9155 3794 2 MP stroke
+321 265 9339 3489 2 MP stroke
+-320 -264 9638 3776 2 MP stroke
+-327 194 9666 3295 2 MP stroke
+324 -192 9326 3456 2 MP stroke
+326 229 9346 3006 2 MP stroke
+-315 -221 9650 3264 2 MP stroke
+-77 613 9773 2618 2 MP stroke
+78 -619 9672 3235 2 MP stroke
+-5 458 9695 3296 2 MP stroke
+6 -459 9660 3754 2 MP stroke
+-303 256 10013 3007 2 MP stroke
+309 -261 9696 3231 2 MP stroke
+-326 -205 10021 3501 2 MP stroke
+325 205 9710 3263 2 MP stroke
+23 474 10044 3006 2 MP stroke
+-22 -461 10035 3468 2 MP stroke
+-461 54 10538 3458 2 MP stroke
+467 -55 10067 3480 2 MP stroke
+-336 256 10045 3525 2 MP stroke
+331 -253 9690 3754 2 MP stroke
+-191 -388 10236 3913 2 MP stroke
+191 388 10077 3512 2 MP stroke
+-80 363 9502 1885 2 MP stroke
+81 -366 9385 2241 2 MP stroke
+-99 -332 11281 3242 2 MP stroke
+-134 -312 11164 2856 2 MP stroke
+-173 -300 11003 2495 2 MP stroke
+-207 -278 10801 2151 2 MP stroke
+-234 -248 10559 1829 2 MP stroke
+-266 -223 10284 1544 2 MP stroke
+-289 -191 9976 1290 2 MP stroke
+-304 -153 9638 1070 2 MP stroke
+-326 -119 9283 897 2 MP stroke
+-338 -80 8907 763 2 MP stroke
+-338 -40 8514 672 2 MP stroke
+346 75 10603 3430 2 MP stroke
+211 318 8399 1892 2 MP stroke
+148 344 7899 3706 2 MP stroke
+-275 338 8178 3334 2 MP stroke
+220 -302 8908 4146 2 MP stroke
+229 286 7977 1000 2 MP stroke
+-171 318 8146 648 2 MP stroke
+286 -226 10984 3497 2 MP stroke
+136 498 8238 1345 2 MP stroke
+-46 339 8619 2263 2 MP stroke
+-449 165 8535 2654 2 MP stroke
+149 339 8499 4151 2 MP stroke
+226 -298 8648 4490 2 MP stroke
+372 44 8074 4069 2 MP stroke
+452 -38 9186 3814 2 MP stroke
+270 -442 10268 3900 2 MP stroke
+122 429 8073 2844 2 MP stroke
+527 132 9709 3781 2 MP stroke
+gr
+
+  18   18 9976 1290 PO
+  18   18 9687 1099 PO
+  18   18 9654 1464 PO
+  18   18 11003 2495 PO
+  18   18 10830 2195 PO
+  18   18 10637 2506 PO
+  18   18 8514  672 PO
+  18   18 8176  632 PO
+  18   18 8307  901 PO
+  18   18 11281 3242 PO
+  18   18 11182 2910 PO
+  18   18 10923 3168 PO
+  18   18 9283  897 PO
+  18   18 8957  778 PO
+  18   18 9010 1141 PO
+  18   18 10559 1829 PO
+  18   18 10325 1581 PO
+  18   18 10251 1876 PO
+  18   18 9638 1070 PO
+  18   18 9334  917 PO
+  18   18 9366 1214 PO
+  18   18 10801 2151 PO
+  18   18 10594 1873 PO
+  18   18 10439 2204 PO
+  18   18 11164 2856 PO
+  18   18 11030 2544 PO
+  18   18 10863 2791 PO
+  18   18 8907  763 PO
+  18   18 8569  683 PO
+  18   18 8664 1037 PO
+  18   18 10284 1544 PO
+  18   18 10018 1321 PO
+  18   18 9944 1680 PO
+  18   18 10609 2492 PO
+  18   18 10801 2182 PO
+  18   18 10440 2236 PO
+  18   18 10579 2512 PO
+  18   18 10411 2256 PO
+  18   18 10227 2560 PO
+  18   18 10194 2549 PO
+  18   18 10383 2236 PO
+  18   18 9936 2181 PO
+  18   18 10586 2543 PO
+  18   18 10230 2592 PO
+  18   18 10510 2884 PO
+  18   18 10411 2190 PO
+  18   18 10565 1862 PO
+  18   18 10255 1910 PO
+  18   18 10381 2208 PO
+  18   18 10223 1922 PO
+  18   18 9940 2153 PO
+  18   18 9920 2129 PO
+  18   18 10200 1900 PO
+  18   18 9935 1736 PO
+  18   18 9957 1708 PO
+  18   18 10218 1870 PO
+  18   18 10292 1574 PO
+  18   18 8979 1148 PO
+  18   18 8927  787 PO
+  18   18 8685 1060 PO
+  18   18 8968 1182 PO
+  18   18 8675 1095 PO
+  18   18 8730 1445 PO
+  18   18 8698 1457 PO
+  18   18 8641 1096 PO
+  18   18 8252 1317 PO
+  18   18 8992 1204 PO
+  18   18 8751 1470 PO
+  18   18 9111 1554 PO
+  18   18 8633 1043 PO
+  18   18 8540  693 PO
+  18   18 8332  924 PO
+  18   18 8621 1075 PO
+  18   18 8314  954 PO
+  18   18 8238 1292 PO
+  18   18 8206 1286 PO
+  18   18 8281  952 PO
+  18   18 7977 1000 PO
+  18   18 7975  966 PO
+  18   18 8277  917 PO
+  18   18 8146  648 PO
+  18   18 10984 3497 PO
+  18   18 11270 3271 PO
+  18   18 10914 3198 PO
+  18   18 10949 3505 PO
+  18   18 10879 3207 PO
+  18   18 10603 3430 PO
+  18   18 10579 3406 PO
+  18   18 10862 3178 PO
+  18   18 10538 2948 PO
+  18   18 9912 1676 PO
+  18   18 9987 1320 PO
+  18   18 9666 1493 PO
+  18   18 9888 1703 PO
+  18   18 9642 1520 PO
+  18   18 9517 1833 PO
+  18   18 9481 1830 PO
+  18   18 9608 1511 PO
+  18   18 9171 1585 PO
+  18   18 9904 1730 PO
+  18   18 9523 1863 PO
+  18   18 9888 2131 PO
+  18   18 10833 2774 PO
+  18   18 11001 2525 PO
+  18   18 10640 2536 PO
+  18   18 10807 2794 PO
+  18   18 10615 2558 PO
+  18   18 10541 2890 PO
+  18   18 10822 2826 PO
+  18   18 10554 2923 PO
+  18   18 10869 3147 PO
+  18   18 10855 2824 PO
+  18   18 10902 3145 PO
+  18   18 11159 2889 PO
+  18   18 9623 1460 PO
+  18   18 9656 1099 PO
+  18   18 9381 1244 PO
+  18   18 9601 1485 PO
+  18   18 9354 1266 PO
+  18   18 9167 1558 PO
+  18   18 9139 1541 PO
+  18   18 9324 1253 PO
+  18   18 9022 1195 PO
+  18   18 9031 1162 PO
+  18   18 9332 1220 PO
+  18   18 9300  922 PO
+  18   18 10168 2562 PO
+  18   18 9911 2196 PO
+  18   18 9790 2563 PO
+  18   18 10487 2904 PO
+  18   18 10204 2609 PO
+  18   18 10053 2956 PO
+  18   18 9110 1588 PO
+  18   18 8747 1503 PO
+  18   18 8941 1902 PO
+  18   18 9758 2551 PO
+  18   18 9879 2182 PO
+  18   18 9433 2277 PO
+  18   18 10022 2940 PO
+  18   18 10172 2596 PO
+  18   18 9796 2597 PO
+  18   18 8914 1918 PO
+  18   18 8715 1509 PO
+  18   18 8400 1864 PO
+  18   18 10506 2935 PO
+  18   18 10060 2987 PO
+  18   18 10548 3406 PO
+  18   18 9142 1603 PO
+  18   18 8972 1919 PO
+  18   18 9453 1849 PO
+  18   18 8374 1843 PO
+  18   18 8690 1487 PO
+  18   18 8238 1345 PO
+  18   18 8907 1946 PO
+  18   18 8399 1892 PO
+  18   18 8610 2210 PO
+  18   18 8619 2263 PO
+  18   18 8573 2602 PO
+  18   18 8890 2414 PO
+  18   18 8907 2441 PO
+  18   18 8586 2631 PO
+  18   18 8912 2815 PO
+  18   18 8635 2231 PO
+  18   18 8910 2383 PO
+  18   18 8927 1971 PO
+  18   18 8896 2843 PO
+  18   18 8570 2660 PO
+  18   18 8574 3034 PO
+  18   18 8940 2440 PO
+  18   18 8945 2814 PO
+  18   18 9267 2623 PO
+  18   18 8914 2872 PO
+  18   18 8588 3065 PO
+  18   18 8922 3313 PO
+  18   18 8960 2415 PO
+  18   18 9287 2598 PO
+  18   18 9373 2290 PO
+  18   18 8538 3038 PO
+  18   18 8535 2654 PO
+  18   18 8086 2819 PO
+  18   18 9283 2650 PO
+  18   18 8963 2841 PO
+  18   18 9301 2987 PO
+  18   18 8944 2870 PO
+  18   18 8952 3311 PO
+  18   18 9289 3018 PO
+  18   18 8499 4151 PO
+  18   18 8648 4490 PO
+  18   18 8874 4192 PO
+  18   18 8074 4069 PO
+  18   18 8446 4113 PO
+  18   18 8297 3769 PO
+  18   18 8047 4050 PO
+  18   18 8271 3749 PO
+  18   18 7899 3706 PO
+  18   18 8327 3756 PO
+  18   18 8476 4100 PO
+  18   18 8700 3799 PO
+  18   18 7903 3672 PO
+  18   18 8279 3716 PO
+  18   18 8178 3334 PO
+  18   18 8726 3819 PO
+  18   18 8502 4119 PO
+  18   18 8878 4159 PO
+  18   18 8756 3805 PO
+  18   18 8908 4146 PO
+  18   18 9128 3844 PO
+  18   18 8754 3771 PO
+  18   18 9133 3810 PO
+  18   18 8938 3381 PO
+  18   18 8208 3324 PO
+  18   18 8308 3701 PO
+  18   18 8531 3402 PO
+  18   18 8223 3293 PO
+  18   18 8540 3370 PO
+  18   18 8539 3090 PO
+  18   18 8576 3092 PO
+  18   18 8577 3372 PO
+  18   18 8901 3333 PO
+  18   18 8912 3366 PO
+  18   18 8583 3405 PO
+  18   18 8731 3750 PO
+  18   18 8555 3423 PO
+  18   18 8331 3723 PO
+  18   18 8703 3767 PO
+  18   18 9318 2636 PO
+  18   18 9336 2980 PO
+  18   18 9732 2598 PO
+  18   18 8941 2389 PO
+  18   18 9364 2262 PO
+  18   18 8958 1966 PO
+  18   18 9410 2297 PO
+  18   18 9324 2606 PO
+  18   18 9731 2569 PO
+  18   18 9304 3045 PO
+  18   18 8968 3336 PO
+  18   18 9295 3460 PO
+  18   18 9287 3494 PO
+  18   18 8963 3372 PO
+  18   18 9155 3794 PO
+  18   18 9318 3512 PO
+  18   18 9186 3814 PO
+  18   18 9638 3776 PO
+  18   18 9335 3043 PO
+  18   18 9326 3456 PO
+  18   18 9650 3264 PO
+  18   18 9346 3006 PO
+  18   18 9672 3235 PO
+  18   18 9750 2616 PO
+  18   18 9666 3295 PO
+  18   18 9339 3489 PO
+  18   18 9660 3754 PO
+  18   18 10005 2970 PO
+  18   18 9773 2618 PO
+  18   18 9696 3231 PO
+  18   18 10013 3007 PO
+  18   18 9710 3263 PO
+  18   18 10035 3468 PO
+  18   18 10044 3006 PO
+  18   18 10067 3480 PO
+  18   18 10534 3425 PO
+  18   18 10021 3501 PO
+  18   18 9695 3296 PO
+  18   18 9690 3754 PO
+  18   18 10538 3458 PO
+  18   18 10077 3512 PO
+  18   18 10268 3900 PO
+  18   18 8195 3273 PO
+  18   18 8524 3062 PO
+  18   18 8073 2844 PO
+  18   18 8979 1946 PO
+  18   18 9385 2241 PO
+  18   18 9466 1875 PO
+  18   18 9502 1885 PO
+  18   18 9422 2248 PO
+  18   18 9868 2154 PO
+  18   18 10045 3525 PO
+  18   18 9709 3781 PO
+  18   18 10236 3913 PO
+  18   18 9976 1290 FO
+  18   18 9687 1099 FO
+  18   18 9654 1464 FO
+  18   18 11003 2495 FO
+  18   18 10830 2195 FO
+  18   18 10637 2506 FO
+  18   18 8514  672 FO
+  18   18 8176  632 FO
+  18   18 8307  901 FO
+  18   18 11281 3242 FO
+  18   18 11182 2910 FO
+  18   18 10923 3168 FO
+  18   18 9283  897 FO
+  18   18 8957  778 FO
+  18   18 9010 1141 FO
+  18   18 10559 1829 FO
+  18   18 10325 1581 FO
+  18   18 10251 1876 FO
+  18   18 9638 1070 FO
+  18   18 9334  917 FO
+  18   18 9366 1214 FO
+  18   18 10801 2151 FO
+  18   18 10594 1873 FO
+  18   18 10439 2204 FO
+  18   18 11164 2856 FO
+  18   18 11030 2544 FO
+  18   18 10863 2791 FO
+  18   18 8907  763 FO
+  18   18 8569  683 FO
+  18   18 8664 1037 FO
+  18   18 10284 1544 FO
+  18   18 10018 1321 FO
+  18   18 9944 1680 FO
+  18   18 10609 2492 FO
+  18   18 10801 2182 FO
+  18   18 10440 2236 FO
+  18   18 10579 2512 FO
+  18   18 10411 2256 FO
+  18   18 10227 2560 FO
+  18   18 10194 2549 FO
+  18   18 10383 2236 FO
+  18   18 9936 2181 FO
+  18   18 10586 2543 FO
+  18   18 10230 2592 FO
+  18   18 10510 2884 FO
+  18   18 10411 2190 FO
+  18   18 10565 1862 FO
+  18   18 10255 1910 FO
+  18   18 10381 2208 FO
+  18   18 10223 1922 FO
+  18   18 9940 2153 FO
+  18   18 9920 2129 FO
+  18   18 10200 1900 FO
+  18   18 9935 1736 FO
+  18   18 9957 1708 FO
+  18   18 10218 1870 FO
+  18   18 10292 1574 FO
+  18   18 8979 1148 FO
+  18   18 8927  787 FO
+  18   18 8685 1060 FO
+  18   18 8968 1182 FO
+  18   18 8675 1095 FO
+  18   18 8730 1445 FO
+  18   18 8698 1457 FO
+  18   18 8641 1096 FO
+  18   18 8252 1317 FO
+  18   18 8992 1204 FO
+  18   18 8751 1470 FO
+  18   18 9111 1554 FO
+  18   18 8633 1043 FO
+  18   18 8540  693 FO
+  18   18 8332  924 FO
+  18   18 8621 1075 FO
+  18   18 8314  954 FO
+  18   18 8238 1292 FO
+  18   18 8206 1286 FO
+  18   18 8281  952 FO
+  18   18 7977 1000 FO
+  18   18 7975  966 FO
+  18   18 8277  917 FO
+  18   18 8146  648 FO
+  18   18 10984 3497 FO
+  18   18 11270 3271 FO
+  18   18 10914 3198 FO
+  18   18 10949 3505 FO
+  18   18 10879 3207 FO
+  18   18 10603 3430 FO
+  18   18 10579 3406 FO
+  18   18 10862 3178 FO
+  18   18 10538 2948 FO
+  18   18 9912 1676 FO
+  18   18 9987 1320 FO
+  18   18 9666 1493 FO
+  18   18 9888 1703 FO
+  18   18 9642 1520 FO
+  18   18 9517 1833 FO
+  18   18 9481 1830 FO
+  18   18 9608 1511 FO
+  18   18 9171 1585 FO
+  18   18 9904 1730 FO
+  18   18 9523 1863 FO
+  18   18 9888 2131 FO
+  18   18 10833 2774 FO
+  18   18 11001 2525 FO
+  18   18 10640 2536 FO
+  18   18 10807 2794 FO
+  18   18 10615 2558 FO
+  18   18 10541 2890 FO
+  18   18 10822 2826 FO
+  18   18 10554 2923 FO
+  18   18 10869 3147 FO
+  18   18 10855 2824 FO
+  18   18 10902 3145 FO
+  18   18 11159 2889 FO
+  18   18 9623 1460 FO
+  18   18 9656 1099 FO
+  18   18 9381 1244 FO
+  18   18 9601 1485 FO
+  18   18 9354 1266 FO
+  18   18 9167 1558 FO
+  18   18 9139 1541 FO
+  18   18 9324 1253 FO
+  18   18 9022 1195 FO
+  18   18 9031 1162 FO
+  18   18 9332 1220 FO
+  18   18 9300  922 FO
+  18   18 10168 2562 FO
+  18   18 9911 2196 FO
+  18   18 9790 2563 FO
+  18   18 10487 2904 FO
+  18   18 10204 2609 FO
+  18   18 10053 2956 FO
+  18   18 9110 1588 FO
+  18   18 8747 1503 FO
+  18   18 8941 1902 FO
+  18   18 9758 2551 FO
+  18   18 9879 2182 FO
+  18   18 9433 2277 FO
+  18   18 10022 2940 FO
+  18   18 10172 2596 FO
+  18   18 9796 2597 FO
+  18   18 8914 1918 FO
+  18   18 8715 1509 FO
+  18   18 8400 1864 FO
+  18   18 10506 2935 FO
+  18   18 10060 2987 FO
+  18   18 10548 3406 FO
+  18   18 9142 1603 FO
+  18   18 8972 1919 FO
+  18   18 9453 1849 FO
+  18   18 8374 1843 FO
+  18   18 8690 1487 FO
+  18   18 8238 1345 FO
+  18   18 8907 1946 FO
+  18   18 8399 1892 FO
+  18   18 8610 2210 FO
+  18   18 8619 2263 FO
+  18   18 8573 2602 FO
+  18   18 8890 2414 FO
+  18   18 8907 2441 FO
+  18   18 8586 2631 FO
+  18   18 8912 2815 FO
+  18   18 8635 2231 FO
+  18   18 8910 2383 FO
+  18   18 8927 1971 FO
+  18   18 8896 2843 FO
+  18   18 8570 2660 FO
+  18   18 8574 3034 FO
+  18   18 8940 2440 FO
+  18   18 8945 2814 FO
+  18   18 9267 2623 FO
+  18   18 8914 2872 FO
+  18   18 8588 3065 FO
+  18   18 8922 3313 FO
+  18   18 8960 2415 FO
+  18   18 9287 2598 FO
+  18   18 9373 2290 FO
+  18   18 8538 3038 FO
+  18   18 8535 2654 FO
+  18   18 8086 2819 FO
+  18   18 9283 2650 FO
+  18   18 8963 2841 FO
+  18   18 9301 2987 FO
+  18   18 8944 2870 FO
+  18   18 8952 3311 FO
+  18   18 9289 3018 FO
+  18   18 8499 4151 FO
+  18   18 8648 4490 FO
+  18   18 8874 4192 FO
+  18   18 8074 4069 FO
+  18   18 8446 4113 FO
+  18   18 8297 3769 FO
+  18   18 8047 4050 FO
+  18   18 8271 3749 FO
+  18   18 7899 3706 FO
+  18   18 8327 3756 FO
+  18   18 8476 4100 FO
+  18   18 8700 3799 FO
+  18   18 7903 3672 FO
+  18   18 8279 3716 FO
+  18   18 8178 3334 FO
+  18   18 8726 3819 FO
+  18   18 8502 4119 FO
+  18   18 8878 4159 FO
+  18   18 8756 3805 FO
+  18   18 8908 4146 FO
+  18   18 9128 3844 FO
+  18   18 8754 3771 FO
+  18   18 9133 3810 FO
+  18   18 8938 3381 FO
+  18   18 8208 3324 FO
+  18   18 8308 3701 FO
+  18   18 8531 3402 FO
+  18   18 8223 3293 FO
+  18   18 8540 3370 FO
+  18   18 8539 3090 FO
+  18   18 8576 3092 FO
+  18   18 8577 3372 FO
+  18   18 8901 3333 FO
+  18   18 8912 3366 FO
+  18   18 8583 3405 FO
+  18   18 8731 3750 FO
+  18   18 8555 3423 FO
+  18   18 8331 3723 FO
+  18   18 8703 3767 FO
+  18   18 9318 2636 FO
+  18   18 9336 2980 FO
+  18   18 9732 2598 FO
+  18   18 8941 2389 FO
+  18   18 9364 2262 FO
+  18   18 8958 1966 FO
+  18   18 9410 2297 FO
+  18   18 9324 2606 FO
+  18   18 9731 2569 FO
+  18   18 9304 3045 FO
+  18   18 8968 3336 FO
+  18   18 9295 3460 FO
+  18   18 9287 3494 FO
+  18   18 8963 3372 FO
+  18   18 9155 3794 FO
+  18   18 9318 3512 FO
+  18   18 9186 3814 FO
+  18   18 9638 3776 FO
+  18   18 9335 3043 FO
+  18   18 9326 3456 FO
+  18   18 9650 3264 FO
+  18   18 9346 3006 FO
+  18   18 9672 3235 FO
+  18   18 9750 2616 FO
+  18   18 9666 3295 FO
+  18   18 9339 3489 FO
+  18   18 9660 3754 FO
+  18   18 10005 2970 FO
+  18   18 9773 2618 FO
+  18   18 9696 3231 FO
+  18   18 10013 3007 FO
+  18   18 9710 3263 FO
+  18   18 10035 3468 FO
+  18   18 10044 3006 FO
+  18   18 10067 3480 FO
+  18   18 10534 3425 FO
+  18   18 10021 3501 FO
+  18   18 9695 3296 FO
+  18   18 9690 3754 FO
+  18   18 10538 3458 FO
+  18   18 10077 3512 FO
+  18   18 10268 3900 FO
+  18   18 8195 3273 FO
+  18   18 8524 3062 FO
+  18   18 8073 2844 FO
+  18   18 8979 1946 FO
+  18   18 9385 2241 FO
+  18   18 9466 1875 FO
+  18   18 9502 1885 FO
+  18   18 9422 2248 FO
+  18   18 9868 2154 FO
+  18   18 10045 3525 FO
+  18   18 9709 3781 FO
+  18   18 10236 3913 FO
+gs 3601 631 8695 6858 rc
+gr
+
+
+end %%Color Dict
+
+eplot
+%%EndObject
+
+epage
+end
+
+showpage
+
+%%Trailer
+%%EOF

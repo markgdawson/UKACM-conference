@@ -1,0 +1,36 @@
+\begin{thebibliography}{1}
+
+\bibitem{busch2011discontinuous}
+Kurt Busch, Michael K{\"o}nig, and Jens Niegemann.
+\newblock Discontinuous {G}alerkin methods in nanophotonics.
+\newblock {\em Laser \& Photonics Reviews}, 5(6):773--809, 2011.
+
+\bibitem{taflove1995computational}
+A.~Taflove.
+\newblock {\em Computational Electrodynamics: The Finite-difference Time-domain
+  Method}.
+\newblock Antennas and Propagation Library. Artech House, 1995.
+
+\bibitem{sevilla2014use}
+Ruben Sevilla, Oubay Hassan, and Kenneth Morgan.
+\newblock The use of hybrid meshes to improve the efficiency of a discontinuous
+  galerkin method for the solution of maxwell’s equations.
+\newblock {\em Computers \& Structures}, 137:2--13, 2014.
+
+\bibitem{hesthaven2007nodal}
+Jan~S Hesthaven and Tim Warburton.
+\newblock {\em Nodal discontinuous Galerkin methods: algorithms, analysis, and
+  applications}, volume~54.
+\newblock Springer Science \& Business Media, 2007.
+
+\bibitem{Mandelshtam1997}
+Vladimir~A. Mandelshtam and Howard~S. Taylor.
+\newblock Harmonic inversion of time signals and its applications.
+\newblock {\em The Journal of Chemical Physics}, 107(17):6756--6769, 1997.
+
+\bibitem{pozar2006microwave}
+David~M Pozar.
+\newblock {\em Microwave Engineering, 4th Edition}.
+\newblock John Wiley \& Sons, 2011.
+
+\end{thebibliography}

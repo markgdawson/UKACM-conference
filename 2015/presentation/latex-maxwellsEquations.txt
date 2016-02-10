@@ -1,0 +1,153 @@
+!!!!! Definitions
+
+E_k &= \textrm{Electric field intensity},\;
+&\epsilon &= \textrm{relative permittivity},\; \\
+H_k &= \textrm{Magnetic field intensity},\;
+&\mu &= \textrm{relative permeability}\;
+
+E_k = \textrm{Electric field intensity},\;
+H_k = \textrm{Magnetic field intensity},\;
+\epsilon = \textrm{relative permittivity},\;
+\mu = \textrm{permeability}\;
+
+
+!!!!! Maxwell Equations Terms
+
+\mathbf{U} =
+\left(
+\begin{array}{c}
+\epsilon E_1\\
+\epsilon E_2\\
+\epsilon E_3\\
+\mu H_1\\
+\mu H_2\\
+\mu H_3\\
+\end{array}
+\right)\;\;
+\mathbf{F_1} =
+\left(
+\begin{array}{c}
+0\\
+H_3\\
+-H_2\\
+0\\
+-E_3\\
+E_2
+\end{array}
+\right)\;\;
+\mathbf{F_2} =
+\left(
+\begin{array}{c}
+-H_3\\
+0\\
+H_1\\
+E_3\\
+0\\
+-E_1\\
+\end{array}
+\right)\;\;
+\mathbf{F_3} =
+\left(
+\begin{array}{c}
+H_2\\
+-H_1\\
+0\\
+-E_2\\
+E_1\\
+0\\
+\end{array}
+\right)\;\;
+\mathbf{S} =
+\left(
+\begin{array}{c}
+0\\
+0\\
+0\\
+0\\
+0\\
+0\\
+\end{array}
+\right)
+
+
+!!!! Dispersive terms
+
+\mathbf{U} =
+\left(
+\begin{array}{c}
+\epsilon E_1\\
+\epsilon E_2\\
+\epsilon E_3\\
+\mu H_1\\
+\mu H_2\\
+\mu H_3\\
+\color{red}{J_1}\\
+\color{red}{J_2}\\
+\color{red}{J_3}\\
+\end{array}
+\right)\;\;
+\mathbf{F_1} =
+\left(
+\begin{array}{c}
+0\\
+H_3\\
+-H_2\\
+0\\
+-E_3\\
+E_2\\
+\color{red}{0}\\
+\color{red}{0}\\
+\color{red}{0}\\
+\end{array}
+\right)\;\;
+\mathbf{F_2} =
+\left(
+\begin{array}{c}
+-H_3\\
+0\\
+H_1\\
+E_3\\
+0\\
+-E_1\\
+\color{red}{0}\\
+\color{red}{0}\\
+\color{red}{0}\\
+\end{array}
+\right)\;\;
+\mathbf{F_3} =
+\left(
+\begin{array}{c}
+H_2\\
+-H_1\\
+0\\
+-E_2\\
+E_1\\
+0\\
+\color{red}{0}\\
+\color{red}{0}\\
+\color{red}{0}\\
+\end{array}
+\right)\;\;
+\mathbf{S} =
+\left(
+\begin{array}{c}
+\color{red}{-J_1}\\
+\color{red}{-J_2}\\
+\color{red}{-J_3}\\
+0\\
+0\\
+0\\
+\color{red}{\omega_d^2 E_1 - \gamma_d J_1}\\
+\color{red}{\omega_d^2 E_2 - \gamma_d J_2}\\
+\color{red}{\omega_d^2 E_3 - \gamma_d J_3}\\
+\end{array}
+\right)
+
+
+!!!! Dispersive definitions
+\omega_d = \textrm{plasma frequency},\;\;
+\gamma_d = \textrm{collision frequency},\;\;
+J^{p}_k = \textrm{polarisation current}
+
+!!!! Dispersive Frequency Domain
+\hat{\mathbf{P}}(\omega) = - \frac { \epsilon \omega_d^2} { \omega^2 + i \gamma_d \omega }\mathbf{E}

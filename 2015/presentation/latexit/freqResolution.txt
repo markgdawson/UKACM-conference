@@ -1,0 +1,15 @@
+f_{max} \le \frac{1}{2 \, \Delta t }
+\Delta f = \frac{1}{T}
+
+
+f_{max} &= \textrm{highest frequency component} \\
+\Delta f &= \textrm{frequency resolution} \\
+\Delta t &= \textrm{time step} \\ 
+T &= \textrm{simulation final time} \\
+
+
+f_{max} = \textrm{highest frequency component, } 
+\Delta t = \textrm{time step}
+
+\Delta f = \textrm{frequency resolution, }
+T = \textrm{simulation final time} \\
